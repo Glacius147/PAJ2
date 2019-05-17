@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "023a1626-b883-4d14-962b-abcd0c51d58b",
+            "Value": {
+                "id": "01a99637-f11e-41ea-8375-ec71f8ee3a51",
+                "resourcePath": "sprites\\spr_interupteur\\spr_interupteur.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "029413ea-3ecd-44ac-ac75-e240e04c4dac",
             "Value": {
                 "id": "7d9a9a39-db5c-48e1-b35d-30d9d7e4593e",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "5aff3364-468b-4264-afb2-c1ca924aa074",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2229a867-b252-41d8-b976-316cf12acf91",
+            "Value": {
+                "id": "afc58b82-fd7a-4d58-a0a8-8b754abf492b",
+                "resourcePath": "objects\\obj_interupteur\\obj_interupteur.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "5493a5ff-7988-4273-b0d3-12610df59d06",
+            "Value": {
+                "id": "74f3fc59-c16c-42e6-96db-c02c6491e779",
+                "resourcePath": "objects\\objp_mobil\\objp_mobil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61",
             "Value": {
                 "id": "04e75b18-f803-4719-965c-bacf33c176f8",
@@ -452,6 +476,14 @@
                 "id": "abeee279-c6a1-4ef2-869d-120f86012128",
                 "resourcePath": "scripts\\lighting_global\\lighting_global.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65c103e3-544a-415b-b39e-b7072cd04031",
+            "Value": {
+                "id": "3550872d-f01d-4ca0-b6af-3c9c89fff9e0",
+                "resourcePath": "objects\\obj_porte\\obj_porte.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -695,6 +727,14 @@
             }
         },
         {
+            "Key": "957a4745-3b6d-4963-b62f-5f79601bd2fc",
+            "Value": {
+                "id": "3be30769-f687-4930-b417-f1cf7192a41e",
+                "resourcePath": "objects\\objp_interupt\\objp_interupt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95b98065-ca2b-4052-85cc-609e3c362291",
             "Value": {
                 "id": "619f9452-181c-47de-a2eb-b879530d081d",
@@ -884,6 +924,14 @@
                 "id": "eb06c3c0-cd53-4739-b2f7-249542174f3c",
                 "resourcePath": "scripts\\path_get_area\\path_get_area.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c07a7d2c-ee03-4924-a998-0e252422f24e",
+            "Value": {
+                "id": "c5c846ab-647e-49ab-8b0b-b6cfea358812",
+                "resourcePath": "views\\c07a7d2c-ee03-4924-a998-0e252422f24e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1116,6 +1164,22 @@
                 "id": "e486d3fd-b443-49e1-8284-a273e6defe97",
                 "resourcePath": "scripts\\ext_light_attenuation_apply\\ext_light_attenuation_apply.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ffc0523c-55e8-4785-bed8-58ce302dec28",
+            "Value": {
+                "id": "394ef1a1-6733-47a6-a208-10da65738896",
+                "resourcePath": "sprites\\spr_porte\\spr_porte.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ffdc4cdf-e467-48a6-ac56-6a5d9cb3db44",
+            "Value": {
+                "id": "62021b88-1105-4886-bc3c-36d3b5993a43",
+                "resourcePath": "sprites\\spr_empty\\spr_empty.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

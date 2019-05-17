@@ -19,3 +19,5 @@ while abs(_y) >= 1
 }
 
 }
+
+if pv <= 0 instance_destroy();

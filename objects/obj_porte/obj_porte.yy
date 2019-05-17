@@ -1,33 +1,33 @@
 {
-    "id": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61",
+    "id": "65c103e3-544a-415b-b39e-b7072cd04031",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_attaque_epee",
+    "name": "obj_porte",
     "eventList": [
         {
-            "id": "073af85a-4b7d-44fe-9be5-57c3b4495320",
+            "id": "f0b58ddc-d6b6-4bbb-bb6f-0d591b4b1faa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61"
+            "m_owner": "65c103e3-544a-415b-b39e-b7072cd04031"
         },
         {
-            "id": "4ea4922a-b3a4-4c04-8a0f-65d91eb6f032",
+            "id": "32be7245-d4ec-4871-8aed-fdd34a3a07fc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61"
+            "eventtype": 3,
+            "m_owner": "65c103e3-544a-415b-b39e-b7072cd04031"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "e90709fe-9552-4fa0-bb9a-1a0442868c4a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "75978eb1-b88c-4cbf-b1ba-4b76dbb7e70a",
+            "id": "c1f536b9-272f-40f9-9061-73951935db8e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "degats",
+            "value": "0",
+            "varName": "num_objet",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "c31fd21d-bd8c-404f-a24b-0681ec75e9ba",
+    "spriteId": "ffc0523c-55e8-4785-bed8-58ce302dec28",
     "visible": true
 }
