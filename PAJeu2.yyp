@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61",
+            "Value": {
+                "id": "04e75b18-f803-4719-965c-bacf33c176f8",
+                "resourcePath": "objects\\obj_attaque_epee\\obj_attaque_epee.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5de3ba48-6705-4dd6-a7fa-5891157e57e7",
             "Value": {
                 "id": "60bdfddc-9fbc-4477-988d-af7ec9827a71",
@@ -844,6 +852,14 @@
                 "id": "7e5f35b2-b6f7-4ff2-9a3e-67301dfb94ed",
                 "resourcePath": "views\\c2e5881c-0813-44c3-a8e7-fe9147496d68.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c31fd21d-bd8c-404f-a24b-0681ec75e9ba",
+            "Value": {
+                "id": "edc2817b-568d-4c30-82fb-a0420747a31b",
+                "resourcePath": "sprites\\spr_attaque_epee\\spr_attaque_epee.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
