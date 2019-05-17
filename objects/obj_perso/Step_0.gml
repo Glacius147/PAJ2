@@ -3,6 +3,7 @@
 // Hors transition on autorise les mouvements
 if obj_transition.mode == TRANS_MODE.OFF
 {
+	#region deplacements
 	//On gere les inputs
 	var input_x = 0; 
 	var input_y = 0;
@@ -26,9 +27,13 @@ if obj_transition.mode == TRANS_MODE.OFF
 	}
 	
 	//On applique la vitesse
-	var _x = input_x * vitesse_base;
-	var _y = input_y * vitesse_base;
-
+	_x = input_x * vitesse_base;
+	_y = input_y * vitesse_base;
+	
+	//On applique l'animation
+	scr_animation();
+	
+	
 	//On applique les déplacements
 	while abs(_x) >= 1
 	{
@@ -41,6 +46,21 @@ if obj_transition.mode == TRANS_MODE.OFF
 		scr_deplacement(0,_y/abs(_y));	
 		_y = _y - _y/abs(_y);
 	}
+
+	#endregion
+	
+	#region action
+	
+	if frames_action <= 0
+	{
+		frames_action = delai_action
+		
+		
+	}
+	
+	
+	#endregion
+
 }
 
 
