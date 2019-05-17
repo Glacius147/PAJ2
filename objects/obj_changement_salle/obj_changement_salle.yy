@@ -57,7 +57,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "position_desti",
+            "varName": "spot_dest",
             "varType": 0
         }
     ],

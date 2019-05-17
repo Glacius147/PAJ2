@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "95b98065-ca2b-4052-85cc-609e3c362291"
+        },
+        {
+            "id": "b5efa613-0bdc-4f7b-9e71-0d18b70224b7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "95b98065-ca2b-4052-85cc-609e3c362291"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -68,6 +78,20 @@
             "resourceFilter": 1023,
             "value": "True",
             "varName": "gamepad_actif",
+            "varType": 3
+        },
+        {
+            "id": "8a3ad423-c302-4d3a-9a85-f4a421884909",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "has_control",
             "varType": 3
         }
     ],

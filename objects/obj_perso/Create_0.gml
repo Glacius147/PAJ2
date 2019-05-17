@@ -1,9 +1,2 @@
 /// @description ?
-
-
-with obj_spot_arrivee
-{
-	
-	
-	
-}
+alarm[1] = 1
