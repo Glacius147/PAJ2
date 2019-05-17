@@ -14,6 +14,32 @@ if mode != TRANS_MODE.OFF
 		{	
 			if keyboard_check(vk_escape) obj_transition.mode =TRANS_MODE.OFF;
 			
+			if keyboard_check(vk_up) num_menu = max(num_menu-1,0);
+			if keyboard_check(vk_down) num_menu = min(num_menu+1,nb_item_menus-1);
+			
+			switch num_menu
+			{
+				case MENU_ITEM.QUIT
+				{
+					if keyboard_check(vk_enter) game_end();
+					break;
+				}
+				case MENU_ITEM.MUSIC
+				{
+					if keyboard_check(vk_left) scr_volume_adjust(0,-1);
+					if keyboard_check(vk_right) scr_volume_adjust(0,+1);
+					break;
+				}
+				case MENU_ITEM.MUSIC
+				{
+					if keyboard_check(vk_left) scr_volume_adjust(1,-1);
+					if keyboard_check(vk_right) scr_volume_adjust(1,+1);
+					break;
+				}
+				
+			}
+			 
+			
 		}
 		#endregion
 	}

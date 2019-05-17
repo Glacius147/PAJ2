@@ -13,10 +13,24 @@ enum TRANS_MODE
 	PAUSE
 }
 
+//items du menu
+enum MENU_ITEM
+{
+	MUSIC,
+	SFX,
+	QUIT
+}
+
+//nombre d'éléments ds le menu
+nb_item_menus = 3
+
 mode = TRANS_MODE.INTRO;
 
 percent = 1;
+
+//%ate d'affichage du menu
 percent_menu = 0;
+//Element selectionné ds le menu.
 num_menu = 0;
 target = room;
 
