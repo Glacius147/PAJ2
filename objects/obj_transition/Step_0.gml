@@ -10,7 +10,7 @@ if mode != TRANS_MODE.OFF
 	{
 		percent_menu = min(percent_menu+0.04,1)
 		#region
-		if precent_menu == 1
+		if percent_menu == 1
 		{	
 			if keyboard_check(vk_escape) obj_transition.mode =TRANS_MODE.OFF;
 			
