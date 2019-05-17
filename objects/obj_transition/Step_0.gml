@@ -19,18 +19,18 @@ if mode != TRANS_MODE.OFF
 			
 			switch num_menu
 			{
-				case MENU_ITEM.QUIT
+				case MENU_ITEM.QUIT:
 				{
 					if keyboard_check(vk_enter) game_end();
 					break;
 				}
-				case MENU_ITEM.MUSIC
+				case MENU_ITEM.MUSIC:
 				{
 					if keyboard_check(vk_left) scr_volume_adjust(0,-1);
 					if keyboard_check(vk_right) scr_volume_adjust(0,+1);
 					break;
 				}
-				case MENU_ITEM.MUSIC
+				case MENU_ITEM.SFX:
 				{
 					if keyboard_check(vk_left) scr_volume_adjust(1,-1);
 					if keyboard_check(vk_right) scr_volume_adjust(1,+1);
