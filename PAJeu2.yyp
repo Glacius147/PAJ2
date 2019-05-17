@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "31cc2584-3e84-4fbf-8a7a-95d8cd437085",
+            "Value": {
+                "id": "3bc0799d-fb05-4872-916b-195ad1113c06",
+                "resourcePath": "objects\\obj_spot_arrivee\\obj_spot_arrivee.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32b7c3e6-f0af-4899-93c3-5219a938c629",
             "Value": {
                 "id": "b5330d44-27f7-454c-baae-59a088badf8f",

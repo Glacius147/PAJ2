@@ -42,7 +42,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "room0",
+            "value": "room1",
             "varName": "room_desti",
             "varType": 5
         },
