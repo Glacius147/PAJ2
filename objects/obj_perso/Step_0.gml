@@ -55,7 +55,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	
 	if frames_action <= 0
 	{
-		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(gp_face1)
+		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
 		{
 			frames_action = delai_action;
 			with instance_create_layer(x,y,"Instances",obj_attaque_epee)
