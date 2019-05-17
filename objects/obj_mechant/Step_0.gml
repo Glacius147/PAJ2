@@ -1,5 +1,7 @@
 /// @description ?
 
+if obj_transition.mode == TRANS_MODE.OFF
+{
 _x += dep_x*vitesse_base;
 _y += dep_y*vitesse_base;
 
@@ -14,4 +16,6 @@ while abs(_y) >= 1
 {
 	scr_deplacement(0,_y/abs(_y));	
 	_y = _y - _y/abs(_y);
+}
+
 }

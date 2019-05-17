@@ -1,7 +1,7 @@
 /// @description Deplacement
 
 // Hors transition on autorise les mouvements
-if has_control
+if obj_transition.mode == TRANS_MODE.OFF
 {
 	//On gere les inputs
 	var input_x = 0; 
