@@ -1,5 +1,6 @@
-// Pour la gestion du volume
-
+/// @desc ajuste le volume
+/// @arg type
+/// @arg direction
 
 
 var _type = argument[1];

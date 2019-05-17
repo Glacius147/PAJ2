@@ -1,5 +1,5 @@
 {
-    "id": "0964f467-4768-43fe-8e4e-4ce340efd8b4",
+    "id": "673bfa7f-078e-44de-a1b3-f58f596cb6db",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scr_volume_adjust",

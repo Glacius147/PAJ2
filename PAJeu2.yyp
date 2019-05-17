@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "673bfa7f-078e-44de-a1b3-f58f596cb6db",
+            "Value": {
+                "id": "3681289e-4780-427c-8c43-dfd628fd30f5",
+                "resourcePath": "scripts\\scr_volume_adjust\\scr_volume_adjust.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "677401f7-3850-4ffc-8c02-eaf4068c0d82",
             "Value": {
                 "id": "afd0d56f-1cc8-4137-9314-72bff73dd50e",
@@ -1161,7 +1169,8 @@
         "cc6f7f61-1e60-40ae-9c11-41eed5a452eb",
         "3efd9d36-f4e9-4931-8cf7-113d75c93e9c",
         "ab54a712-5b9d-4388-8375-b3501845852b",
-        "67f04608-7f1b-4d76-8f81-a7c369858ad5"
+        "67f04608-7f1b-4d76-8f81-a7c369858ad5",
+        "673bfa7f-078e-44de-a1b3-f58f596cb6db"
     ],
     "tutorial": ""
 }
