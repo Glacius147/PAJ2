@@ -3,6 +3,7 @@
 // Hors transition on autorise les mouvements
 if obj_transition.mode == TRANS_MODE.OFF
 {
+	#region deplacements
 	//On gere les inputs
 	var input_x = 0; 
 	var input_y = 0;
@@ -40,7 +41,9 @@ if obj_transition.mode == TRANS_MODE.OFF
 	{
 		scr_deplacement(0,_y/abs(_y));	
 		_y = _y - _y/abs(_y);
-}
+	}
+	#endregion
+	
 }
 
 
