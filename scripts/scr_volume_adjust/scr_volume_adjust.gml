@@ -3,8 +3,8 @@
 /// @arg direction
 
 
-var _type = argument[1];
-var _delta = argument[2];
+var _type = argument[0];
+var _delta = argument[1];
 
 if _type == 0 // Volume musique
 {

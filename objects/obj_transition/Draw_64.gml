@@ -21,7 +21,13 @@ if mode == TRANS_MODE.PAUSE
 		//draw_set_halign(message_halign);
 		//draw_set_valign(message_valign);
 		//draw_set_font(message_font);
-		//draw_text(message_x,message_y,error_message)	
+		message_y = 100
+		draw_text(100,message_y,"Volume Musique")
+		message_y += 100
+		draw_text(100,message_y,"Volume Effets")
+		message_y += 100
+		draw_text(100,message_y,"Quitter")	
+		draw_text(75,100*(1+num_menu),"X")	
 	}	
 }
 
