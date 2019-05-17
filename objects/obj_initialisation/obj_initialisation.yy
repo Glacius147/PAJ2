@@ -1,8 +1,8 @@
 {
-    "id": "31cc2584-3e84-4fbf-8a7a-95d8cd437085",
+    "id": "4409dc74-bf14-4520-95c0-fcd44e2e7331",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_spot_arrivee",
+    "name": "obj_initialisation",
     "eventList": [
         
     ],
@@ -22,23 +22,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "652fe5f6-f24f-4e33-ab8a-25933abaa498",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "spot_num",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "8221d4e4-55aa-4953-8ea9-c2a77a8a043f",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
