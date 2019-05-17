@@ -43,6 +43,13 @@ if obj_transition.mode == TRANS_MODE.OFF
 		_y = _y - _y/abs(_y);
 	}
 	#endregion
+	
+	#region action
+	
+	
+	
+	
+	#endregion
 }
 
 
