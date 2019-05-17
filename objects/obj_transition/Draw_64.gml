@@ -9,10 +9,10 @@ if (mode != TRANS_MODE.OFF) and mode != TRANS_MODE.PAUSE
 
 if mode == TRANS_MODE.PAUSE
 {
-	x1 = floor(768/2*(1-percent_menu)+50*percent_menu)
-	y1 = floor(720/2*(1-percent_menu)+50*percent_menu)
-	x2 = ceil(768/2*(1-percent_menu)+718*percent_menu)
-	y2 = ceil(720/2*(1-percent_menu)+670*percent_menu)
+	x1 = floor(w/2*(1-percent_menu)+50*percent_menu)
+	y1 = floor(h/2*(1-percent_menu)+50*percent_menu)
+	x2 = ceil(w/2*(1-percent_menu)+(w-50)*percent_menu)
+	y2 = ceil(h/2*(1-percent_menu)+(h-50)*percent_menu)
 	
 	scr_menubox(spr_9box,x1,y1,x2,y2)
 	if percent_menu == 1{
