@@ -115,7 +115,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "3",
-            "varName": "vie",
+            "varName": "pv",
             "varType": 0
         },
         {
@@ -142,7 +142,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "60",
             "varName": "duree_invul",
             "varType": 0
         }

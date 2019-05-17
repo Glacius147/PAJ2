@@ -5,10 +5,13 @@ draw_self()
 
 if frames_invul > 0 
 {
-	shader_set(shader_blink);
-	draw_self();
-	shader_reset();
-	blink --;
+	if frames_invul/6 % 2 < 1
+	{
+		shader_set(shader_blink);
+		draw_self();
+		shader_reset();
+	}
+	frames_invul --;
 }
 
 

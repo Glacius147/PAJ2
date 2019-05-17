@@ -1,3 +1,3 @@
 /// @description ?
 
-with other scr_degats(degats);
+with other scr_degats(other.degats);
