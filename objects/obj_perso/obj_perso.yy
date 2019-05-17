@@ -93,6 +93,20 @@
             "value": "True",
             "varName": "has_control",
             "varType": 3
+        },
+        {
+            "id": "3b48dad9-5e83-4568-a446-4d5a3f049f52",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "vie",
+            "varType": 0
         }
     ],
     "solid": false,

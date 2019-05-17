@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "029413ea-3ecd-44ac-ac75-e240e04c4dac",
+            "Value": {
+                "id": "7d9a9a39-db5c-48e1-b35d-30d9d7e4593e",
+                "resourcePath": "scripts\\scr_degats\\scr_degats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0468fcb2-422d-4deb-955e-079019f4177e",
             "Value": {
                 "id": "17e32e0c-4ac8-436a-83fc-0ceb12412196",
@@ -1071,7 +1079,8 @@
         "ab54a712-5b9d-4388-8375-b3501845852b",
         "67f04608-7f1b-4d76-8f81-a7c369858ad5",
         "7bd73f6a-b38c-4f53-b763-8103cfb40433",
-        "f4504f20-2e5e-4973-9bcf-ed2eaef5efeb"
+        "f4504f20-2e5e-4973-9bcf-ed2eaef5efeb",
+        "029413ea-3ecd-44ac-ac75-e240e04c4dac"
     ],
     "tutorial": ""
 }

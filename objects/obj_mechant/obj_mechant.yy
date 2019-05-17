@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "8fffecc8-2b52-48f3-b741-f536827221af"
+        },
+        {
+            "id": "bb80ab20-3218-43f6-a52d-f7480b697ad4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "95b98065-ca2b-4052-85cc-609e3c362291",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "8fffecc8-2b52-48f3-b741-f536827221af"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -64,6 +74,20 @@
             "resourceFilter": 1023,
             "value": "2",
             "varName": "vitesse_base",
+            "varType": 0
+        },
+        {
+            "id": "75d32f23-ecaa-46ac-ab8a-20b4cff29659",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "degats",
             "varType": 0
         },
         {
