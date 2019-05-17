@@ -17,5 +17,6 @@ mode = TRANS_MODE.INTRO;
 
 percent = 1;
 percent_menu = 0;
+num_menu = 0;
 target = room;
 
