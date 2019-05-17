@@ -40,7 +40,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	{
 		scr_deplacement(0,_y/abs(_y));	
 		_y = _y - _y/abs(_y);
-}
+	}
 }
 
 
