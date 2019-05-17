@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "f6320aab-0741-4132-8322-040f46ae29fe",
+            "Value": {
+                "id": "d209b9fc-7031-4c88-8dff-cd83e9ec7af0",
+                "resourcePath": "sprites\\spr_perso_frappe_droite\\spr_perso_frappe_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f71d0eeb-a5e9-4751-948f-5ad50bd4935c",
             "Value": {
                 "id": "68f46368-f3b1-411f-8a29-9cd6187e09da",

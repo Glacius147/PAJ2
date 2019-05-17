@@ -5,23 +5,13 @@
     "name": "obj_attaque_epee",
     "eventList": [
         {
-            "id": "073af85a-4b7d-44fe-9be5-57c3b4495320",
+            "id": "acd90831-ad00-4259-8c63-5601b6a462f9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61"
-        },
-        {
-            "id": "4ea4922a-b3a4-4c04-8a0f-65d91eb6f032",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
+            "enumb": 7,
+            "eventtype": 7,
             "m_owner": "5519aa46-87a2-4b4d-a7a5-d0e4f6efcc61"
         }
     ],
