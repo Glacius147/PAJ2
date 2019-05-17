@@ -145,6 +145,48 @@
             "value": "0",
             "varName": "dep_y",
             "varType": 0
+        },
+        {
+            "id": "41cb2df8-02c7-497e-8faa-d20c05cec010",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "pv",
+            "varType": 0
+        },
+        {
+            "id": "0fa11081-e0e3-4e05-9bdc-02297d44c96b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "frames_invul",
+            "varType": 0
+        },
+        {
+            "id": "dcaaf2ac-3703-408f-8ed9-2dc7ff25ce5a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "duree_invul",
+            "varType": 0
         }
     ],
     "solid": false,

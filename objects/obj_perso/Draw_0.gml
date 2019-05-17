@@ -3,7 +3,7 @@
 
 draw_self()
 
-if frames_invul > 0 
+if frames_invul > 0 and obj_transition.mode == TRANS_MODE.OFF
 {
 	if frames_invul/6 % 2 < 1
 	{
