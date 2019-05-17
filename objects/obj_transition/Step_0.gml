@@ -6,10 +6,16 @@ if mode != TRANS_MODE.OFF
 	{
 		percent = max(0,percent*0.95-0.01);		
 	}
+	else if mode = TRANS_MODE.PAUSE
+	{
+		percent_menu = min(percent_menu+0.02,1)
+	}
 	else
 	{
 		percent = min(1,percent+(1-percent)*0.05+0.01);		
 	}
+	
+	
 	
 	if (percent = 0) or (percent = 1)
 	{
@@ -39,4 +45,8 @@ if mode != TRANS_MODE.OFF
 			}			
 		}
 	}
+} else
+{
+	// effacer le menu.
+	percent_menu = 0	
 }
