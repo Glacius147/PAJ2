@@ -14,8 +14,8 @@ if mode != TRANS_MODE.OFF
 		{	
 			if keyboard_check(vk_escape) obj_transition.mode =TRANS_MODE.OFF;
 			
-			if keyboard_check(vk_up) num_menu = max(num_menu-1,0);
-			if keyboard_check(vk_down) num_menu = min(num_menu+1,nb_item_menus-1);
+			if keyboard_check_released(vk_up) num_menu = max(num_menu-1,0);
+			if keyboard_check_released(vk_down) num_menu = min(num_menu+1,nb_item_menus-1);
 			
 			switch num_menu
 			{
