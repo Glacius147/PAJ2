@@ -27,8 +27,8 @@ if obj_transition.mode == TRANS_MODE.OFF
 	}
 	
 	//On applique la vitesse
-	var _x = input_x * vitesse_base;
-	var _y = input_y * vitesse_base;
+	_x = input_x * vitesse_base;
+	_y = input_y * vitesse_base;
 	
 	//On applique l'animation
 	scr_animation();
@@ -51,7 +51,12 @@ if obj_transition.mode == TRANS_MODE.OFF
 	
 	#region action
 	
-	
+	if frames_action <= 0
+	{
+		frames_action = delai_action
+		
+		
+	}
 	
 	
 	#endregion

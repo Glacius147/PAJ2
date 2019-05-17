@@ -201,6 +201,34 @@
             "value": "spr_perso_droite",
             "varName": "anim_d",
             "varType": 5
+        },
+        {
+            "id": "2c50acf9-28cc-49e6-92f7-74f8d2076384",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "frames_action",
+            "varType": 0
+        },
+        {
+            "id": "f78bd4a1-2ae6-4b3c-a3be-26cc5ced080c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "delai_action",
+            "varType": 0
         }
     ],
     "solid": false,
