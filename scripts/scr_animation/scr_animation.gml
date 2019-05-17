@@ -15,10 +15,12 @@ else
 		if _x > 0
 		{
 			sprite_index = anim_d;
+			dir_mouvement = 0;
 		}
 		else
 		{
 			sprite_index = anim_g;
+			dir_mouvement = 180;
 		}
 	}
 	else
@@ -26,10 +28,12 @@ else
 		if _y > 0
 		{
 			sprite_index = anim_b;
+			dir_mouvement = 270;
 		}
 		else
 		{
 			sprite_index = anim_h;
+			dir_mouvement = 90;
 		}	
 	}
 }

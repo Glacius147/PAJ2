@@ -229,6 +229,20 @@
             "value": "30",
             "varName": "delai_action",
             "varType": 0
+        },
+        {
+            "id": "c59d3696-a00d-4497-994c-926be696b4bf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dir_mouvement",
+            "varType": 0
         }
     ],
     "solid": false,
