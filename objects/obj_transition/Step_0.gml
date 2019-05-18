@@ -2,6 +2,12 @@
 
 if mode != TRANS_MODE.OFF
 {
+	
+	
+	
+	
+	
+	
 	if mode = TRANS_MODE.INTRO
 	{
 		percent = max(0,percent*0.95-0.01);		
@@ -9,41 +15,86 @@ if mode != TRANS_MODE.OFF
 	else if mode = TRANS_MODE.PAUSE
 	{
 		percent_menu = min(percent_menu+0.1,1)
+		
+	
 		#region
 		if percent_menu == 1
 		{	
-			if keyboard_check_released(vk_escape) obj_transition.mode =TRANS_MODE.OFF;
+				//On gere les inputs
+			var input_x = 0; 
+			var input_y = 0;
+			var input_valid = false;
+
+			if _cooldownmenu == 0 {
+				if keyboard_check(vk_up) input_y = -1;
+				if keyboard_check(vk_down) input_y = 1;
+				if keyboard_check(vk_left) input_x = -1;
+				if keyboard_check(vk_right) input_x = 1;
+				if keyboard_check_pressed(vk_escape) 
+				{
+					obj_transition.mode =TRANS_MODE.OFF;
+					percent_menu = 0.5
+				}
 			
-			if keyboard_check_pressed(vk_up) num_menu = max(num_menu-1,0);
-			if keyboard_check_pressed(vk_down) num_menu = min(num_menu+1,nb_item_menus-1);
+			}
+			if keyboard_check_pressed(vk_enter) input_valid = true; 
+
+			if input_x = 0 and input_y = 0
+			{
+				if _cooldownmenu == 0 {
+					input_x += gamepad_axis_value(0,gp_axislh);
+					input_y += gamepad_axis_value(0,gp_axislv);
+				}
+				if gamepad_button_check_pressed(0,gp_start) {
+					obj_transition.mode = TRANS_MODE.OFF;
+					percent_menu = 0.5
+				}
+				if gamepad_button_check_pressed(0,gp_face1) input_valid = true;
+	
+				if abs(input_x) < 0.2 input_x = 0; else input_x=sign(input_x);
+				if abs(input_y) < 0.2 input_y = 0; else input_y=sign(input_y);
+	
+			}
+			if input_y*2+input_x !=0
+			{
+				_cooldownmenu = 10	
+			} else
+			{
+				_cooldownmenu = max(_cooldownmenu-1,0)	
+			}
+			num_menu = clamp(num_menu+input_y,0,nb_item_menu-1);
 			
 			switch num_menu
 			{
+				case MENU_ITEM.RETURN:
+				{
+					if input_valid {obj_transition.mode = TRANS_MODE.OFF;percent_menu = 0.5};
+					break;
+				}
+				case MENU_ITEM.RESTART:
+				{
+					if input_valid{
+						room_restart();
+						obj_transition.mode =TRANS_MODE.OFF;
+						percent_menu = 0.5
+					}
+					break;
+				}
 				case MENU_ITEM.QUIT:
 				{
-					if keyboard_check_pressed(vk_enter) game_end();
+					if input_valid game_end();
 					break;
 				}
 				case MENU_ITEM.MUSIC:
 				{
-					if _cooldownmenu <=0 {
-						if keyboard_check(vk_left) {scr_volume_adjust(0,-1); _cooldownmenu += 10;}
-						if keyboard_check(vk_right) {scr_volume_adjust(0,+1); _cooldownmenu += 10;}	
-					} else
-					{
-						if _cooldownmenu>0 _cooldownmenu --;
-					}
+					
+					scr_volume_adjust(0,input_x);
 					break;
 				}
 				case MENU_ITEM.SFX:
 				{
-					if _cooldownmenu <=0 {
-						if keyboard_check(vk_left) {scr_volume_adjust(1,-1); _cooldownmenu += 10;}
-						if keyboard_check(vk_right) {scr_volume_adjust(1,+1); _cooldownmenu += 10;}	
-					} else
-					{
-						if _cooldownmenu>0 _cooldownmenu --;
-					}
+					
+					scr_volume_adjust(1,input_x);
 					break;
 				}
 				
@@ -88,8 +139,4 @@ if mode != TRANS_MODE.OFF
 			}			
 		}
 	}
-} else
-{
-	// effacer le menu.
-	percent_menu = 0	
 }
