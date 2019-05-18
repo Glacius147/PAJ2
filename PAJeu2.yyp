@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "0aa1aee5-3ecf-4ad6-a712-68d8f4f627c5",
-            "Value": {
-                "id": "a722aed0-73fd-49d6-8626-92aadb2d5b4d",
-                "resourcePath": "sounds\\snd_frappe\\snd_frappe.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "0bc37551-88ad-45ca-ba09-33ccccbb6d7d",
             "Value": {
                 "id": "8aa289ac-42df-4675-adcd-dd521fff7c22",
@@ -247,6 +239,14 @@
             }
         },
         {
+            "Key": "26982e1b-7b5c-46b8-8582-35f024611e40",
+            "Value": {
+                "id": "ec026299-7af8-433a-9fd4-07020c67d7dd",
+                "resourcePath": "sounds\\snd_mort_humain\\snd_mort_humain.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "26c2cc54-13d1-4195-b1e4-de25dcc078c6",
             "Value": {
                 "id": "fbaae06c-28ff-47c6-ac84-e19f6124ec16",
@@ -316,6 +316,14 @@
                 "id": "b5330d44-27f7-454c-baae-59a088badf8f",
                 "resourcePath": "scripts\\light_static_set_array\\light_static_set_array.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "334e6cd6-39b4-42f4-bb7f-c9ca437bdd2e",
+            "Value": {
+                "id": "ea4ab61f-be91-48aa-9380-66cf4f077ee7",
+                "resourcePath": "sounds\\snd_interrupteur\\snd_interrupteur.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -703,14 +711,6 @@
             }
         },
         {
-            "Key": "6d4441d2-08e0-4af6-ae2f-d989ff896e3a",
-            "Value": {
-                "id": "4eed2bd7-fcb7-4db7-b3a1-c4ed06dcee14",
-                "resourcePath": "sounds\\snd_activation\\snd_activation.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "6d59d2b9-baaa-44a8-a999-4ca9720ec44a",
             "Value": {
                 "id": "80c67d4f-bc55-4edb-9c2b-64f809daadeb",
@@ -1036,6 +1036,14 @@
                 "id": "4c88efe1-61e4-41c8-8bed-f2dcaa93d27a",
                 "resourcePath": "scripts\\light_create_spot\\light_create_spot.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9693f20f-799d-48fd-a4a7-6926a6ca6deb",
+            "Value": {
+                "id": "4766c031-0834-41da-aa39-baec275c53dc",
+                "resourcePath": "sounds\\snd_attaque_neige\\snd_attaque_neige.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1503,6 +1511,14 @@
             }
         },
         {
+            "Key": "dec754d8-a3be-4138-ba89-1176ac8f2c78",
+            "Value": {
+                "id": "d3f6f0b1-9d03-422b-8cac-e9f3e6e2ba7a",
+                "resourcePath": "sounds\\snd_mort_rat\\snd_mort_rat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ded4df73-308a-40f3-abb8-73b48a0be272",
             "Value": {
                 "id": "385a4ae6-daf3-43ff-89a5-a5ca96c2ffc2",
@@ -1607,6 +1623,14 @@
             }
         },
         {
+            "Key": "eff46868-c634-4afa-b978-6cd5b2f5f27c",
+            "Value": {
+                "id": "6a97cf67-00d3-49b8-bf2e-580b617a6f3d",
+                "resourcePath": "sounds\\snd_mort_neige\\snd_mort_neige.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f1732e7d-6378-4342-b67c-a79a1815f491",
             "Value": {
                 "id": "086e9e0e-0d34-4301-8de7-decef2dc76c9",
@@ -1692,6 +1716,22 @@
                 "id": "03fb889b-ac37-4cd5-87a4-5494e8527775",
                 "resourcePath": "scripts\\light_create_extension\\light_create_extension.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f7e33477-880a-492a-899e-9c1577b774dd",
+            "Value": {
+                "id": "5a826815-7163-4b38-beb0-28e13cfa10a8",
+                "resourcePath": "sounds\\snd_port_ouverture\\snd_port_ouverture.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fa129cec-5a79-4f08-a41b-4a54c60ebf7a",
+            "Value": {
+                "id": "6bcf13c6-5f13-43bb-9d3f-5111a8236299",
+                "resourcePath": "sounds\\snd_porte_fermeture\\snd_porte_fermeture.yy",
+                "resourceType": "GMSound"
             }
         },
         {

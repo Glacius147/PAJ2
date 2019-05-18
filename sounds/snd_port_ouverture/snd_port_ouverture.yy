@@ -1,9 +1,9 @@
 {
-    "id": "0aa1aee5-3ecf-4ad6-a712-68d8f4f627c5",
+    "id": "f7e33477-880a-492a-899e-9c1577b774dd",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_frappe",
-    "audioGroupGuid": "954c3c7d-9918-4f13-b890-35b78d6ef4e1",
+    "name": "snd_port_ouverture",
+    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

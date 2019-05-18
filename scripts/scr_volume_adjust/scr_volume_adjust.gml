@@ -19,6 +19,6 @@ if _delta !=0
 		obj_sound.percent_sfx = clamp(obj_sound.percent_sfx+_delta*10,0,100)
 	
 	   audio_group_set_gain(sfx, obj_sound.percent_sfx/100, 0);
-	   audio_play_sound(snd_frappe,1,false)
+	   audio_play_sound(snd_coup_epee,1,false)
 	}
 }
