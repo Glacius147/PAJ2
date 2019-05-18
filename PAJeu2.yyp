@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "14baf84b-85e0-4326-a02a-bbb6c64bdea8",
+            "Value": {
+                "id": "39741a9f-03a8-4743-b363-d1c055ce7ff3",
+                "resourcePath": "objects\\obj_lumi_set\\obj_lumi_set.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "150d235b-50f5-4a93-858f-3666436a9ab8",
             "Value": {
                 "id": "34be6bbd-6ba0-4ce5-9f47-0bd6f657e1e9",
