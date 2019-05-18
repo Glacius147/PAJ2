@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_mort_neige",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "954c3c7d-9918-4f13-b890-35b78d6ef4e1",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,
