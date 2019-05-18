@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "94fb3302-d7d2-4429-b362-3008a113a1fb",
+            "Value": {
+                "id": "9293e950-795d-4c7d-80ef-23f424fb9081",
+                "resourcePath": "objects\\onj_sound\\onj_sound.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "957a4745-3b6d-4963-b62f-5f79601bd2fc",
             "Value": {
                 "id": "3be30769-f687-4930-b417-f1cf7192a41e",
