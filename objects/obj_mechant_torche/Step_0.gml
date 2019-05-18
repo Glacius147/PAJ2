@@ -55,3 +55,7 @@ if coli_obstacle = true
 	coli_obstacle = false;
 	if vitesse = vitesse_base and !retour alarm[0] = 1;
 }
+
+if (obj_transition.mode == TRANS_MODE.PAUSE and alarm[0]>0) {
+	alarm[0]++
+}

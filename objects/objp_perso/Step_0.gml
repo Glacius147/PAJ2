@@ -81,4 +81,4 @@ if obj_transition.mode == TRANS_MODE.OFF
 }
 
 
-if pv <= 0 instance_destroy();
+if pv <= 0 event_user(10)

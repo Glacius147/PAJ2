@@ -1,6 +1,6 @@
 
 //Si le déplacement est possible
-if obj_transition.mode == TRANS_MODE.OFF and frames_invul <= 0
+if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.DEATH) and frames_invul <= 0
 {
 	//On applique la vitesse de déplacement
 	_x += dep_x*vitesse;

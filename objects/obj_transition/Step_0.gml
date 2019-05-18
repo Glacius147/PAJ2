@@ -2,13 +2,20 @@
 
 if mode != TRANS_MODE.OFF
 {
-	
-	
-	
-	
-	
-	
-	if mode = TRANS_MODE.INTRO
+	if mode = TRANS_MODE.DEATH
+	{
+		if keyboard_check_pressed(vk_enter) 
+				{
+					room_restart()
+					obj_transition.mode =TRANS_MODE.OFF;
+				}
+		if gamepad_button_check_pressed(0,gp_start) {
+					room_restart()
+					obj_transition.mode = TRANS_MODE.OFF;
+					percent_menu = 0.5
+				}
+	}
+	else if mode = TRANS_MODE.INTRO
 	{
 		percent = max(0,percent*0.95-0.01);		
 	}

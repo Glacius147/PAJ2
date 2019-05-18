@@ -10,7 +10,8 @@ enum TRANS_MODE
 	NEXT,
 	RESTART,
 	INTRO,
-	PAUSE
+	PAUSE,
+	DEATH
 }
 
 //items du menu
