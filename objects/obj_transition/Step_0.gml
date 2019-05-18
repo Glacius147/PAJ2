@@ -12,28 +12,38 @@ if mode != TRANS_MODE.OFF
 		#region
 		if percent_menu == 1
 		{	
-			if keyboard_check(vk_escape) obj_transition.mode =TRANS_MODE.OFF;
+			if keyboard_check_released(vk_escape) obj_transition.mode =TRANS_MODE.OFF;
 			
-			if keyboard_check_released(vk_up) num_menu = max(num_menu-1,0);
-			if keyboard_check_released(vk_down) num_menu = min(num_menu+1,nb_item_menus-1);
+			if keyboard_check_pressed(vk_up) num_menu = max(num_menu-1,0);
+			if keyboard_check_pressed(vk_down) num_menu = min(num_menu+1,nb_item_menus-1);
 			
 			switch num_menu
 			{
 				case MENU_ITEM.QUIT:
 				{
-					if keyboard_check(vk_enter) game_end();
+					if keyboard_check_pressed(vk_enter) game_end();
 					break;
 				}
 				case MENU_ITEM.MUSIC:
 				{
-					if keyboard_check(vk_left) scr_volume_adjust(0,-1);
-					if keyboard_check(vk_right) scr_volume_adjust(0,+1);
+					if _cooldownmenu <=0 {
+						if keyboard_check(vk_left) {scr_volume_adjust(0,-1); _cooldownmenu += 10;}
+						if keyboard_check(vk_right) {scr_volume_adjust(0,+1); _cooldownmenu += 10;}	
+					} else
+					{
+						if _cooldownmenu>0 _cooldownmenu --;
+					}
 					break;
 				}
 				case MENU_ITEM.SFX:
 				{
-					if keyboard_check(vk_left) scr_volume_adjust(1,-1);
-					if keyboard_check(vk_right) scr_volume_adjust(1,+1);
+					if _cooldownmenu <=0 {
+						if keyboard_check(vk_left) {scr_volume_adjust(1,-1); _cooldownmenu += 10;}
+						if keyboard_check(vk_right) {scr_volume_adjust(1,+1); _cooldownmenu += 10;}	
+					} else
+					{
+						if _cooldownmenu>0 _cooldownmenu --;
+					}
 					break;
 				}
 				
