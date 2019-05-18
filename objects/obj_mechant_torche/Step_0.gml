@@ -1,7 +1,7 @@
 /// @description Perso spoted !
 
 
-if (distance_to_object(objp_perso) < 400 and abs(scr_wrap(point_direction(x,y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 80
+if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_direction(x,y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 80
 {
 	dist = distance_to_object(objp_perso);
 	var ligne_de_vue = true

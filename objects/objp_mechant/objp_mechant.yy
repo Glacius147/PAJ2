@@ -221,6 +221,20 @@
             "value": "0",
             "varName": "vitesse",
             "varType": 0
+        },
+        {
+            "id": "96091198-4864-494c-9102-642fec1b5c3a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "400",
+            "varName": "distance_vue",
+            "varType": 0
         }
     ],
     "solid": false,

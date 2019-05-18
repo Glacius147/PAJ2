@@ -1,8 +1,9 @@
+//Animation des objp_mobils
 
-
-
+//Si une animation prioritaire n'est pas en cours
 if !anim_stop
 {
+	//Si le perso est immobile.
 	if _x_d = 0 and _y_d = 0
 	{
 		image_speed = 0;
