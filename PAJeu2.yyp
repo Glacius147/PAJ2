@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "62ff2773-800c-42a0-9be0-49f5302031e2",
+            "Value": {
+                "id": "9df6b227-84c8-4577-b837-98e68431acc7",
+                "resourcePath": "objects\\obj_caisse_lum_light\\obj_caisse_lum_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "642aed8c-c9db-4cac-8c9b-5ca2177debe2",
             "Value": {
                 "id": "f46a8de5-d9bc-4c7d-92a2-6d0d7358ef83",
