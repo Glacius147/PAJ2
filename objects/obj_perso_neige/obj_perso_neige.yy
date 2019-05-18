@@ -28,79 +28,47 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "9e13f859-d6eb-4d44-9f02-06ef66010bcb",
+            "id": "b6e43c39-5512-4ab8-999f-eba351694113",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "11eb41d2-1579-4a43-a4c1-817f87aa237f",
-            "value": "spr_perso_neige_bas"
-        },
-        {
-            "id": "d142510b-4f7e-4776-b0d3-5625e199c4d8",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "0e6d601e-f7bf-4274-a577-6a160b393d5f",
-            "value": "spr_perso_neige_dos"
-        },
-        {
-            "id": "5bfe7617-ef69-4b79-950c-f1e2e1590125",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "1bd2f444-45e0-44b9-b0b2-0348279ef3b0",
-            "value": "noone"
-        },
-        {
-            "id": "335fce05-02eb-4461-a84c-ba4a918ea6c4",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "ffa9c409-0e54-4120-800c-5dd0fdcfae55",
-            "value": "spr_perso_neige_droite"
-        },
-        {
-            "id": "4c96635d-2ae6-4b7a-a67b-ab1110a14a4d",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "19c8c9ab-60f2-4967-8a64-3347c429f107",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "193fecdb-2e3f-49b0-9c1a-4776dcd23b38",
             "value": "2"
         },
         {
-            "id": "7606bded-3766-4f20-88ac-0d155f4be4a2",
+            "id": "6d0f4894-19d0-4f21-987a-a33802e0a4ed",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "4a8a0f3a-1701-42a6-9115-8c9b58d43051",
-            "value": "60"
-        },
-        {
-            "id": "226111d1-5490-4c11-88b1-eea425e9ffae",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "fee94c14-9b55-4561-8fa6-208d2a35cf96",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "162ada08-f0fa-4495-9569-4e0506a59f7b",
             "value": "spr_perso_neige_bas"
         },
         {
-            "id": "d473e052-3d1a-4955-901f-28ecfe2234d2",
+            "id": "e5943889-13b5-4c1c-aff6-5e9c8ed560af",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "1ea5903b-c743-400a-a3f3-49d6c668012c",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "36942dcb-72a8-443e-80e5-c950bcf4ab16",
             "value": "spr_perso_neige_dos"
         },
         {
-            "id": "62f42fcf-4872-4175-8ed2-e460b4eca958",
+            "id": "bb985506-0a03-4001-be5e-27be8d4e1734",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "98970269-cdee-468d-8a29-a3013a174b74",
-            "propertyId": "5d531f7e-1bd2-45ba-93ce-0f8860f32a1e",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "15c7061a-d344-41d4-9a29-d0a17e7f1d59",
+            "value": "noone"
+        },
+        {
+            "id": "4e416f8a-2fc6-4f66-a009-0ef8c5eb1f11",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "88679858-0d68-4caf-b155-a5640151e9eb",
             "value": "spr_perso_neige_droite"
         }
     ],
-    "parentObjectId": "98970269-cdee-468d-8a29-a3013a174b74",
+    "parentObjectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
