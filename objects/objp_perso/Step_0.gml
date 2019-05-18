@@ -7,7 +7,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	#region deplacements
 	//On gere les inputs si glisse pas
 	audio_listener_position(x, y, 0);
-	if !glisse or coli_obstacle 
+	if !glisse or coli_obstacle
 	{
 		var input_x = 0; 
 		var input_y = 0;
@@ -52,7 +52,14 @@ if obj_transition.mode == TRANS_MODE.OFF
 	
 			_x_d = input_x * vitesse_base;
 			_y_d = input_y * vitesse_base;
-			}
+		}
+		
+		if anim_stop
+		{
+			_x_d = input_x * vitesse_base;
+			_y_d = input_y * vitesse_base;			
+		}
+		
 	}
 	else
 	{
@@ -60,11 +67,24 @@ if obj_transition.mode == TRANS_MODE.OFF
 	_y += _y_d;		
 		
 	}
+	
+	//Si roulade
+	/// @description Roulade
+	if roulade > 0
+	{
+		_x = _dir_x * dist_roulade/duree_roulade;
+		_y = _dir_y * dist_roulade/duree_roulade;
 
+		roulade --
+	}
+
+
+	
+	
 	//On applique les déplacements
 	coli_obstacle = false;
 	
-	if !anim_stop
+	if !anim_stop or roulade > 0
 	{
 		while abs(_x) >= 1
 		{
@@ -98,6 +118,31 @@ if obj_transition.mode == TRANS_MODE.OFF
 	else
 	{
 		frames_action --;
+	}
+	
+	//On applique l'animation
+	scr_animation();
+	
+	#endregion
+	
+	
+	#region action 2 (roulade)
+	
+	//On vérifie les input et la dispo de l'action
+	if frames_roulade <= 0
+	{
+		if keyboard_check_pressed(vk_alt) or gamepad_button_check_pressed(0,gp_face2)
+		{
+
+			//Durée avant la prochaine acrtion possible
+			frames_roulade = delai_roulade;
+			//Action
+			event_user(1);
+		}
+	}
+	else
+	{
+		frames_roulade --;
 	}
 	
 	//On applique l'animation

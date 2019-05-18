@@ -73,6 +73,26 @@
             "enumb": 20,
             "eventtype": 7,
             "m_owner": "98970269-cdee-468d-8a29-a3013a174b74"
+        },
+        {
+            "id": "82814007-51ca-4e59-8b3a-33a18d69d97f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
+            "m_owner": "98970269-cdee-468d-8a29-a3013a174b74"
+        },
+        {
+            "id": "75e06113-0fcf-4792-9a67-72b887ba55ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "98970269-cdee-468d-8a29-a3013a174b74"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -384,6 +404,76 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "_y",
+            "varType": 0
+        },
+        {
+            "id": "991cac6a-40ff-42cb-af86-87a5cd37f497",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "dist_roulade",
+            "varType": 0
+        },
+        {
+            "id": "809d38e0-c0d3-4c46-a7cc-4517048ed47a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "duree_roulade",
+            "varType": 0
+        },
+        {
+            "id": "2b57fa61-9473-4159-924d-6a809b8460a6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "frames_roulade",
+            "varType": 0
+        },
+        {
+            "id": "51c29891-2bdd-4385-8bfb-eb211db3ec6b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "delai_roulade",
+            "varType": 0
+        },
+        {
+            "id": "416f6e33-5676-4b10-90df-150e9f534281",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "roulade",
             "varType": 0
         }
     ],
