@@ -927,11 +927,27 @@
             }
         },
         {
+            "Key": "8cce075c-3482-403e-b2dd-d2c216d9a62b",
+            "Value": {
+                "id": "692a8c10-d82f-47b2-aa53-8c428faf159e",
+                "resourcePath": "sprites\\spr_tuile_herbe\\spr_tuile_herbe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8dd9a696-fdb0-41bb-93b1-4885f1081b3d",
             "Value": {
                 "id": "548e64bf-cdf7-422a-951f-4c8d64127d6e",
                 "resourcePath": "objects\\obj_torche\\obj_torche.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8e47aa70-2084-4030-942c-d279cecde23b",
+            "Value": {
+                "id": "33f8e1c6-d16c-4939-9f2e-92bad2be7225",
+                "resourcePath": "tilesets\\tileset_herbe\\tileset_herbe.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
