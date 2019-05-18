@@ -1,19 +1,24 @@
 /// @description Perso spoted !
 
-var _x = id_torche.light[|eLight.X];
-var _y = id_torche.light[|eLight.Y];
 
 
-if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_direction(_x,_y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 1
+if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_direction(x,y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 1
 {
 	dist = distance_to_object(objp_perso);
 	var ligne_de_vue = true
 	for (var i = 1; i < dist; i++)
 	{
-		if position_meeting(objp_perso.x*i/dist + _x*(1-i/dist),objp_perso.y*i/dist + _y*(1-i/dist),obj_shadow_caster)
+		//test de la ligne de vue (le joueur et les monstres ne bloquent pas les lignes de vue)
+		var _list = ds_list_create();
+		var _num = instance_position_list(x*i/dist + objp_perso.x*(1-i/dist), y*i/dist + objp_perso.y*(1-i/dist), obj_shadow_caster, _list, false);
+		if _num > 0
 		{
-			ligne_de_vue = false				
+			for (var j = 0; j < _num; ++j;)
+			{
+				if !object_is_ancestor(_list[|j].object_index, objp_mobil) ligne_de_vue = false
+			}
 		}
+		ds_list_destroy(_list);
 	}
 		
 	if ligne_de_vue 
