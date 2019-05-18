@@ -1,5 +1,3 @@
-/// @description ?
-
 //Placement du perso celon la porte qui l'a envoyé dans la salle.
 with obj_spot_arrivee
 {

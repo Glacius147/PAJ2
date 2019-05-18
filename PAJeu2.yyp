@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "Value": {
+                "id": "12f22408-b722-4037-b50e-138999d68420",
+                "resourcePath": "objects\\objp_perso\\objp_perso.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "52b4466e-b7b8-45d5-8424-01fee6a6801d",
             "Value": {
                 "id": "c792ae4f-2252-4e01-b29d-1960c23b7a8e",
@@ -1412,6 +1420,14 @@
                 "id": "edc2817b-568d-4c30-82fb-a0420747a31b",
                 "resourcePath": "sprites\\spr_attaque_epee\\spr_attaque_epee.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c9296899-b2ec-4342-8ef4-c2ab9fce358c",
+            "Value": {
+                "id": "0cee9535-01c0-4bc7-aa51-9b0c2835e914",
+                "resourcePath": "datafiles_yy\\objp_perso.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
