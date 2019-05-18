@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "237cb5d0-3b1c-4a40-acdd-ce2ddf689de5",
+            "Value": {
+                "id": "410f4eca-95fe-4e6f-a32d-fea7ed75373e",
+                "resourcePath": "objects\\obj_brasero_light\\obj_brasero_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "26982e1b-7b5c-46b8-8582-35f024611e40",
             "Value": {
                 "id": "ec026299-7af8-433a-9fd4-07020c67d7dd",
@@ -412,6 +420,22 @@
                 "id": "467bc8a6-f03a-4acd-b20b-098e2058ebf2",
                 "resourcePath": "scripts\\shadow_casters_exist\\shadow_casters_exist.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3d10bb79-8595-4357-bcf5-51b8c6e4e9df",
+            "Value": {
+                "id": "a8fa3f0c-0868-4dbc-94f4-bccec0b30d09",
+                "resourcePath": "sprites\\spr_brasero\\spr_brasero.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d630606-5213-4eec-8c28-d0f564bb0879",
+            "Value": {
+                "id": "4ea97bd6-83cf-483c-b345-4c6c87ba571a",
+                "resourcePath": "objects\\obj_brasero\\obj_brasero.yy",
+                "resourceType": "GMObject"
             }
         },
         {
