@@ -12,12 +12,4 @@ list_taunts[1] =  "EXACTEMENT COMME PREVU !"
 list_taunts[0] =  "HAHAHAHAHAHA, TA PATHETIQUE EXISTENCE S'ACHEVE ICI !"
 #endregion
 
-if do_cutscene_death{
-	scr_cutscene(spr_wizard,list_taunts[irandom_range(0,array_length_1d(list_taunts)-1)],-1)
-	do_cutscene_death = false
-}
-else
-{
-	obj_transition.mode = TRANS_MODE.DEATH
-	instance_destroy()
-}
+scr_cutscene(spr_wizard,list_taunts[irandom_range(0,array_length_1d(list_taunts)-1)],9)

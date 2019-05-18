@@ -8,7 +8,8 @@
         "94fb3302-d7d2-4429-b362-3008a113a1fb",
         "4409dc74-bf14-4520-95c0-fcd44e2e7331",
         "20fd78df-9f2e-4153-b48e-e31b3a9d543a",
-        "ac3731e3-5950-4862-94a1-62292e0038df"
+        "ac3731e3-5950-4862-94a1-62292e0038df",
+        "701282d6-596f-4e82-a8c3-4ad2d5fd104b"
     ],
     "filterType": "GMObject",
     "folderName": "Gestion",
