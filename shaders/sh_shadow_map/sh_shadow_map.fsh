@@ -14,7 +14,7 @@ varying vec4 v_vColour;
 
 // How many texels to diverge from this fragment when blending?
 // BLEND_ITERATIONS is how many steps we take to reach this distance
-#define BLEND_TEXELS 64.0
+#define BLEND_TEXELS 16.0
 
 // The ambient shadow color and intensity
 uniform float u_AmbientShadow;
