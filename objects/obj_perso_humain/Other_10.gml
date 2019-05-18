@@ -4,6 +4,8 @@ event_inherited();
 
 //On place un objet qui va tester les colision pour blesser les monstres
 
+audio_play_sound(snd_frappe,1,false)
+
 with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 {
 	image_angle = other.dir_mouvement;
