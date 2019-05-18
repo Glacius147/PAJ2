@@ -13,6 +13,6 @@ if _d != 0
 }
 else
 {
-	
-	
+	_dir_x = dcos(dir_mouvement);
+	_dir_y = -dsin(dir_mouvement);	
 }
