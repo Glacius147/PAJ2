@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "408aa4c9-39ee-47c9-b921-b7ff3f2c517c",
+            "Value": {
+                "id": "fc44cb6b-ac22-48b7-8bbf-fff859a88b97",
+                "resourcePath": "rooms\\room_entree_2\\room_entree_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "425ad326-7f79-4171-b636-daf6a7037300",
             "Value": {
                 "id": "2fe586e9-4d6f-4f96-9c94-670ea56e91f8",
@@ -484,6 +492,22 @@
                 "id": "04e75b18-f803-4719-965c-bacf33c176f8",
                 "resourcePath": "objects\\obj_attaque_epee\\obj_attaque_epee.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "55bd91d3-7dd6-42b8-a716-5cedf1ed678f",
+            "Value": {
+                "id": "a4ca4781-4d2e-4403-92ec-0908722be8bd",
+                "resourcePath": "tilesets\\tileset_mur\\tileset_mur.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5751f7ed-30a6-4c6f-9a7e-2461c1ca8b2f",
+            "Value": {
+                "id": "4dd4ce9c-579f-4a55-86ea-d9b8022cfc4d",
+                "resourcePath": "rooms\\room_entree_3\\room_entree_3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -743,6 +767,14 @@
             }
         },
         {
+            "Key": "7e7cc753-9394-42f3-a1a0-a2a861bb0f95",
+            "Value": {
+                "id": "2213701d-9495-4420-aadc-5ac34bbe7fe4",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "7ec6e1a4-36c9-419e-87f2-6f5eda7e45d6",
             "Value": {
                 "id": "9067b9f5-0f30-4065-a990-2c39d62a0c90",
@@ -820,6 +852,14 @@
                 "id": "dfa73bef-c355-4f92-8073-68810961b35e",
                 "resourcePath": "scripts\\point_in_polygon\\point_in_polygon.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8bab4b85-15fb-4e25-8493-0d042c2b3cfb",
+            "Value": {
+                "id": "8314876f-0dd3-4524-91f7-90c8f7d3a096",
+                "resourcePath": "rooms\\room_entree_4\\room_entree_4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -987,6 +1027,14 @@
             "Value": {
                 "id": "c64b6784-a51e-449a-b52c-7a9901fa1302",
                 "resourcePath": "sprites\\spr_9box\\spr_9box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a78f095e-8fa1-4617-b6bf-c2a7afc41ccc",
+            "Value": {
+                "id": "903afc22-645b-45df-aa52-9b2459b86ec4",
+                "resourcePath": "sprites\\spr_sol_pierre\\spr_sol_pierre.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1247,6 +1295,14 @@
             }
         },
         {
+            "Key": "d0e46e6f-eb26-4de0-8f82-17bd890e6dfe",
+            "Value": {
+                "id": "714cc163-941f-46d7-8125-0f1103f88fa9",
+                "resourcePath": "sprites\\spr_mur_tuile\\spr_mur_tuile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d12a39d6-5ac1-400d-a1f5-b817971e7d89",
             "Value": {
                 "id": "ba2c3349-0b13-465d-9dcf-731d6b75a94a",
@@ -1268,6 +1324,14 @@
                 "id": "5da6e9e4-0536-4a1c-9eab-35f6aec7c2c0",
                 "resourcePath": "scripts\\polygon_from_instance\\polygon_from_instance.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d4ea65c6-d581-434c-a4d2-7413e6eae027",
+            "Value": {
+                "id": "1ce1598b-8b47-4cc7-8da4-e5d61b931254",
+                "resourcePath": "rooms\\room_entree_5\\room_entree_5.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1372,6 +1436,14 @@
                 "id": "3bce1843-a016-4084-95f7-388ddf94a4cf",
                 "resourcePath": "objects\\obj_particules\\obj_particules.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7e6f7c0-ab30-42b6-8d89-981b4c66962a",
+            "Value": {
+                "id": "bc4eef7b-c38f-4e1c-a1c7-25bd195baa74",
+                "resourcePath": "sprites\\spr_sol_donjon\\spr_sol_donjon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
