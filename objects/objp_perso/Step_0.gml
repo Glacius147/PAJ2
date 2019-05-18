@@ -19,10 +19,10 @@ if obj_transition.mode == TRANS_MODE.OFF
 	else obj_transition.percent_menu =0;
 
 
-	if gamepad_actif and input_x = 0 and input_y = 0
+	if input_x = 0 and input_y = 0
 	{
-		input_x += gamepad_axis_value(0,gp_axislh);
-		input_y += gamepad_axis_value(0,gp_axislv);	
+		input_x = gamepad_axis_value(0,gp_axislh);
+		input_y = gamepad_axis_value(0,gp_axislv);	
 	
 		if abs(input_x) < 0.2 input_x = 0;
 		if abs(input_y) < 0.2 input_y = 0;
@@ -30,11 +30,11 @@ if obj_transition.mode == TRANS_MODE.OFF
 	}
 	
 	//On applique la vitesse
-	_x = input_x * vitesse_base;
-	_y = input_y * vitesse_base;
+	_x += input_x * vitesse_base;
+	_y += input_y * vitesse_base;
 	
-	_x_d = _x;
-	_y_d = _y;
+	_x_d = input_x * vitesse_base;
+	_y_d = input_y * vitesse_base;
 
 	//On applique les déplacements
 	if !anim_stop
