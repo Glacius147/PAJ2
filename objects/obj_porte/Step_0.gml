@@ -42,18 +42,31 @@ if ouvert and !bloquee
 else
 {
 	
-	if image_index ==5 audio_play_sound(snd_porte_fermeture,10,false);
-	if image_index != 0 
+	mask_index = mask_base;	
+	if !place_meeting(x,y,objp_mobil)
 	{
-		image_speed = -1;
+		if image_index ==5 audio_play_sound(snd_porte_fermeture,10,false);
+		if image_index != 0 
+		{
+			image_speed = -1;
+		}
+		else
+		{
+			image_speed = 0;
+		}
 	}
 	else
 	{
-		image_speed = 0;
+		if image_index > 2
+		{
+			image_speed = -1;
+		}
+		else
+		{
+		image_speed = 0;	
+		}
+		mask_index = spr_empty;
 	}
-	
-	mask_index = mask_base;		
-	
 }
 	
 	
