@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "2f7f0b30-fa2d-4f76-8263-606d69a36389",
+            "Value": {
+                "id": "377f5a61-4195-45a1-a417-d526ded36fd0",
+                "resourcePath": "objects\\obj_mechant_boss\\obj_mechant_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30e57535-d74d-4255-af96-70aead74941f",
             "Value": {
                 "id": "921f8e7c-4516-4b70-96fd-b015cd1431fa",
@@ -1031,6 +1039,14 @@
             }
         },
         {
+            "Key": "9f2d413b-ba1f-411f-9f1a-90f62a75037b",
+            "Value": {
+                "id": "deadfd1a-b9ed-4075-a127-4d2bc71e9121",
+                "resourcePath": "sprites\\spr_levier\\spr_levier.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1449664-d179-4282-bc01-70ead3cc1c65",
             "Value": {
                 "id": "1a8bc7fe-8106-4ac2-9a6a-c694ab15cfac",
@@ -1116,6 +1132,14 @@
                 "id": "1ccb7c89-b30c-4983-912f-e3cc91990b92",
                 "resourcePath": "objects\\obj_transition\\obj_transition.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "acd4487b-29f5-4280-a0cf-0ab52cbe8ff7",
+            "Value": {
+                "id": "dee6eabe-807f-425e-841b-789fcbb67bc2",
+                "resourcePath": "sprites\\spr_trou\\spr_trou.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1495,6 +1519,14 @@
             }
         },
         {
+            "Key": "e7ba7c59-58aa-4c1e-a31f-490a58d615ae",
+            "Value": {
+                "id": "5ebfd16e-552c-4477-a391-6d3799eb4b9f",
+                "resourcePath": "objects\\obj_levier\\obj_levier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e7c38341-38bc-49f2-9a16-0873c614b0f4",
             "Value": {
                 "id": "3bce1843-a016-4084-95f7-388ddf94a4cf",
@@ -1559,6 +1591,14 @@
             }
         },
         {
+            "Key": "f2ec0beb-8382-4470-a99b-9dd562bac79d",
+            "Value": {
+                "id": "2a89a527-3697-4fc0-b7f3-c4ebe4d0ffd4",
+                "resourcePath": "tilesets\\tileset_trou\\tileset_trou.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "8131a6de-9fb0-4147-ad60-6a836254ee0c",
@@ -1620,6 +1660,14 @@
                 "id": "03fb889b-ac37-4cd5-87a4-5494e8527775",
                 "resourcePath": "scripts\\light_create_extension\\light_create_extension.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fb60dd35-3115-4f72-8b99-4c4fafe6fff3",
+            "Value": {
+                "id": "235dd1b8-2307-479d-bcad-4e3981d23a64",
+                "resourcePath": "objects\\obj_mechant_archer\\obj_mechant_archer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
