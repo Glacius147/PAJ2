@@ -4,16 +4,16 @@ if mode != TRANS_MODE.OFF
 {
 	if mode == TRANS_MODE.CUTSCENE
 	{
-		var nb_words = string_count(" ",cutscene_text[cutscene_counter])
+		var nb_lettres = string_length(cutscene_text[cutscene_counter])
 		if keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(0,gp_face1)
 		{
-			if _cutscene_nb_words >= nb_words+1
+			if _cutscene_nb_letters >= nb_lettres+1
 			{
-				cutscene_counter ++	
-				_cutscene_nb_words = 0
+				cutscene_counter++
+				_cutscene_nb_letters = 0
 			} else
 			{
-				_cutscene_nb_words = nb_words
+				_cutscene_nb_letters = nb_lettres+1
 			}
 			if cutscene_counter == array_length_1d(cutscene_text)
 			{
@@ -21,7 +21,7 @@ if mode != TRANS_MODE.OFF
 			}
 		} else
 		{
-			_cutscene_nb_words = min(nb_words+1,_cutscene_nb_words+.06)
+			_cutscene_nb_letters = min(nb_lettres+1,_cutscene_nb_letters+.3)
 		}
 		
 	}

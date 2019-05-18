@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "425ad326-7f79-4171-b636-daf6a7037300",
+            "Value": {
+                "id": "2fe586e9-4d6f-4f96-9c94-670ea56e91f8",
+                "resourcePath": "scripts\\scr_cutscene\\scr_cutscene.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "43b4d961-1592-4328-b103-8df3fdea4e91",
             "Value": {
                 "id": "16a9d2af-81b5-44af-967d-a9b669238491",
@@ -1545,6 +1553,7 @@
         "af4a22a9-118e-4a85-b12c-297bb2a5b899",
         "d5d5efcb-56a5-4111-ab18-63ad1139d3ea",
         "5fa25710-1b91-424e-acaf-c98012f631a0",
+        "425ad326-7f79-4171-b636-daf6a7037300",
         "7ec6e1a4-36c9-419e-87f2-6f5eda7e45d6",
         "44d7f04b-3b18-4620-b33c-6aa314e17d60",
         "6ee3e0fb-bcca-4948-a799-5edcb09383c4",

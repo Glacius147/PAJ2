@@ -58,19 +58,13 @@ if mode == TRANS_MODE.CUTSCENE
 	
 	
 	draw_set_color(c_white);
-	var _c = 0
 	var _i = 1
 	var _toprint ="" 
-	while _c < _cutscene_nb_words and _i<= string_length(cutscene_text[cutscene_counter])
+	while _i < _cutscene_nb_letters and _i<= string_length(cutscene_text[cutscene_counter])
 	{
 		_char = string_char_at(cutscene_text[cutscene_counter],_i)
 		_toprint += _char
-		_i++
-		if _char == " "
-		{
-			_c++	
-		}
-		
+		_i++		
 	}
 	draw_text(75,h-250,_toprint)
 }
