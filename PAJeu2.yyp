@@ -903,6 +903,14 @@
             }
         },
         {
+            "Key": "8274c72b-abd7-4f48-8199-89682e030e7d",
+            "Value": {
+                "id": "f3ff8fe0-75c3-4e81-904d-329f75356348",
+                "resourcePath": "objects\\obj_perso_placement\\obj_perso_placement.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83b20320-8690-4dfe-8ae2-fb5b1f48b44d",
             "Value": {
                 "id": "1a9eae48-685e-4f96-a2e1-0d0a1fb6681e",
@@ -1100,6 +1108,14 @@
                 "id": "04ae43c3-499a-41e8-b6e5-211796e826f0",
                 "resourcePath": "objects\\objp_perso\\objp_perso.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c4e4518-4a34-4421-90ef-5584f33b3b7d",
+            "Value": {
+                "id": "2368f181-fbad-4023-bc1c-bbe9c883042e",
+                "resourcePath": "scripts\\Macro\\Macro.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1840,6 +1856,7 @@
         }
     ],
     "script_order": [
+        "9c4e4518-4a34-4421-90ef-5584f33b3b7d",
         "38519640-0d9e-4647-aaa1-a192cd7e96ae",
         "7bd73f6a-b38c-4f53-b763-8103cfb40433",
         "f4504f20-2e5e-4973-9bcf-ed2eaef5efeb",
