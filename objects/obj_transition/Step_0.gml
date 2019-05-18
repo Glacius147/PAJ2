@@ -157,7 +157,7 @@ if mode != TRANS_MODE.OFF
 	
 	
 	
-	if (percent = 0) or (percent = 1)
+	if (percent = 0 and mode = TRANS_MODE.INTRO) or (percent = 1)
 	{
 		#region changements de transitions 
 		switch mode
