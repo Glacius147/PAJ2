@@ -1,6 +1,12 @@
 //rend les murs avec trou intengibles
 instance_destroy(obj_mur_trou_rat_obst);
 
+//
+if random(100)<1
+{
+//audio_play_sound(snd_squick,1,false)	
+}
+
 // Inherit the parent event
 event_inherited();
 
