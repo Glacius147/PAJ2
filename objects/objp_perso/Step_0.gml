@@ -6,7 +6,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 {
 	#region deplacements
 	//On gere les inputs si glisse pas
-	
+	audio_listener_position(x, y, 0);
 	if !glisse or coli_obstacle 
 	{
 		var input_x = 0; 

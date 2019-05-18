@@ -1591,6 +1591,14 @@
             }
         },
         {
+            "Key": "e5b0db5e-72bc-4f9b-8c1c-f0afb700ccee",
+            "Value": {
+                "id": "b5e68d7d-d440-4540-b5db-dbe93f14e881",
+                "resourcePath": "sounds\\snd_torche\\snd_torche.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e610c445-71cf-4552-967b-a9d08bc4dc74",
             "Value": {
                 "id": "4fd42607-2c9d-4faf-a898-982c8bb9fb2f",
