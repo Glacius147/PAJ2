@@ -13,7 +13,3 @@ if frames_invul > 0 and obj_transition.mode == TRANS_MODE.OFF
 	}
 	frames_invul --;
 }
-
-
-
-draw_text(x,y,string(anim_stop));

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_caisse",
     "eventList": [
-        
+        {
+            "id": "9be73834-8833-4e8c-84d1-d26692a9636c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "484f60cc-4be4-47e5-97b8-9e4b01df4a57"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

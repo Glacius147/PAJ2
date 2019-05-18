@@ -1,4 +1,6 @@
 /// @description Action
+
+/*
 with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 {
 	image_angle = other.dir_mouvement;
@@ -14,3 +16,4 @@ with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 	}
 ds_list_destroy(_list);
 }
+*/
