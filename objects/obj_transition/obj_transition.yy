@@ -133,7 +133,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "_cutscene_nb_words",
+            "varName": "_cutscene_nb_letters",
             "varType": 0
         }
     ],
