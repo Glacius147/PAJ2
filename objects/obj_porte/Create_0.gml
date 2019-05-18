@@ -1,9 +1,7 @@
-/// @description ?
-
 // Inherit the parent event
 event_inherited();
 
-/// @description ?
+/// @description Porte ouverte et immobile de base
 
 image_speed = 0;
 

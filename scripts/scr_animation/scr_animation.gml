@@ -7,10 +7,10 @@ if !anim_stop
 	if _x_d = 0 and _y_d = 0
 	{
 		image_speed = 0;
-		//image_index = image_number - 1;
 	}
 	else
 	{
+		//Choix du sprite parmis les 4 directions
 		image_xscale = 1;
 		image_speed = 1;
 		if abs(_x_d) > abs(_y_d)
@@ -22,6 +22,7 @@ if !anim_stop
 			}
 			else
 			{
+				//Vérification du cas ou le sprite gauche et le miroir du sprite droit.
 				if anim_g = noone
 				{
 					image_xscale = -1;
@@ -51,11 +52,14 @@ if !anim_stop
 }
 else
 {
+	//Lancement de l'animation d'action
 	if !anim_started
 	{
 		anim_started = true;
 		image_speed = 1;
 		image_index = 0;
+		
+		//Choix de la direction de l'anilation d'action en fonction de la direction précédente.
 		switch sprite_index
 		{
 			case anim_b:
@@ -75,6 +79,7 @@ else
 			}				
 			case anim_g:
 			{
+				//Vérification du cas ou le sprite gauche et le miroir du sprite droit.				
 				if anim_a_g != noone
 				{
 				sprite_index = anim_a_g;
