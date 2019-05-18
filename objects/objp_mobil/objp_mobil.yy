@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "immobil",
             "varType": 3
+        },
+        {
+            "id": "83804069-3866-4af7-b7a5-4b63a912ac3f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "glisse",
+            "varType": 3
         }
     ],
     "solid": false,

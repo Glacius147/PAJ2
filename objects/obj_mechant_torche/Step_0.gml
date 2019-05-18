@@ -23,7 +23,8 @@ if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_directi
 	dep_x = dcos(_teta);
 	dep_y = -dsin(_teta);
 
-	vitesse = vitesse_course;
+
+	if vitesse != 0	vitesse = vitesse_course;
 	alarm[0] = 30;
 	}
 }
