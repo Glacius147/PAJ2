@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "773bc8a8-5625-4e78-b03d-784fd13b4f2b",
+            "Value": {
+                "id": "78174ce5-957a-4394-890c-a49b78962cd3",
+                "resourcePath": "sounds\\snd_coup_epee\\snd_coup_epee.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "77f0588e-689a-44fd-bf01-aea8d64c5314",
             "Value": {
                 "id": "a3c78f37-392f-4167-9dc7-4746c00e4aaf",

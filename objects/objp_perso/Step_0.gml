@@ -17,8 +17,11 @@ if obj_transition.mode == TRANS_MODE.OFF
 		if keyboard_check(vk_left) input_x = -1;
 		if keyboard_check(vk_right) input_x = 1;
 		if obj_transition.percent_menu ==0{
-			if keyboard_check_pressed(vk_escape) obj_transition.mode =TRANS_MODE.PAUSE;
-			if gamepad_button_check_pressed(0,gp_start) obj_transition.mode =TRANS_MODE.PAUSE;
+			if keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(0,gp_start) 
+			{
+				audio_pause_all();
+				obj_transition.mode =TRANS_MODE.PAUSE;
+			}
 		}
 		else obj_transition.percent_menu =0;
 

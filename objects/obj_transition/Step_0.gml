@@ -51,9 +51,9 @@ if mode != TRANS_MODE.OFF
 	}
 	else if mode = TRANS_MODE.PAUSE
 	{
+		//pourcentage d'affichage du menu
 		percent_menu = min(percent_menu+0.1,1)
 		
-	
 		#region input dans le menu
 		if percent_menu == 1
 		{	
@@ -71,6 +71,7 @@ if mode != TRANS_MODE.OFF
 				{
 					obj_transition.mode =TRANS_MODE.OFF;
 					percent_menu = 0.5
+					audio_resume_all()
 				}
 			
 			}
@@ -85,6 +86,7 @@ if mode != TRANS_MODE.OFF
 				if gamepad_button_check_pressed(0,gp_start) {
 					obj_transition.mode = TRANS_MODE.OFF;
 					percent_menu = 0.5
+					audio_resume_all()
 				}
 				if gamepad_button_check_pressed(0,gp_face1) input_valid = true;
 	
@@ -150,6 +152,7 @@ if mode != TRANS_MODE.OFF
 	
 	if (percent = 0) or (percent = 1)
 	{
+		#region changements de transitions 
 		switch mode
 		{
 			case TRANS_MODE.INTRO:
@@ -175,5 +178,6 @@ if mode != TRANS_MODE.OFF
 				break;
 			}			
 		}
+		#endregion
 	}
 }
