@@ -1095,6 +1095,14 @@
             }
         },
         {
+            "Key": "b08ad428-b7d3-4702-8775-cf4a5af05970",
+            "Value": {
+                "id": "47ce92dd-7c88-4b78-a99d-386c5f3d2d5f",
+                "resourcePath": "sprites\\spr_wizard\\spr_wizard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0f14d23-7f92-42c5-872a-595035144bba",
             "Value": {
                 "id": "9b39403d-8fd8-4220-b6ed-2646fb38286d",

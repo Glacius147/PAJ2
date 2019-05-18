@@ -5,7 +5,7 @@ if mode != TRANS_MODE.OFF
 	if mode == TRANS_MODE.CUTSCENE
 	{
 		var nb_lettres = string_length(cutscene_text[cutscene_counter])
-		if keyboard_check_pressed(vk_enter) or gamepad_button_check_pressed(0,gp_face1)
+		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
 		{
 			if _cutscene_nb_letters >= nb_lettres+1
 			{
@@ -28,13 +28,13 @@ if mode != TRANS_MODE.OFF
 	else if mode = TRANS_MODE.DEATH
 	{
 		percent_menu = min(percent_menu+0.2,1)
-		if keyboard_check_pressed(vk_enter) 
+		if keyboard_check_pressed(vk_space) 
 				{
 					room_restart()
 					obj_transition.mode =TRANS_MODE.OFF;
 					percent_menu = 0.5
 				}
-		if gamepad_button_check_pressed(0,gp_start) {
+		if gamepad_button_check_pressed(0,gp_face1) {
 					room_restart()
 					obj_transition.mode = TRANS_MODE.OFF;
 					percent_menu = 0.5
