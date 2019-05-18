@@ -2,6 +2,7 @@
 
 
 
+
 if _x = 0 and _y = 0
 {
 	image_speed = 0;
@@ -9,6 +10,7 @@ if _x = 0 and _y = 0
 }
 else
 {
+	image_xscale = 1;
 	image_speed = 1;
 	if abs(_x) > abs(_y)
 	{
@@ -19,7 +21,15 @@ else
 		}
 		else
 		{
-			sprite_index = anim_g;
+			if anim_g = noone
+			{
+				image_xscale = -1;
+				sprite_index = anim_d;
+			}
+			else
+			{
+				sprite_index = anim_g;
+			}
 			dir_mouvement = 180;
 		}
 	}

@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0fa065d2-7dc0-47d8-ab33-113ec4d7dbb6",
+            "Value": {
+                "id": "92499134-f81a-4fc1-bb7d-876a1f226577",
+                "resourcePath": "views\\0fa065d2-7dc0-47d8-ab33-113ec4d7dbb6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1010ebcf-a3ab-4b30-9118-02af2b7ed851",
             "Value": {
                 "id": "83cfaf20-4226-48f2-982d-d4abc94f08fb",
@@ -140,6 +148,14 @@
                 "id": "c3b9582e-a893-4ba5-b43f-57c35c4caad3",
                 "resourcePath": "notes\\Contributors.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "1646a58b-59ac-4ff5-9685-ede001aa3e7f",
+            "Value": {
+                "id": "263b93eb-4a0e-4f12-8647-a25256c732b6",
+                "resourcePath": "views\\1646a58b-59ac-4ff5-9685-ede001aa3e7f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "4533a0a3-7880-44d1-9cb4-67fd497c4952",
+            "Value": {
+                "id": "e81cf0b6-5414-4da1-a80d-dd37e2c14025",
+                "resourcePath": "sprites\\spr_perso_neige_dos\\spr_perso_neige_dos.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "484f60cc-4be4-47e5-97b8-9e4b01df4a57",
             "Value": {
                 "id": "d549af6c-2087-4018-90fa-d0952093dcbf",
@@ -444,6 +468,14 @@
                 "id": "2bccdebc-83be-4cad-9f9b-47608172b798",
                 "resourcePath": "sprites\\spr_joueur\\spr_joueur.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f8f6cb5-a0b1-4fcb-8ec4-0d2c7b335d64",
+            "Value": {
+                "id": "d29afd65-d4dd-4544-b7a8-309ed757c13c",
+                "resourcePath": "objects\\obj_perso_rat\\obj_perso_rat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -564,6 +596,14 @@
                 "id": "623c2a23-81d1-441b-8bf3-66a62327bf71",
                 "resourcePath": "shaders\\sh_shadow_map\\sh_shadow_map.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "731e74d1-e5ff-479f-93e3-afaa6df5aa0d",
+            "Value": {
+                "id": "48af78f3-b643-4d6e-958f-74bfdd45dc93",
+                "resourcePath": "sprites\\spr_perso_neige_bas\\spr_perso_neige_bas.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -711,6 +751,14 @@
             }
         },
         {
+            "Key": "92af9181-6b45-4520-a1b1-2dd12a3b6cdd",
+            "Value": {
+                "id": "cbb77046-f4c5-444c-a0c1-749e3ffa8819",
+                "resourcePath": "sprites\\spr_perso_neige_droite\\spr_perso_neige_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9366b94a-d857-496e-b535-adc8fa20b1e6",
             "Value": {
                 "id": "eb223056-5ec2-4f17-9485-b806da2a01a0",
@@ -738,7 +786,7 @@
             "Key": "95b98065-ca2b-4052-85cc-609e3c362291",
             "Value": {
                 "id": "619f9452-181c-47de-a2eb-b879530d081d",
-                "resourcePath": "objects\\obj_perso\\obj_perso.yy",
+                "resourcePath": "objects\\obj_perso_humain\\obj_perso_humain.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -756,6 +804,14 @@
                 "id": "bbd6e178-bf39-4344-b288-5dfa2191c612",
                 "resourcePath": "scripts\\light_create_area\\light_create_area.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "98970269-cdee-468d-8a29-a3013a174b74",
+            "Value": {
+                "id": "04ae43c3-499a-41e8-b6e5-211796e826f0",
+                "resourcePath": "objects\\objp_perso\\objp_perso.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -871,6 +927,14 @@
             }
         },
         {
+            "Key": "b51765d6-81ee-4a33-b3cc-cd53e8d82a83",
+            "Value": {
+                "id": "c3f01ebd-af03-4996-8266-4ab110182432",
+                "resourcePath": "sprites\\spr_perso_rat_droite\\spr_perso_rat_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6da863b-a308-4df8-92d5-4f145a70807b",
             "Value": {
                 "id": "14510e32-2998-4f52-9a8e-cf972803068b",
@@ -916,6 +980,14 @@
                 "id": "77d8d115-4d6a-43db-a5ee-976bd96172cf",
                 "resourcePath": "scripts\\light_acknowledge_shadow_caster\\light_acknowledge_shadow_caster.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be698a9f-261d-4c34-abbe-77da17399410",
+            "Value": {
+                "id": "7c8a4ec6-b69c-46c5-bfea-a010295c13ad",
+                "resourcePath": "objects\\obj_perso_neige\\obj_perso_neige.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1047,6 +1119,14 @@
             }
         },
         {
+            "Key": "ded4df73-308a-40f3-abb8-73b48a0be272",
+            "Value": {
+                "id": "385a4ae6-daf3-43ff-89a5-a5ca96c2ffc2",
+                "resourcePath": "sprites\\spr_perso_rat_bas\\spr_perso_rat_bas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df52e9b8-9ae8-4f9d-8f74-8a00f1c9b4c1",
             "Value": {
                 "id": "6d6cc216-0ffb-4fd1-a078-ea2f05b21992",
@@ -1172,6 +1252,14 @@
                 "id": "e486d3fd-b443-49e1-8284-a273e6defe97",
                 "resourcePath": "scripts\\ext_light_attenuation_apply\\ext_light_attenuation_apply.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ff7f17f2-c29c-45cf-abba-effcaf0aac51",
+            "Value": {
+                "id": "1d194935-b00e-4fd0-bbf5-eec6c08709c9",
+                "resourcePath": "sprites\\spr_perso_rat_dos\\spr_perso_rat_dos.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

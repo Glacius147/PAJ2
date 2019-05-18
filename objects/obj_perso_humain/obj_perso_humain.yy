@@ -2,52 +2,22 @@
     "id": "95b98065-ca2b-4052-85cc-609e3c362291",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_perso",
+    "name": "obj_perso_humain",
     "eventList": [
         {
-            "id": "f258db13-fa8c-4b65-8555-f6e4a74144c0",
+            "id": "bc5e6298-0bf4-4b2c-bf9e-5e3c44e4cff6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "95b98065-ca2b-4052-85cc-609e3c362291"
-        },
-        {
-            "id": "974970a9-741d-4d2b-ab37-6d88f52cbce7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "95b98065-ca2b-4052-85cc-609e3c362291"
-        },
-        {
-            "id": "b5efa613-0bdc-4f7b-9e71-0d18b70224b7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
-            "m_owner": "95b98065-ca2b-4052-85cc-609e3c362291"
-        },
-        {
-            "id": "674db864-809b-4908-a817-41d27b599e64",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
+            "enumb": 10,
+            "eventtype": 7,
             "m_owner": "95b98065-ca2b-4052-85cc-609e3c362291"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "5493a5ff-7988-4273-b0d3-12610df59d06",
+    "parentObjectId": "98970269-cdee-468d-8a29-a3013a174b74",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -246,6 +216,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "b0f14d23-7f92-42c5-872a-595035144bba",
+    "spriteId": "ce4d60a7-f0f4-4482-86ca-54aa71a88961",
     "visible": true
 }

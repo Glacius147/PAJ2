@@ -1,6 +1,6 @@
 /// @description Choix direction
 
-if distance_to_object(obj_perso) > 100
+if distance_to_object(objp_perso) > 100
 {
 	var i = irandom_range(0,1);
 	var j = irandom_range(0,1);
@@ -18,7 +18,7 @@ if distance_to_object(obj_perso) > 100
 }
 else
 {
-	var _teta = point_direction(x,y,obj_perso.x,obj_perso.y);
+	var _teta = point_direction(x,y,objp_perso.x,objp_perso.y);
 	
 	dep_x = dcos(_teta);
 	dep_y = -dsin(_teta);
