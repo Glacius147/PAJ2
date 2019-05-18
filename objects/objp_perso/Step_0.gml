@@ -30,34 +30,40 @@ if obj_transition.mode == TRANS_MODE.OFF
 	_x = input_x * vitesse_base;
 	_y = input_y * vitesse_base;
 	
-	//On applique l'animation
-	scr_animation();
-	
-	
+	_x_d = _x;
+	_y_d = _y;
+
 	//On applique les déplacements
-	while abs(_x) >= 1
+	if !anim_stop
 	{
-		scr_deplacement(_x/abs(_x),0);	
-		_x = _x - _x/abs(_x);
-	}
+		while abs(_x) >= 1
+		{
+			scr_deplacement(_x/abs(_x),0);	
+			_x = _x - _x/abs(_x);
+		}
 
-	while abs(_y) >= 1
-	{
-		scr_deplacement(0,_y/abs(_y));	
-		_y = _y - _y/abs(_y);
+		while abs(_y) >= 1
+		{
+			scr_deplacement(0,_y/abs(_y));	
+			_y = _y - _y/abs(_y);
+		}
 	}
-
+	
 	#endregion
 	
 	#region action
-	
-	
 	
 	if frames_action <= 0
 	{
 		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
 		{
+			//L'animation d'action empeche de bouger
+			anim_stop = true;
+			//L'animation d'action n'est pas encore affichée
+			anim_started = false;
+			//Durée avant la prochaine acrtion possible
 			frames_action = delai_action;
+			//Action
 			event_user(0);
 		}
 	}
@@ -66,6 +72,8 @@ if obj_transition.mode == TRANS_MODE.OFF
 		frames_action --;
 	}
 	
+	//On applique l'animation
+	scr_animation();
 	
 	#endregion
 
