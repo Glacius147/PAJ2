@@ -12,14 +12,17 @@ if obj_transition.mode == TRANS_MODE.OFF
 	if keyboard_check(vk_down) input_y = 1;
 	if keyboard_check(vk_left) input_x = -1;
 	if keyboard_check(vk_right) input_x = 1;
-	if keyboard_check(vk_escape) obj_transition.mode =TRANS_MODE.PAUSE;
+	if obj_transition.percent_menu ==0{
+		if keyboard_check_pressed(vk_escape) obj_transition.mode =TRANS_MODE.PAUSE;
+		if gamepad_button_check_pressed(0,gp_start) obj_transition.mode =TRANS_MODE.PAUSE;
+	}
+	else obj_transition.percent_menu =0;
 
 
 	if gamepad_actif and input_x = 0 and input_y = 0
 	{
 		input_x += gamepad_axis_value(0,gp_axislh);
 		input_y += gamepad_axis_value(0,gp_axislv);	
-		if gamepad_button_check_released(0,gp_start) obj_transition.mode =TRANS_MODE.PAUSE;
 	
 		if abs(input_x) < 0.2 input_x = 0;
 		if abs(input_y) < 0.2 input_y = 0;

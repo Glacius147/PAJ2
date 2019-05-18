@@ -16,21 +16,21 @@ enum TRANS_MODE
 //items du menu
 enum MENU_ITEM
 {
+	RETURN,
 	MUSIC,
 	SFX,
+	RESTART,
 	QUIT
 }
 
 //nombre d'éléments ds le menu
-nb_item_menus = 3
+nb_item_menu = 5
+
+//Element selectionné ds le menu : num_menu
 
 mode = TRANS_MODE.INTRO;
 
-percent = 1;
+//percent = 1;
 
-//%ate d'affichage du menu
-percent_menu = 0;
-//Element selectionné ds le menu.
-num_menu = 0;
 target = room;
 
