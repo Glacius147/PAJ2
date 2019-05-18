@@ -1343,6 +1343,14 @@
             }
         },
         {
+            "Key": "e610c445-71cf-4552-967b-a9d08bc4dc74",
+            "Value": {
+                "id": "4fd42607-2c9d-4faf-a898-982c8bb9fb2f",
+                "resourcePath": "fonts\\font_menu\\font_menu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e7c38341-38bc-49f2-9a16-0873c614b0f4",
             "Value": {
                 "id": "3bce1843-a016-4084-95f7-388ddf94a4cf",
