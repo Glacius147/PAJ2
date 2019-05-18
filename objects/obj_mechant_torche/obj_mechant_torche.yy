@@ -44,6 +44,14 @@
             "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
             "propertyId": "fb60daef-2072-4b76-9f8a-bf0f843c0269",
             "value": "1"
+        },
+        {
+            "id": "46c44391-c40e-4940-874e-f281bf49e207",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
+            "propertyId": "96091198-4864-494c-9102-642fec1b5c3a",
+            "value": "400"
         }
     ],
     "parentObjectId": "8fffecc8-2b52-48f3-b741-f536827221af",
@@ -92,6 +100,34 @@
             "value": "\"gauche\"",
             "varName": "sens_rotation",
             "varType": 6
+        },
+        {
+            "id": "ef84d0ae-67c4-4842-8192-15b76284d416",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "timer_rotation",
+            "varType": 0
+        },
+        {
+            "id": "e6e88197-f380-4114-9e99-92f0f15ef232",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "retour",
+            "varType": 3
         }
     ],
     "solid": false,

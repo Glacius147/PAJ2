@@ -7,8 +7,8 @@ with obj_light
 	
 	var dist = point_distance(light[|eLight.X],light[|eLight.Y],other.x,other.y)
 	
-	if  dist < light[|eLight.Range]/2 and 
-	abs(scr_wrap(point_direction(light[|eLight.X],light[|eLight.Y],other.x,other.y)-light[|eLight.Direction],-180,180)) < light[|eLight.Angle]/2
+	if  dist < light[|eLight.Range]/2 and (Light_Type = "Point Light" or
+	abs(scr_wrap(point_direction(light[|eLight.X],light[|eLight.Y],other.x,other.y)-light[|eLight.Direction],-180,180)) < light[|eLight.Angle]/2)
 	{
 		
 		

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objp_mobil",
     "eventList": [
-        
+        {
+            "id": "5c0292a6-14cb-4d40-9dd9-cfadc2d65e8f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5493a5ff-7988-4273-b0d3-12610df59d06"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -35,6 +44,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "coli_obstacle",
+            "varType": 3
+        },
+        {
+            "id": "67a4b2a8-474b-44b7-b58c-950b6cbebeef",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "immobil",
             "varType": 3
         }
     ],

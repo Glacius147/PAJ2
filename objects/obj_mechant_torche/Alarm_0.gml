@@ -5,40 +5,53 @@ if vitesse != vitesse_base
 	var _dir = floor(scr_wrap(point_direction(0,0,dep_x,dep_y) + 45,0, 360)/90);
 	vitesse = vitesse_base;	
 	
-	switch _dir
-	{
-		case 0:
+	
+	if immobil == imm_start
+	{	
+		switch _dir
 		{
-			dep_x = 1;
-			dep_y = 0;
-			break;
+			case 0:
+			{
+				dep_x = 1;
+				dep_y = 0;
+				break;
+			}
+			case 1:
+			{
+				dep_x = 0;
+				dep_y = -1;
+				break;
+			}
+			case 2:
+			{
+				dep_x = -1;
+				dep_y = 0;
+				break;
+			}
+			case 3:
+			{
+				dep_x = 0;
+				dep_y = 1;
+				break;
+			}
+			case other:
+			{
+				dep_x = 0;
+				dep_y = 1;
+				break;
+			}
 		}
-		case 1:
-		{
-			dep_x = 0;
-			dep_y = -1;
-			break;
-		}
-		case 2:
-		{
-			dep_x = -1;
-			dep_y = 0;
-			break;
-		}
-		case 3:
-		{
-			dep_x = 0;
-			dep_y = 1;
-			break;
-		}
-		case other:
-		{
-			dep_x = 0;
-			dep_y = 1;
-			break;
-		}	
 	}
-
+	else
+	{
+		var _teta = point_direction(x,y,x_start,y_start);
+		
+		dep_x = dcos(_teta);
+		dep_y = -dsin(_teta);
+		
+		retour = true;
+		alarm[0] = 600;
+	}
 }
 else
 if sens_rotation = "alea" or (dep_x == 0 and dep_y ==0)
@@ -77,9 +90,9 @@ else
 	scr_rotation_torche(point_direction(0,0,_xx,_yy),point_direction(0,0,dep_x,dep_y))
 }
 
+if immobil alarm[0] = timer_rotation;
 
-
-
+immobil = imm_start;
 
 	
 
