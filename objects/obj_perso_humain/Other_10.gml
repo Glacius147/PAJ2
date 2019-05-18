@@ -4,8 +4,7 @@ event_inherited();
 
 //On place un objet qui va tester les colision pour blesser les monstres
 
-
-scr_sound(snd_frappe,true,false)
+audio_play_sound(snd_frappe,1,false)
 
 with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 {
