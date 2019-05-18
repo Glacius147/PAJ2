@@ -1,5 +1,12 @@
 /// @description Choix direction
 
+if retour
+{
+	immobil = imm_start;
+	retour = false;
+	vitesse = -1;
+}
+
 if vitesse != vitesse_base
 {
 	var _dir = floor(scr_wrap(point_direction(0,0,dep_x,dep_y) + 45,0, 360)/90);
@@ -92,7 +99,6 @@ else
 
 if immobil alarm[0] = timer_rotation;
 
-immobil = imm_start;
 
 	
 

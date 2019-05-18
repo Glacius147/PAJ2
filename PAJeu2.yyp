@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "6af94c6f-2bd2-460f-a2fe-91c056e7a6ad",
+            "Value": {
+                "id": "8f95aaa3-62df-4a8a-9e83-aa5e04a700a3",
+                "resourcePath": "sprites\\spr_mur_trou_rat\\spr_mur_trou_rat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c059270-2efd-43c1-ab15-1a0f3e12454b",
             "Value": {
                 "id": "4ffa4ba6-9b36-4929-a28a-739e1e64d2db",
@@ -772,6 +780,14 @@
                 "id": "f4d65da3-f50f-4358-a668-96fce5d83452",
                 "resourcePath": "views\\85dfe729-fdba-4d9f-ba3e-3b09ec08c610.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8734f94b-7d54-40f2-95c4-f094b4a57324",
+            "Value": {
+                "id": "db9b408f-4aea-4f8b-adb7-3d53a3b8e87f",
+                "resourcePath": "objects\\obj_mur_trou\\obj_mur_trou.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1308,6 +1324,14 @@
                 "id": "6d6cc216-0ffb-4fd1-a078-ea2f05b21992",
                 "resourcePath": "sprites\\spr_light_renderer\\spr_light_renderer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e24c98bf-7a61-4786-8df7-8c1b7043500b",
+            "Value": {
+                "id": "cb1a4c9e-50f4-40b9-8132-eeb58e2b073d",
+                "resourcePath": "objects\\obj_mur_trou_rat_obst\\obj_mur_trou_rat_obst.yy",
+                "resourceType": "GMObject"
             }
         },
         {
