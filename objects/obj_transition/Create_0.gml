@@ -13,7 +13,8 @@ enum TRANS_MODE
 	RESTART,
 	INTRO,
 	PAUSE,
-	DEATH
+	DEATH,
+	CUTSCENE
 }
 
 //items du menu
@@ -37,3 +38,4 @@ mode = TRANS_MODE.INTRO;
 
 target = room;
 
+cutscene_text = array_create(1,"")

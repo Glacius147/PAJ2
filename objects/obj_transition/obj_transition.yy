@@ -107,6 +107,34 @@
             "value": "1",
             "varName": "percent",
             "varType": 0
+        },
+        {
+            "id": "c7588de3-5655-4c0a-b47d-3731685b0971",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cutscene_counter",
+            "varType": 0
+        },
+        {
+            "id": "64a57b3f-84a6-47de-9895-406be0d63f42",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "_cutscene_nb_words",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -46,9 +46,24 @@ if mode == TRANS_MODE.PAUSE
 	#endregion
 }
 
+if mode == TRANS_MODE.CUTSCENE
+{
+	
+	x1 = floor(50)
+	y1 = floor(h - 400)
+	x2 = ceil(w-50)
+	y2 = ceil(h-50)	
+	
+	scr_menubox(spr_9box,x1,y1,x2,y2)
+	
+	
+	draw_set_color(c_white);
+	draw_text(w,h,"Appuyez sur Enter/Start pour recommencer.")
+}
+
 if mode == TRANS_MODE.DEATH
 {
-		
+	#region message mort
 	x1 = floor(w/2*(1-percent_menu)+(w/2 - 200)*percent_menu)
 	y1 = floor(h/2*(1-percent_menu)+(h/2 - 100)*percent_menu)
 	x2 = ceil(w/2*(1-percent_menu)+(w/2+200)*percent_menu)
@@ -66,5 +81,6 @@ if mode == TRANS_MODE.DEATH
 		draw_text(w/2,message_y,"Appuyez sur Enter/Start pour recommencer.")
 		draw_set_halign(fa_left);
 	}
+	#endregion
 }
 
