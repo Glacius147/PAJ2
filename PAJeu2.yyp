@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "7ff74cb7-f20b-4f45-823a-d8f73bde109b",
+            "Value": {
+                "id": "08ffc21f-ae18-40b9-845b-6b37f5b45ab2",
+                "resourcePath": "shaders\\shader_blink_red\\shader_blink_red.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "8221d4e4-55aa-4953-8ea9-c2a77a8a043f",
             "Value": {
                 "id": "943619df-6d2e-40af-9745-860a872a2580",

@@ -1,4 +1,7 @@
 
+//Glissement si glace
+event_inherited();
+
 //Si le déplacement est possible
 if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.DEATH) and frames_invul <= 0
 {
@@ -21,6 +24,7 @@ if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.D
 
 
 }
+
 
 
 //Le monstre meurt (A étoffer)
