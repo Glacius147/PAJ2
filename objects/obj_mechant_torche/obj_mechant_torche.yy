@@ -52,6 +52,14 @@
             "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
             "propertyId": "96091198-4864-494c-9102-642fec1b5c3a",
             "value": "400"
+        },
+        {
+            "id": "44dd61a2-9488-4043-8208-e9ccaf87766b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
+            "propertyId": "e41c9bfe-510c-48a9-8678-c6dcfc7a78c5",
+            "value": "1"
         }
     ],
     "parentObjectId": "8fffecc8-2b52-48f3-b741-f536827221af",
@@ -90,7 +98,8 @@
             "listItems": [
                 "\"gauche\"",
                 "\"droite\"",
-                "\"alea\""
+                "\"alea\"",
+                "\"fixe\""
             ],
             "multiselect": false,
             "rangeEnabled": false,

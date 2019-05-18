@@ -1,6 +1,6 @@
-/// @description Quelqu'un me marche dessus !
+/// @description Quelqu'un m'éclaire
 
-active = false;
+active = inverse;
 
 with obj_light
 {
@@ -21,6 +21,6 @@ with obj_light
 			}
 		}
 		
-		if ligne_de_vue other.active = true;
+		if ligne_de_vue other.active = not(other.inverse);
 	}
 }

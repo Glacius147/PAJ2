@@ -60,8 +60,12 @@ if vitesse != vitesse_base
 		alarm[0] = 600;
 	}
 }
-else
-if sens_rotation = "alea" or (dep_x == 0 and dep_y ==0)
+else if sens_rotation = "fixe"
+{
+		dep_x = dcos(angle_base);
+		dep_y = -dsin(angle_base);		
+}
+else if sens_rotation = "alea" or (dep_x == 0 and dep_y ==0)
 {
 	var i = irandom_range(0,1);
 	var j = irandom_range(0,1);
@@ -86,7 +90,8 @@ else
 		dep_x = -_yy;
 		dep_y = _xx;
 	}
-	else
+	
+	if sens_rotation = "gauche"
 	{
 		var _xx = dep_x;
 		var _yy = dep_y;

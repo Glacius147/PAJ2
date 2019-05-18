@@ -1,5 +1,7 @@
 /// @description ?
 
+angle_base = image_angle;
+
 // Inherit the parent event
 event_inherited();
 
