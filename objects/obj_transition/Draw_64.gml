@@ -50,7 +50,7 @@ if mode == TRANS_MODE.CUTSCENE
 {
 	
 	x1 = floor(50)
-	y1 = floor(h - 400)
+	y1 = floor(h - 300)
 	x2 = ceil(w-50)
 	y2 = ceil(h-50)	
 	
@@ -58,7 +58,21 @@ if mode == TRANS_MODE.CUTSCENE
 	
 	
 	draw_set_color(c_white);
-	draw_text(w,h,"Appuyez sur Enter/Start pour recommencer.")
+	var _c = 0
+	var _i = 1
+	var _toprint ="" 
+	while _c < _cutscene_nb_words and _i<= string_length(cutscene_text[cutscene_counter])
+	{
+		_char = string_char_at(cutscene_text[cutscene_counter],_i)
+		_toprint += _char
+		_i++
+		if _char == " "
+		{
+			_c++	
+		}
+		
+	}
+	draw_text(75,h-250,_toprint)
 }
 
 if mode == TRANS_MODE.DEATH

@@ -80,5 +80,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 
 }
 
-
-if pv <= 0 event_user(10)
+if obj_transition.mode == TRANS_MODE.OFF
+{
+	if pv <= 0 event_user(10)
+}

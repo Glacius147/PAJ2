@@ -57,6 +57,7 @@ if coli_obstacle = true
 }
 
 // fait en sorte que la direction de regard ne change pas en pause.
-if ((obj_transition.mode == TRANS_MODE.PAUSE of obj_transition.mode==TRANS_MODE.CUTSCENE) and alarm[0]>0) {
+if ((obj_transition.mode == TRANS_MODE.PAUSE or obj_transition.mode==TRANS_MODE.CUTSCENE) and alarm[0]>0) 
+{
 	alarm[0]++
 }
