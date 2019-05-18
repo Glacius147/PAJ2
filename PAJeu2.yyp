@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "56b4466a-2212-4f08-a9ef-075ecf313996",
+            "Value": {
+                "id": "5f8e23c0-e903-4fe3-a96c-8a6895657995",
+                "resourcePath": "objects\\obj_gestion_lumi_dalle\\obj_gestion_lumi_dalle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5751f7ed-30a6-4c6f-9a7e-2461c1ca8b2f",
             "Value": {
                 "id": "4dd4ce9c-579f-4a55-86ea-d9b8022cfc4d",
