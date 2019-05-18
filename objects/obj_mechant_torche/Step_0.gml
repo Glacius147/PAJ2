@@ -1,13 +1,16 @@
 /// @description Perso spoted !
 
+var _x = id_torche.light[|eLight.X];
+var _y = id_torche.light[|eLight.Y];
 
-if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_direction(x,y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 1
+
+if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_direction(_x,_y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 1
 {
 	dist = distance_to_object(objp_perso);
 	var ligne_de_vue = true
 	for (var i = 1; i < dist; i++)
 	{
-		if position_meeting(objp_perso.x*i/dist + x*(1-i/dist),objp_perso.y*i/dist + y*(1-i/dist),obj_shadow_caster)
+		if position_meeting(objp_perso.x*i/dist + _x*(1-i/dist),objp_perso.y*i/dist + _y*(1-i/dist),obj_shadow_caster)
 		{
 			ligne_de_vue = false				
 		}
