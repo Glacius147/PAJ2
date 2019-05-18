@@ -1,3 +1,3 @@
 /// @description ?
 portee --
-if portee <= 0 and image_speed = 0 event_user(10);
+if portee <= 0 image_speed = 1;

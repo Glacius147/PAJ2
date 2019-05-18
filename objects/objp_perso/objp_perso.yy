@@ -357,6 +357,34 @@
             "value": "0",
             "varName": "anim_started",
             "varType": 3
+        },
+        {
+            "id": "51583a1e-b06d-496e-a706-48e0b508ab29",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "_x",
+            "varType": 0
+        },
+        {
+            "id": "44d09276-9912-48c8-94a5-ade7fdbbb775",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "_y",
+            "varType": 0
         }
     ],
     "solid": false,
