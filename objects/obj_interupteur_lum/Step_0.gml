@@ -24,3 +24,5 @@ with obj_light
 		if ligne_de_vue other.active = not(other.inverse);
 	}
 }
+
+event_inherited();
