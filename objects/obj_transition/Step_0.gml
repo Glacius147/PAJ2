@@ -19,6 +19,13 @@ if mode != TRANS_MODE.OFF
 			if cutscene_counter == array_length_1d(cutscene_text)
 			{
 				mode = TRANS_MODE.OFF
+				if obj_transition.event_post_cutscene !=-1
+				{
+				with origin_cutscene
+				{
+					event_user(obj_transition.event_post_cutscene)	
+				}
+				}
 			}
 		} else
 		{
