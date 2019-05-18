@@ -8,6 +8,7 @@ polygon = polygon_from_instance(id);
 ouvert = false;
 bloquee = false;
 
+//On vérifie l'état des interupteurs
 with objp_interupt
 {
 	if objet_cible = other.num_objet
@@ -23,6 +24,7 @@ with objp_interupt
 	}
 }
 
+//On applique l'ouverture/fermeture
 if ouvert and !bloquee
 {
 	if image_index != 5 

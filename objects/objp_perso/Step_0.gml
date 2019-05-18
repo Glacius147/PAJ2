@@ -53,6 +53,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	
 	#region action
 	
+	//On vérifie les input et la dispo de l'action
 	if frames_action <= 0
 	{
 		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)

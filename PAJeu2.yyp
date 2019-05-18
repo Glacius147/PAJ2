@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00a98fae-a269-419b-b091-bae0250f91fa",
+            "Value": {
+                "id": "777c0d69-c086-45c0-af63-c5dc28c975fd",
+                "resourcePath": "objects\\obj_caisse_lum\\obj_caisse_lum.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "023a1626-b883-4d14-962b-abcd0c51d58b",
             "Value": {
                 "id": "01a99637-f11e-41ea-8375-ec71f8ee3a51",
@@ -183,11 +191,27 @@
             }
         },
         {
+            "Key": "18700416-2c62-4dbc-b054-6bfb91dfb818",
+            "Value": {
+                "id": "e197dca4-ad9d-45f4-a667-d9d395b6b892",
+                "resourcePath": "objects\\obj_interupteur_lum\\obj_interupteur_lum.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "20fd78df-9f2e-4153-b48e-e31b3a9d543a",
             "Value": {
                 "id": "5aff3364-468b-4264-afb2-c1ca924aa074",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "21f34c05-df35-4ac5-94f2-594f9b94f23d",
+            "Value": {
+                "id": "800af6f5-8a57-42a0-9805-bf5a1a526126",
+                "resourcePath": "sprites\\spr_interupteur_lum\\spr_interupteur_lum.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -639,6 +663,22 @@
             }
         },
         {
+            "Key": "75e55c11-afe2-46ce-936e-66b4bc853627",
+            "Value": {
+                "id": "f2dad5d5-1705-4aec-800d-372a1dfa5aa6",
+                "resourcePath": "views\\75e55c11-afe2-46ce-936e-66b4bc853627.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "770a2018-1da4-43fe-83e1-9d0c44627030",
+            "Value": {
+                "id": "9b8e89bc-c4a6-4185-8661-f4b3ed53ce72",
+                "resourcePath": "views\\770a2018-1da4-43fe-83e1-9d0c44627030.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "78c1dc8b-db1a-4232-a4db-c1c09d067e73",
             "Value": {
                 "id": "def8de07-888e-4d75-8962-7e44997c41c0",
@@ -983,6 +1023,14 @@
             }
         },
         {
+            "Key": "b1a39063-8b2d-43b3-b2e7-aa2f5edda16b",
+            "Value": {
+                "id": "621b546c-3e4d-47b8-9920-2be62d1ca898",
+                "resourcePath": "sprites\\spr_caisse_lum\\spr_caisse_lum.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b259a5f8-db04-4cf8-a95e-ea6bdf9719d3",
             "Value": {
                 "id": "621e36d3-95d6-46e3-9097-11b2b683230c",
@@ -1091,6 +1139,14 @@
             "Value": {
                 "id": "c5c846ab-647e-49ab-8b0b-b6cfea358812",
                 "resourcePath": "views\\c07a7d2c-ee03-4924-a998-0e252422f24e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c08c76b6-1a4b-4038-855a-ca3eb3c260a2",
+            "Value": {
+                "id": "5155f85a-ed32-43ac-a317-f4f7aa98cef5",
+                "resourcePath": "views\\c08c76b6-1a4b-4038-855a-ca3eb3c260a2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1356,6 +1412,14 @@
                 "id": "d209b9fc-7031-4c88-8dff-cd83e9ec7af0",
                 "resourcePath": "sprites\\spr_perso_frappe_droite\\spr_perso_frappe_droite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f65b5851-a5d5-4b2e-b136-b8acff138f08",
+            "Value": {
+                "id": "42f971a3-4690-478d-a76b-cacb72eda278",
+                "resourcePath": "views\\f65b5851-a5d5-4b2e-b136-b8acff138f08.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

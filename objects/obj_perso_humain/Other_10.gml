@@ -1,6 +1,9 @@
 /// @description Action
 event_inherited();
 
+
+//On place un objet qui va tester les colision pour blesser les monstres
+
 with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 {
 	image_angle = other.dir_mouvement;
@@ -15,5 +18,5 @@ with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 			
 		}
 	}
-ds_list_destroy(_list);
+	ds_list_destroy(_list);
 }
