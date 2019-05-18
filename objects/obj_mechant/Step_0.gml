@@ -1,6 +1,6 @@
 /// @description ?
 
-if obj_transition.mode == TRANS_MODE.OFF
+if obj_transition.mode == TRANS_MODE.OFF and frames_invul <= 0
 {
 _x += dep_x*vitesse_base;
 _y += dep_y*vitesse_base;

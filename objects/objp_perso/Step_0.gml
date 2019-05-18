@@ -57,10 +57,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	{
 		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
 		{
-			//L'animation d'action empeche de bouger
-			anim_stop = true;
-			//L'animation d'action n'est pas encore affichée
-			anim_started = false;
+
 			//Durée avant la prochaine acrtion possible
 			frames_action = delai_action;
 			//Action

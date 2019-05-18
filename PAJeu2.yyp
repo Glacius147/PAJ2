@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "3fc000b2-af61-41a6-adc2-2ef3489f4bbe",
+            "Value": {
+                "id": "7f568a27-5a4f-4ec1-b486-c171b8f99c90",
+                "resourcePath": "sprites\\spr_boule_neige\\spr_boule_neige.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43b4d961-1592-4328-b103-8df3fdea4e91",
             "Value": {
                 "id": "16a9d2af-81b5-44af-967d-a9b669238491",
@@ -711,6 +719,14 @@
             }
         },
         {
+            "Key": "8a03c63f-ffdb-4a98-ae39-0feb810f008e",
+            "Value": {
+                "id": "7787a564-4827-4bc2-8a8a-b572b3e86006",
+                "resourcePath": "sprites\\spr_perso_frappe_bas\\spr_perso_frappe_bas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8af9492e-368c-4444-9982-9e91bec09d2a",
             "Value": {
                 "id": "dfa73bef-c355-4f92-8073-68810961b35e",
@@ -820,6 +836,14 @@
                 "id": "60b22e7b-a809-4a89-acc3-e33ae37d8194",
                 "resourcePath": "scripts\\light_create\\light_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a1449664-d179-4282-bc01-70ead3cc1c65",
+            "Value": {
+                "id": "1a8bc7fe-8106-4ac2-9a6a-c694ab15cfac",
+                "resourcePath": "sprites\\spr_perso_frappe_dos\\spr_perso_frappe_dos.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1068,6 +1092,14 @@
                 "id": "6453a6d4-392e-4e96-a842-fdbd0f9e273a",
                 "resourcePath": "sprites\\spr_perso_bas\\spr_perso_bas.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce9f3a4b-ff75-424b-8300-e1ef1f672fc3",
+            "Value": {
+                "id": "808c2157-394a-42e6-9aae-8f3c6a8ff7c0",
+                "resourcePath": "objects\\obj_boule_neige\\obj_boule_neige.yy",
+                "resourceType": "GMObject"
             }
         },
         {
