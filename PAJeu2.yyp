@@ -1722,7 +1722,7 @@
             "Key": "f7e33477-880a-492a-899e-9c1577b774dd",
             "Value": {
                 "id": "5a826815-7163-4b38-beb0-28e13cfa10a8",
-                "resourcePath": "sounds\\snd_port_ouverture\\snd_port_ouverture.yy",
+                "resourcePath": "sounds\\snd_porte_ouverture\\snd_porte_ouverture.yy",
                 "resourceType": "GMSound"
             }
         },
