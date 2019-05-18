@@ -48,7 +48,7 @@ if mode == TRANS_MODE.PAUSE
 
 if mode == TRANS_MODE.CUTSCENE
 {
-	
+	#region
 	x1 = floor(50)
 	y1 = floor(h - 300)
 	x2 = ceil(w-50)
@@ -62,11 +62,13 @@ if mode == TRANS_MODE.CUTSCENE
 	var _toprint ="" 
 	while _i < _cutscene_nb_letters and _i<= string_length(cutscene_text[cutscene_counter])
 	{
-		_char = string_char_at(cutscene_text[cutscene_counter],_i)
-		_toprint += _char
+		_toprint += string_char_at(cutscene_text[cutscene_counter],_i)
 		_i++		
 	}
 	draw_text(75,h-250,_toprint)
+	
+	draw_sprite(cutscene_sprite,0,100,h-300-281);
+	#endregion
 }
 
 if mode == TRANS_MODE.DEATH
@@ -86,7 +88,7 @@ if mode == TRANS_MODE.DEATH
 		message_y=h/2-50
 		draw_text(w/2,message_y,"Vous êtes mort.")
 		message_y=h/2+50
-		draw_text(w/2,message_y,"Appuyez sur Enter/Start pour recommencer.")
+		draw_text(w/2,message_y,"Appuyez sur Espace/A pour recommencer.")
 		draw_set_halign(fa_left);
 	}
 	#endregion
