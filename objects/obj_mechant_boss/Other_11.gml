@@ -3,4 +3,4 @@
 
 
 global.perso ++
-scr_transition("goto",room_entree_1)
+scr_transition(TRANS_MODE.GOTO,room_entree_1)
