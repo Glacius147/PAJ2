@@ -22,4 +22,15 @@ with instance_create_layer(x,y,"Instances",obj_attaque_epee)
 		}
 	}
 	ds_list_destroy(_list);
+	
+	var _list = ds_list_create();
+	var _num = instance_place_list(x, y, obj_levier, _list, false);
+	if _num > 0
+	{
+	for (var i = 0; i < _num; ++i;)
+		{
+			_list[|i].active = not(_list[|i].active);	
+		}
+	}
+	ds_list_destroy(_list);	
 }

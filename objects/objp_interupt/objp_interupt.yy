@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objp_interupt",
     "eventList": [
-        
+        {
+            "id": "4cd82e83-6be0-41dc-991f-9b7e592fc742",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "957a4745-3b6d-4963-b62f-5f79601bd2fc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
