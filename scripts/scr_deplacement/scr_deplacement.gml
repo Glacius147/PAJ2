@@ -2,6 +2,8 @@
 /// @arg d_x
 /// @arg d_y
 
+
+
 if !place_meeting(x + argument0, y + argument1,objp_obstacle) and !place_meeting(x + argument0, y + argument1,objp_obstacle_shadow)
 {
 	if  object_is_ancestor(object_index, objp_mobil) or !place_meeting(x + argument0, y + argument1,objp_mobil)
@@ -14,5 +16,13 @@ if !place_meeting(x + argument0, y + argument1,objp_obstacle) and !place_meeting
 			x += argument0;
 			y += argument1;
 		}
+		else
+		{
+			coli_obstacle = true;
+		}
 	}
+}
+else
+{
+	coli_obstacle = true;
 }

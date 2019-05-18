@@ -5,16 +5,6 @@
     "name": "obj_porte",
     "eventList": [
         {
-            "id": "f0b58ddc-d6b6-4bbb-bb6f-0d591b4b1faa",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "65c103e3-544a-415b-b39e-b7072cd04031"
-        },
-        {
             "id": "32be7245-d4ec-4871-8aed-fdd34a3a07fc",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "65c103e3-544a-415b-b39e-b7072cd04031"
+        },
+        {
+            "id": "69d539be-5b47-4fbc-881f-cd15a4755283",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "65c103e3-544a-415b-b39e-b7072cd04031"
         }
     ],

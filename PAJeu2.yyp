@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d0453a6-b328-48ec-a0ad-d8aed6d81676",
+            "Value": {
+                "id": "0b0cf3c2-dd07-44b4-a86a-f5807f540ca3",
+                "resourcePath": "sprites\\spr_flotte\\spr_flotte.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fa065d2-7dc0-47d8-ab33-113ec4d7dbb6",
             "Value": {
                 "id": "92499134-f81a-4fc1-bb7d-876a1f226577",
@@ -786,7 +794,7 @@
             "Key": "8fffecc8-2b52-48f3-b741-f536827221af",
             "Value": {
                 "id": "c3f8b033-2e33-485a-8e72-045f9ec87009",
-                "resourcePath": "objects\\obj_mechant\\obj_mechant.yy",
+                "resourcePath": "objects\\objp_mechant\\objp_mechant.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -879,6 +887,14 @@
             }
         },
         {
+            "Key": "a5cc2451-753c-4a5d-b9e9-6183c6bbb230",
+            "Value": {
+                "id": "ca15c722-4c45-436d-970d-a41ab716727d",
+                "resourcePath": "objects\\obj_mechant\\obj_mechant.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a6038d91-d544-40af-9fd9-4d96d9162eea",
             "Value": {
                 "id": "378c60ed-1c2e-472b-b819-e440cf2c0c0a",
@@ -932,6 +948,14 @@
                 "id": "1ccb7c89-b30c-4983-912f-e3cc91990b92",
                 "resourcePath": "objects\\obj_transition\\obj_transition.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af4a22a9-118e-4a85-b12c-297bb2a5b899",
+            "Value": {
+                "id": "c3d066c7-b752-42fe-a4cc-640a9fea06d5",
+                "resourcePath": "scripts\\scr_rotation_torche\\scr_rotation_torche.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1012,6 +1036,14 @@
                 "id": "0049a2a4-59c1-433e-9607-91311280a7a4",
                 "resourcePath": "scripts\\cross_product\\cross_product.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bc7e5071-65d4-4685-a8d5-dcc482573aa1",
+            "Value": {
+                "id": "d1dc821f-bb10-4bc4-804a-7489c3b5fe69",
+                "resourcePath": "objects\\obj_mechant_torche\\obj_mechant_torche.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1127,6 +1159,14 @@
             }
         },
         {
+            "Key": "d12a39d6-5ac1-400d-a1f5-b817971e7d89",
+            "Value": {
+                "id": "ba2c3349-0b13-465d-9dcf-731d6b75a94a",
+                "resourcePath": "objects\\obj_eau\\obj_eau.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d21add61-6d13-4ae9-9ca0-785766bf0692",
             "Value": {
                 "id": "c94a787c-f7f4-4966-b73e-04a13aed21a9",
@@ -1139,6 +1179,14 @@
             "Value": {
                 "id": "5da6e9e4-0536-4a1c-9eab-35f6aec7c2c0",
                 "resourcePath": "scripts\\polygon_from_instance\\polygon_from_instance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d5d5efcb-56a5-4111-ab18-63ad1139d3ea",
+            "Value": {
+                "id": "0b7f6b30-c73c-4857-93a3-0fc232c133c4",
+                "resourcePath": "scripts\\scr_wrap\\scr_wrap.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1188,6 +1236,14 @@
                 "id": "385a4ae6-daf3-43ff-89a5-a5ca96c2ffc2",
                 "resourcePath": "sprites\\spr_perso_rat_bas\\spr_perso_rat_bas.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df02c8ba-09c9-43ba-b46c-9d20253653a2",
+            "Value": {
+                "id": "52bd8a96-11a4-4f74-b685-2d22ae609dab",
+                "resourcePath": "objects\\obj_mechant_torche_light\\obj_mechant_torche_light.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1319,6 +1375,14 @@
             }
         },
         {
+            "Key": "fd0ab255-6ecf-4e75-b6c3-2723118240d0",
+            "Value": {
+                "id": "0c81aad1-707b-4c66-8fb0-aaecf7d5281c",
+                "resourcePath": "sprites\\spr_mechant_torche\\spr_mechant_torche.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fdee93cd-a8d4-4a0e-93ec-a467b6cdc7df",
             "Value": {
                 "id": "79629244-d758-42d9-accf-dc153f152635",
@@ -1411,7 +1475,9 @@
         "3efd9d36-f4e9-4931-8cf7-113d75c93e9c",
         "ab54a712-5b9d-4388-8375-b3501845852b",
         "67f04608-7f1b-4d76-8f81-a7c369858ad5",
-        "5fa25710-1b91-424e-acaf-c98012f631a0"
+        "5fa25710-1b91-424e-acaf-c98012f631a0",
+        "d5d5efcb-56a5-4111-ab18-63ad1139d3ea",
+        "af4a22a9-118e-4a85-b12c-297bb2a5b899"
     ],
     "tutorial": ""
 }

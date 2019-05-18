@@ -1,5 +1,10 @@
 /// @description Vérification si besion être ouvert ou fermé
 
+/// Gestion lumière
+polygon = polygon_from_instance(id);
+
+
+//Gestion ouverture/fermeture
 ouvert = false;
 bloquee = false;
 

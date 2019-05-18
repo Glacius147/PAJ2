@@ -59,5 +59,5 @@ else
 }
 
 
-
+vitesse = vitesse_base;
 alarm[1] = irandom_range(60,120);

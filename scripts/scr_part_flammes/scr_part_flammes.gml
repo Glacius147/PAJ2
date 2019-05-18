@@ -13,4 +13,4 @@ part_type_blend(global.part_flammes,1);
 part_type_life(global.part_flammes,40,40);
 global.em_flammes = part_emitter_create(global.ps_flammes);
 
-part_system_depth(global.ps_flammes,250);
+//part_system_depth(global.ps_flammes,250);
