@@ -23,7 +23,7 @@ if(__LIGHTING_ERROR_CHECKS) {
 //	#####################################
 
 // Ambient shadow level
-global.ambientShadowIntensity = 0.85;
+global.ambientShadowIntensity = 0.65;
 
 // The maximum size allowed for unique light shadow map surfaces
 // If this is exceeded, the light will use the global light shadow map
