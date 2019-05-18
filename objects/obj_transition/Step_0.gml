@@ -4,6 +4,7 @@ if mode != TRANS_MODE.OFF
 {
 	if mode == TRANS_MODE.CUTSCENE
 	{
+		#region gestion défilement texte
 		var nb_lettres = string_length(cutscene_text[cutscene_counter])
 		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
 		{
@@ -23,22 +24,26 @@ if mode != TRANS_MODE.OFF
 		{
 			_cutscene_nb_letters = min(nb_lettres+1,_cutscene_nb_letters+.3)
 		}
-		
+		#endregion
 	}
 	else if mode = TRANS_MODE.DEATH
 	{
+		#region input pour reset
+		//%age d'affichage de la fenetre de mort.
 		percent_menu = min(percent_menu+0.2,1)
 		if keyboard_check_pressed(vk_space) 
-				{
-					room_restart()
-					obj_transition.mode =TRANS_MODE.OFF;
-					percent_menu = 0.5
-				}
-		if gamepad_button_check_pressed(0,gp_face1) {
-					room_restart()
-					obj_transition.mode = TRANS_MODE.OFF;
-					percent_menu = 0.5
-				}
+		{
+			room_restart()
+			obj_transition.mode =TRANS_MODE.OFF;
+			percent_menu = 0.5
+		}
+		if gamepad_button_check_pressed(0,gp_face1) 
+		{
+				room_restart()
+				obj_transition.mode = TRANS_MODE.OFF;
+				percent_menu = 0.5
+		}
+		#endregion
 	}
 	else if mode = TRANS_MODE.INTRO
 	{
@@ -46,10 +51,10 @@ if mode != TRANS_MODE.OFF
 	}
 	else if mode = TRANS_MODE.PAUSE
 	{
+		//pourcentage d'affichage du menu
 		percent_menu = min(percent_menu+0.1,1)
 		
-	
-		#region
+		#region input dans le menu
 		if percent_menu == 1
 		{	
 				//On gere les inputs
@@ -66,6 +71,7 @@ if mode != TRANS_MODE.OFF
 				{
 					obj_transition.mode =TRANS_MODE.OFF;
 					percent_menu = 0.5
+					audio_resume_all()
 				}
 			
 			}
@@ -80,6 +86,7 @@ if mode != TRANS_MODE.OFF
 				if gamepad_button_check_pressed(0,gp_start) {
 					obj_transition.mode = TRANS_MODE.OFF;
 					percent_menu = 0.5
+					audio_resume_all()
 				}
 				if gamepad_button_check_pressed(0,gp_face1) input_valid = true;
 	
@@ -145,6 +152,7 @@ if mode != TRANS_MODE.OFF
 	
 	if (percent = 0) or (percent = 1)
 	{
+		#region changements de transitions 
 		switch mode
 		{
 			case TRANS_MODE.INTRO:
@@ -170,5 +178,6 @@ if mode != TRANS_MODE.OFF
 				break;
 			}			
 		}
+		#endregion
 	}
 }

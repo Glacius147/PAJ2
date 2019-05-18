@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "773bc8a8-5625-4e78-b03d-784fd13b4f2b",
+            "Value": {
+                "id": "78174ce5-957a-4394-890c-a49b78962cd3",
+                "resourcePath": "sounds\\snd_coup_epee\\snd_coup_epee.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "77f0588e-689a-44fd-bf01-aea8d64c5314",
             "Value": {
                 "id": "a3c78f37-392f-4167-9dc7-4746c00e4aaf",
@@ -1495,14 +1503,6 @@
             }
         },
         {
-            "Key": "dc5d08f3-a248-4544-b4b5-668c2915a33f",
-            "Value": {
-                "id": "44aed36a-17f5-47b4-bbac-6d209abdeefa",
-                "resourcePath": "scripts\\scr_sound\\scr_sound.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ded4df73-308a-40f3-abb8-73b48a0be272",
             "Value": {
                 "id": "385a4ae6-daf3-43ff-89a5-a5ca96c2ffc2",
@@ -1814,8 +1814,7 @@
         "cc6f7f61-1e60-40ae-9c11-41eed5a452eb",
         "3efd9d36-f4e9-4931-8cf7-113d75c93e9c",
         "ab54a712-5b9d-4388-8375-b3501845852b",
-        "67f04608-7f1b-4d76-8f81-a7c369858ad5",
-        "dc5d08f3-a248-4544-b4b5-668c2915a33f"
+        "67f04608-7f1b-4d76-8f81-a7c369858ad5"
     ],
     "tutorial": ""
 }
