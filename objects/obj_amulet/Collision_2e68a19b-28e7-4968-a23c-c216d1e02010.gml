@@ -7,7 +7,7 @@ obj_transition.amulet_count+=1
 
 if obj_transition.amulet_count<4
 {
-scr_cutscene(spr_empty,"Un morceau d'amulette de pouvoir ! Plus que "+string(4-obj_transition.amulet_count)+" morçeaux à récupérer !",-1)
+scr_cutscene(spr_empty,"Un morceau d'amulette de pouvoir ! Plus que "+string(4-obj_transition.amulet_count)+" morceaux à récupérer !",-1)
 }
 else
 {
