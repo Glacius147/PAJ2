@@ -53,7 +53,7 @@ else{
 			scr_cutscene(spr_wizard,"TECHNIQUE ANCESTRAAAAAAAAAAAAAAAAAAAAAAALE !",3)
 		}
 		if pv<15 and phase_boss=PHASE.NORMAL1{
-			if irandom(5000)<1
+			if irandom(1000)<1
 			{
 				phase_boss=PHASE.SPAM
 				alarm[2]=1
@@ -64,14 +64,14 @@ else{
 			scr_degats(1)
 			phase_boss=PHASE.VENERSPAM
 			with obj_sound{
-				event_user(0)	
+				event_user(1)	
 			}
 			panique = 0
 			scr_cutscene(spr_wizard,"Ok ça c'était l'échaufement.","MAINTENANT JE SUIS VENER !!!!"," DIIIIIIIIIIIIIIIIEEEEEE ",3)
 		}
 		
 		if pv<10 and phase_boss=PHASE.VENER{
-			if irandom(5000)<1
+			if irandom(1000)<1
 			{
 			phase_boss=PHASE.VENERSPAM
 			alarm[2]=1

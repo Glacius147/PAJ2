@@ -1711,6 +1711,14 @@
             }
         },
         {
+            "Key": "b8735f45-f73a-48e1-b9f1-340cf1094304",
+            "Value": {
+                "id": "c3e4995d-cb9c-4b3f-9b61-3e76f01732f5",
+                "resourcePath": "sounds\\snd_epic\\snd_epic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b899a980-9335-4b23-b288-d303266fac37",
             "Value": {
                 "id": "fcd32fe1-878c-4264-b4ef-84ac272e01da",
