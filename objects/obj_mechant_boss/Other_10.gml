@@ -3,4 +3,4 @@
 
 
 timer = 100
-alarm[0] = timer
+alarm[7] = timer
