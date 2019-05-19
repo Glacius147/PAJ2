@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "007d0c8d-be05-42a5-a8c2-b9a31a3ebc0c",
+            "Value": {
+                "id": "8dfb1ce2-f9d8-4ae6-8bbf-576c923f0998",
+                "resourcePath": "objects\\obj_fireball\\obj_fireball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "00a98fae-a269-419b-b091-bae0250f91fa",
             "Value": {
                 "id": "777c0d69-c086-45c0-af63-c5dc28c975fd",
@@ -355,6 +363,14 @@
             "Value": {
                 "id": "fbaae06c-28ff-47c6-ac84-e19f6124ec16",
                 "resourcePath": "sprites\\spr_lut_light_intensity_line2\\spr_lut_light_intensity_line2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "27459ee6-d792-4834-8560-e993169aa9ff",
+            "Value": {
+                "id": "d712b08c-363f-4a47-88f1-846fe90310de",
+                "resourcePath": "sprites\\spr_fireball\\spr_fireball.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1191,6 +1207,14 @@
             }
         },
         {
+            "Key": "88af121e-8b67-4d99-89a3-2ed785a5f877",
+            "Value": {
+                "id": "f4cbffd0-6d7d-4b6a-b8b5-04f0c918921d",
+                "resourcePath": "sounds\\snd_theme_dark\\snd_theme_dark.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8a03c63f-ffdb-4a98-ae39-0feb810f008e",
             "Value": {
                 "id": "7787a564-4827-4bc2-8a8a-b572b3e86006",
@@ -1911,6 +1935,14 @@
             }
         },
         {
+            "Key": "dbcb8f24-c408-4062-8875-32cf3df9ba3c",
+            "Value": {
+                "id": "7e0157a5-d3d3-4c0b-acd7-419b4eda596e",
+                "resourcePath": "sounds\\snd_titre\\snd_titre.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dd6faf22-f205-46f9-a5f3-0c4e2b8d0c79",
             "Value": {
                 "id": "65811c80-e646-481a-8af0-dbe7f2dbe5ae",
@@ -2180,6 +2212,14 @@
                 "id": "03fb889b-ac37-4cd5-87a4-5494e8527775",
                 "resourcePath": "scripts\\light_create_extension\\light_create_extension.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f7bcb28d-bbd6-412d-94be-ae29876fb56e",
+            "Value": {
+                "id": "244e1926-1e26-4246-b986-b731b8ac3ba8",
+                "resourcePath": "sounds\\snd_theme1\\snd_theme1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
