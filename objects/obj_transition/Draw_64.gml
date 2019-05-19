@@ -67,7 +67,7 @@ if mode == TRANS_MODE.CUTSCENE
 	}
 	draw_text(75,h-250,_toprint)
 	
-	draw_sprite(cutscene_sprite,0,200,h-300-140);
+	draw_sprite(cutscene_sprite,0,50,h-300-300);
 	#endregion
 }
 

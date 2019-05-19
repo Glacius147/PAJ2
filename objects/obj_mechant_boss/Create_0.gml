@@ -10,3 +10,16 @@ image_speed = 0.75
 timer = 0
 
 event_user(0)
+
+fireball_speed=3
+to_launch = 2
+interval_fireball = 15
+
+
+
+enum PHASE{
+	NORMAL1,
+	SPAM,
+	VENER,
+	VENERSPAM
+}
