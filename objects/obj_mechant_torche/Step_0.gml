@@ -1,7 +1,5 @@
 /// @description Perso spoted !
 
-
-
 if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_direction(x,y,objp_perso.x,objp_perso.y) - torche.light[|eLight.Direction],-180,180)) < 16) or distance_to_object(objp_perso) < 1
 {
 	dist = distance_to_object(objp_perso);
@@ -15,14 +13,13 @@ if (distance_to_object(objp_perso) < distance_vue and abs(scr_wrap(point_directi
 		{
 			for (var j = 0; j < _num; ++j;)
 			{
-				if !object_is_ancestor(_list[|j].object_index, objp_mobil) ligne_de_vue = false
+				if _list[|j].object_index != obj_obstacle_visu ligne_de_vue = false;
 			}
 		}
 		ds_list_destroy(_list);
 	}
 		
 	if ligne_de_vue 
-	
 	{	
 	var _teta = point_direction(x,y,objp_perso.x,objp_perso.y);
 	
