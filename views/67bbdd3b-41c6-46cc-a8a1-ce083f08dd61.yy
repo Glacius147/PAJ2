@@ -11,7 +11,11 @@
         "f6320aab-0741-4132-8322-040f46ae29fe",
         "a1449664-d179-4282-bc01-70ead3cc1c65",
         "8a03c63f-ffdb-4a98-ae39-0feb810f008e",
-        "c31fd21d-bd8c-404f-a24b-0681ec75e9ba"
+        "c31fd21d-bd8c-404f-a24b-0681ec75e9ba",
+        "b73cd5f7-e3c0-48a2-92e0-98a7b4e3eef1",
+        "7068389a-e3d0-4b4b-a112-4a5f1691b023",
+        "1487e9dc-1602-4ade-9d89-04bdad68ca38",
+        "1843b007-9e7e-4160-b622-dafbe187d783"
     ],
     "filterType": "GMSprite",
     "folderName": "anim humain",

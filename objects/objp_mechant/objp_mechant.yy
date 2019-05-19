@@ -343,6 +343,20 @@
             "value": "0",
             "varName": "_y_d",
             "varType": 0
+        },
+        {
+            "id": "17e1eb11-d99a-412c-922d-a6abcaa3390b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "roulade",
+            "varType": 0
         }
     ],
     "solid": false,

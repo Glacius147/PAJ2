@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "1487e9dc-1602-4ade-9d89-04bdad68ca38",
+            "Value": {
+                "id": "dc1ae513-c447-4b6b-bdd1-4bbbacba9450",
+                "resourcePath": "sprites\\spr_perso_roul_gauche\\spr_perso_roul_gauche.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14baf84b-85e0-4326-a02a-bbb6c64bdea8",
             "Value": {
                 "id": "39741a9f-03a8-4743-b363-d1c055ce7ff3",
@@ -252,6 +260,14 @@
                 "id": "51f93c12-42c1-4946-8432-cca6640f9849",
                 "resourcePath": "views\\1737b1d1-251f-4b19-921d-d3244c730c6a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1843b007-9e7e-4160-b622-dafbe187d783",
+            "Value": {
+                "id": "5a06fe14-6004-4f51-b2d6-1a85460f01c2",
+                "resourcePath": "sprites\\spr_perso_roul_dos\\spr_perso_roul_dos.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -911,6 +927,14 @@
             }
         },
         {
+            "Key": "7068389a-e3d0-4b4b-a112-4a5f1691b023",
+            "Value": {
+                "id": "6e31e1c8-b75c-40e7-827d-cd46f349f9f7",
+                "resourcePath": "sprites\\spr_perso_roul_droite\\spr_perso_roul_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "70a2c8b7-8e6b-468c-9e0b-e46f071012f9",
             "Value": {
                 "id": "64445589-84b2-4ab8-85a9-088592f6fec0",
@@ -1563,6 +1587,14 @@
             "Value": {
                 "id": "14510e32-2998-4f52-9a8e-cf972803068b",
                 "resourcePath": "sprites\\spr_mur\\spr_mur.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b73cd5f7-e3c0-48a2-92e0-98a7b4e3eef1",
+            "Value": {
+                "id": "6aef99c6-c069-4c50-988d-09bc2be6d3a7",
+                "resourcePath": "sprites\\spr_perso_roul_bas\\spr_perso_roul_bas.yy",
                 "resourceType": "GMSprite"
             }
         },
