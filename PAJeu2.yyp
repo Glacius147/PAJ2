@@ -279,14 +279,6 @@
             }
         },
         {
-            "Key": "19d3b4cd-8a85-48c1-8150-86b9044563e8",
-            "Value": {
-                "id": "bd3877f0-46d2-45ab-bdf0-904873a883c3",
-                "resourcePath": "rooms\\room_noir_9\\room_noir_9.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "1cccad9a-073e-4d96-bf8e-437ccc916133",
             "Value": {
                 "id": "c9cfbdc1-2a4f-48c3-a9f0-4939d30d6526",
