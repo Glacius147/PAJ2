@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "2bef4810-8326-408a-a830-6bb5959a33b0",
+            "Value": {
+                "id": "469dbb9d-638a-473d-8432-546da08fbbf2",
+                "resourcePath": "sprites\\spr_amulet\\spr_amulet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f627d1c-2577-4229-ab31-484ecf989287",
             "Value": {
                 "id": "823850a2-95b2-44c0-8c7a-f67f0e8f5669",
@@ -951,6 +959,14 @@
             }
         },
         {
+            "Key": "6c45a50b-7d41-476f-b56b-8aad9a43270d",
+            "Value": {
+                "id": "105b58fb-e657-4857-81dd-f2591a4af6d0",
+                "resourcePath": "sounds\\snd_chargement\\snd_chargement.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6d59d2b9-baaa-44a8-a999-4ca9720ec44a",
             "Value": {
                 "id": "80c67d4f-bc55-4edb-9c2b-64f809daadeb",
@@ -1460,6 +1476,14 @@
                 "id": "1a8bc7fe-8106-4ac2-9a6a-c694ab15cfac",
                 "resourcePath": "sprites\\spr_perso_frappe_dos\\spr_perso_frappe_dos.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2b140ff-e741-4d81-9968-80215866e580",
+            "Value": {
+                "id": "70b1b845-5e4c-42c4-a252-7d001ae1f0e7",
+                "resourcePath": "objects\\obj_amulet\\obj_amulet.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -4,12 +4,10 @@
 if old_phase = PHASE.NORMAL1
 {
 	delta_theta = 45
-	vitesse_base = 1
 	
 } else
 {
 	delta_theta = 10
-	vitesse_base = 1
 }
 
 for (var i=0; i<360; i+=delta_theta)

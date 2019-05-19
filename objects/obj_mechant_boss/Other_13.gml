@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 x=room_width/2
-y=room_height/2
+y=room_height/2 - 200
 
 alarm[2]=1

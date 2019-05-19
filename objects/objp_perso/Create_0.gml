@@ -5,3 +5,6 @@ event_inherited();
 alarm[1] = 1
 
 game_pad_actif = false
+
+id_torche = noone
+

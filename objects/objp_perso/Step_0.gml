@@ -21,6 +21,12 @@ if obj_transition.mode == TRANS_MODE.OFF
 		if keyboard_check(vk_backspace) pv = 0;
 		if keyboard_check_released(vk_numpad5) scr_transition(TRANS_MODE.GOTO,room_entree_5);
 		//END REMOVE
+		
+		if gamepad_button_check_released(0,gp_face4) and frames_action <= 0 and roulade <= 0
+		{
+			event_user(3)
+		}
+		
 		if obj_transition.percent_menu ==0{
 			if keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(0,gp_start) 
 			{

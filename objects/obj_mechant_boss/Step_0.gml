@@ -81,9 +81,10 @@ else{
 		if panique >100 and (phase_boss=PHASE.VENER or phase_boss=PHASE.NORMAL1) {
 			old_phase = phase_boss
 			phase_boss=PHASE.DEFENSE
-			audio_play_sound(snd_coup_epee,1,false)
-			vitesse_base = 0
-			alarm[2]=10
+			audio_play_sound(snd_chargement,1,false)
+			vitesse = 0
+			alarm[0]=70
+			alarm[2]=60
 			panique = 0
 		}
 		//Le monstre meurt (A étoffer)
