@@ -1,10 +1,19 @@
 /// @description Choix direction
 
-
+if instance_exists(objp_perso)
+{
 if distance_to_object(objp_perso) > 70
 {
-	//Déplacment aléatoire si le joueur est loin
+	//Déplacment latéral si le joueur est loin
 	
+	si = irandom(1)*2-1
+	
+	var _teta = point_direction(x,y,objp_perso.x,objp_perso.y);
+	
+	dep_x = si*dsin(_teta);
+	dep_y = si*dcos(_teta);
+	
+	/*
 	var i = irandom_range(0,1);
 	var j = irandom_range(0,1);
 	
@@ -18,6 +27,7 @@ if distance_to_object(objp_perso) > 70
 		dep_y = 2*j-1;
 		dep_x = 0;
 	}	
+	*/
 }
 else if panique < 50
 {
@@ -27,7 +37,7 @@ else if panique < 50
 	
 	dep_x = -dcos(_teta);
 	dep_y = dsin(_teta);	
-} else
+} else //Déplacement offensif si panique
 {
 	var _teta = point_direction(x,y,objp_perso.x,objp_perso.y);
 	
@@ -35,7 +45,7 @@ else if panique < 50
 	dep_y = -dsin(_teta);	
 	
 }
-
+}
 //Remise à la vitesse de base
 vitesse = vitesse_base;
 
