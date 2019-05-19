@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "6c45a50b-7d41-476f-b56b-8aad9a43270d",
+            "Value": {
+                "id": "105b58fb-e657-4857-81dd-f2591a4af6d0",
+                "resourcePath": "sounds\\snd_chargement\\snd_chargement.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6d59d2b9-baaa-44a8-a999-4ca9720ec44a",
             "Value": {
                 "id": "80c67d4f-bc55-4edb-9c2b-64f809daadeb",
