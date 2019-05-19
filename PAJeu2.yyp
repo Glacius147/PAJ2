@@ -607,6 +607,22 @@
             }
         },
         {
+            "Key": "4a986cf4-d1ca-46f7-9cc8-09277e7fd8d1",
+            "Value": {
+                "id": "c4275cf0-22ad-46a5-941d-bf63479fc0e5",
+                "resourcePath": "sprites\\spr_mob_torche_bas\\spr_mob_torche_bas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e8b52d4-0a81-43bd-8a76-492d59171426",
+            "Value": {
+                "id": "712842d1-a6d4-419e-b509-9826b7afc0d0",
+                "resourcePath": "sprites\\spr_mob_torche_droite\\spr_mob_torche_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e9a46c2-8d2b-4d31-80dd-c43685f5a29f",
             "Value": {
                 "id": "26ec27ee-be1f-4cfa-b014-aaf2a6df1c3a",
@@ -1383,6 +1399,14 @@
             }
         },
         {
+            "Key": "a65892ca-fcc7-4514-ad32-9045651ce8d0",
+            "Value": {
+                "id": "7632b85b-f0fa-4d3f-a301-418cb45f8884",
+                "resourcePath": "sprites\\spr_mob_torche_dos\\spr_mob_torche_dos.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a67ce16b-3021-4123-b768-78d9301de8d3",
             "Value": {
                 "id": "1e54f0ba-fb98-4a81-9dcd-249c6d9cdbbc",
@@ -1523,6 +1547,14 @@
             "Value": {
                 "id": "c3f01ebd-af03-4996-8266-4ab110182432",
                 "resourcePath": "sprites\\spr_perso_rat_droite\\spr_perso_rat_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6b7a024-3021-4641-bb59-1665a98e4250",
+            "Value": {
+                "id": "d8402784-d28e-44c8-8757-22b53aef365d",
+                "resourcePath": "sprites\\spr_mob_torche_gauche\\spr_mob_torche_gauche.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1900,6 +1932,14 @@
                 "id": "4fd42607-2c9d-4faf-a898-982c8bb9fb2f",
                 "resourcePath": "fonts\\font_menu\\font_menu.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e671ac56-59d6-45e0-8c6d-1950e92c6a72",
+            "Value": {
+                "id": "065feff3-3713-484f-a78a-3ddfd02d7189",
+                "resourcePath": "views\\e671ac56-59d6-45e0-8c6d-1950e92c6a72.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
