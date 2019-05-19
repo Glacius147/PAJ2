@@ -6,26 +6,10 @@ global.perso ++
 
 #region unlock le perso pour les futures runs
 ini_open("savedata.ini");
-switch global.perso
-{
-	case TRANSFORMATION.Feu:
-	{
-		ini_write_real("save", "Feu", true);
-		break;
-	}
-	case TRANSFORMATION.Neige:
-	{
-		ini_write_real("save", "Neige", true);
-		break;
-	}
-		case TRANSFORMATION.Rat:
-	{
-		ini_write_real("save", "Rat", true);
-		break;
-	}
-}
+ini_write_real("save", "Forme0", true);
+ini_write_real("save", "Forme"+string(global.perso), true);
+ini_close()
 #endregion
 
-ini_close()
 with obj_transition new_start = true;
 scr_transition(TRANS_MODE.GOTO,room_entree_1)
