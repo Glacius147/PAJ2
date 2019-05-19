@@ -1,7 +1,8 @@
 /// @description The END
 // You can write your code in this editor
-
-scr_cutscene(spr_wizard,"AAAAAAAAAAAAAAARGH",-1)
+with objp_perso{	
+scr_cutscene(spr_wizard,"AAAAAAAAAAAAAAARGH",12)
+}
 // Inherit the parent event
 event_inherited();
 
