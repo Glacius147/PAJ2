@@ -4,7 +4,66 @@
     "mvc": "1.0",
     "name": "obj_gestion_neon",
     "eventList": [
-        
+        {
+            "id": "5c906f9d-8274-4a11-b03c-e74e52b55065",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "776c791b-f33b-46d9-bd4f-eb931648347c"
+        },
+        {
+            "id": "855f8ea6-557b-417e-a1fa-4b79f3724073",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "776c791b-f33b-46d9-bd4f-eb931648347c"
+        },
+        {
+            "id": "1d4e0ea8-1b67-4d99-b5e2-45c475a7084a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "776c791b-f33b-46d9-bd4f-eb931648347c"
+        },
+        {
+            "id": "73ebd55b-c0d6-4094-8e96-f3047c3c5c1b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "776c791b-f33b-46d9-bd4f-eb931648347c"
+        },
+        {
+            "id": "2a644ba7-4690-426f-aeff-e01c5d994933",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "776c791b-f33b-46d9-bd4f-eb931648347c"
+        },
+        {
+            "id": "f0e50d61-de28-497b-b8a5-de4baef47295",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "776c791b-f33b-46d9-bd4f-eb931648347c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +81,64 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "8c8317e6-afd4-4722-8e90-00fd593b6a76",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ouvert",
+            "varType": 3
+        },
+        {
+            "id": "081a75a1-bdc0-4d7f-bce0-cee71b9c2f6f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bloquee",
+            "varType": 3
+        },
+        {
+            "id": "155de62f-b8bf-423e-ad5e-62a19c09e85f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
+        },
+        {
+            "id": "c43effb0-189b-4e0a-9a59-80dc7749f384",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.8",
+            "varName": "lum_cible",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
