@@ -98,7 +98,7 @@ else
 		dep_x = _yy;
 		dep_y = -_xx;
 	}
-	
+	//Scr pour voir si le joueur a été vu pendant le quart de tour
 	scr_rotation_torche(point_direction(0,0,_xx,_yy),point_direction(0,0,dep_x,dep_y))
 }
 
