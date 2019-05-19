@@ -1,9 +1,9 @@
 {
-    "id": "f7bcb28d-bbd6-412d-94be-ae29876fb56e",
+    "id": "f058c356-2692-4605-9739-469020251300",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_theme1",
-    "audioGroupGuid": "0635e643-b4c4-44fe-8f89-116ccbdce6da",
+    "name": "snd_impact",
+    "audioGroupGuid": "954c3c7d-9918-4f13-b890-35b78d6ef4e1",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

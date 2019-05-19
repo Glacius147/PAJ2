@@ -24,6 +24,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 			if keyboard_check_pressed(vk_escape) or gamepad_button_check_pressed(0,gp_start) 
 			{
 				audio_pause_all();
+				audio_resume_sound(obj_sound.background_music)
 				obj_transition.mode =TRANS_MODE.PAUSE;
 			}
 		}

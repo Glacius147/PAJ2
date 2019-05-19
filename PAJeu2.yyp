@@ -2119,6 +2119,14 @@
             }
         },
         {
+            "Key": "f058c356-2692-4605-9739-469020251300",
+            "Value": {
+                "id": "486917f8-556b-4f9a-9005-20baf5607c76",
+                "resourcePath": "sounds\\snd_impact\\snd_impact.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f1732e7d-6378-4342-b67c-a79a1815f491",
             "Value": {
                 "id": "086e9e0e-0d34-4301-8de7-decef2dc76c9",
