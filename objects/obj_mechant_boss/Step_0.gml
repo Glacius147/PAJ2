@@ -61,7 +61,7 @@ else{
 		}
 
 		if pv=10 and phase_boss=PHASE.NORMAL1{
-			pv--
+			scr_degats(1)
 			phase_boss=PHASE.VENERSPAM
 			with obj_sound{
 				event_user(0)	
