@@ -39,9 +39,12 @@ if obj_transition.mode == TRANS_MODE.OFF
 			input_x = gamepad_axis_value(0,gp_axislh);
 			input_y = gamepad_axis_value(0,gp_axislv);	
 	
-			if abs(input_x) < 0.2 input_x = 0;
-			if abs(input_y) < 0.2 input_y = 0;
+			if abs(input_x) < 0.2 input_x = 0 else game_pad_actif = true;
+			if abs(input_y) < 0.2 input_y = 0 else game_pad_actif = true;
 	
+		} else
+		{
+			game_pad_actif = false	
 		}
 	
 		//On applique la vitesse (sauf contre un mur sur de la glace)
