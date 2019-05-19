@@ -50,7 +50,7 @@ else{
 		{
 			pv--
 			phase_boss=PHASE.SPAM
-			scr_cutscene(spr_wizard,"TECHNIQUE ANCESTRAAAAAAAAAAAAAAAAAAAAAAALE !",3)
+			scr_cutscene(spr_wizard,"TECHNIQUE ANCESTRAAAAAAAAAAAAAAAAAAAAAAALE !", "SPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM !",3)
 		}
 		if pv<15 and phase_boss=PHASE.NORMAL1{
 			if irandom(1000)<1
@@ -67,7 +67,7 @@ else{
 				event_user(1)	
 			}
 			panique = 0
-			scr_cutscene(spr_wizard,"Ok ça c'était l'échaufement.","MAINTENANT JE SUIS VENER !!!!"," DIIIIIIIIIIIIIIIIEEEEEE ",3)
+			scr_cutscene(spr_wizard,"Ok ça c'était l'échaufement.","MAINTENANT JE SUIS VENER !!!!"," CREEEEEEEEEEEEEEEVE ",3)
 		}
 		
 		if pv<10 and phase_boss=PHASE.VENER{
