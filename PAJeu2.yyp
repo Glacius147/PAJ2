@@ -863,14 +863,6 @@
             }
         },
         {
-            "Key": "6538afa0-b0fc-46c9-b2cf-43ba44723519",
-            "Value": {
-                "id": "66c2feda-8b22-4753-87bd-897dea46178b",
-                "resourcePath": "rooms\\room_egout_5\\room_egout_5.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "659c1ed8-6be9-4c9b-9a9a-5d0762ca1f13",
             "Value": {
                 "id": "cc240c68-494b-451e-96f0-b667321fc14f",

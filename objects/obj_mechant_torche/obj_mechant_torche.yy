@@ -97,7 +97,7 @@
             "mvc": "1.0",
             "objectId": "5493a5ff-7988-4273-b0d3-12610df59d06",
             "propertyId": "67a4b2a8-474b-44b7-b58c-950b6cbebeef",
-            "value": "False"
+            "value": "True"
         },
         {
             "id": "31ae9c98-c513-4c37-82fb-e9dd1d0352a8",
@@ -176,7 +176,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"gauche\"",
+            "value": "\"fixe\"",
             "varName": "sens_rotation",
             "varType": 6
         },
