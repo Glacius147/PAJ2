@@ -7,8 +7,7 @@
         "f862c980-fc18-4b5c-9128-60296f739b1e",
         "a32dc365-980c-4f84-aa06-291690e9ccc4",
         "09fa92d7-8fb2-4de4-aa9b-b92b0820e390",
-        "011f0f6a-113e-43aa-97fb-5411dd224ce2",
-        "6538afa0-b0fc-46c9-b2cf-43ba44723519"
+        "011f0f6a-113e-43aa-97fb-5411dd224ce2"
     ],
     "filterType": "GMRoom",
     "folderName": "égouts",
