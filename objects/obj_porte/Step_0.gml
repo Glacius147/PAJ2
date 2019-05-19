@@ -43,7 +43,7 @@ else
 {
 	
 	mask_index = mask_base;	
-	if !place_meeting(x,y,objp_mobil)
+	if !place_meeting(x,y,objp_mobil) and !place_meeting(x,y,objp_poussable) and !place_meeting(x,y,objp_poussable_shadow)
 	{
 		if image_index ==5 audio_play_sound_at(snd_porte_fermeture, x, y, 0, 150, 10000, 2, false, 10);
 		if image_index != 0 
