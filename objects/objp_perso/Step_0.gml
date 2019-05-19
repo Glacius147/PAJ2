@@ -1,6 +1,7 @@
 //Glissement si glace
 event_inherited();
 
+
 // Hors transition on autorise les mouvements
 if obj_transition.mode == TRANS_MODE.OFF
 {

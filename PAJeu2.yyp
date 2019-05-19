@@ -1783,6 +1783,14 @@
             }
         },
         {
+            "Key": "be64541e-ea55-4572-a3e4-79feaad4fd3c",
+            "Value": {
+                "id": "c4f95999-7994-4b02-b1c5-2d7736608f0b",
+                "resourcePath": "sprites\\spr_perso\\spr_perso.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be698a9f-261d-4c34-abbe-77da17399410",
             "Value": {
                 "id": "7c8a4ec6-b69c-46c5-bfea-a010295c13ad",
@@ -2284,6 +2292,14 @@
                 "id": "42f971a3-4690-478d-a76b-cacb72eda278",
                 "resourcePath": "views\\f65b5851-a5d5-4b2e-b136-b8acff138f08.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f67d3a26-c488-4aea-92e6-5bbb17a3f2b6",
+            "Value": {
+                "id": "1c889181-4342-4769-869d-e5de6b98cdaf",
+                "resourcePath": "sprites\\spr_porte_petite\\spr_porte_petite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
