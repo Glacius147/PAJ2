@@ -2,7 +2,7 @@
     "id": "a37d4fcc-3fb9-4f43-9391-cd3c6785bffe",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_mechant_V2",
+    "name": "obj_mechant_pousseur",
     "eventList": [
         {
             "id": "f8351498-d4a5-4021-9caf-1a5b110ed355",
@@ -105,7 +105,7 @@
             "mvc": "1.0",
             "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
             "propertyId": "09705e0f-1542-4662-a44d-d42f5df198a4",
-            "value": "spr_mob_torche_bas"
+            "value": "spr_mob_base_face"
         },
         {
             "id": "8cbc77a9-dca6-4f18-b828-b24e91f9d22e",
@@ -113,7 +113,7 @@
             "mvc": "1.0",
             "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
             "propertyId": "41cfac5b-304e-4de4-8ee9-f209cf161b8e",
-            "value": "spr_mob_torche_dos"
+            "value": "spr_mob_base_dos"
         },
         {
             "id": "6085e6b9-f79d-4dfb-a4f1-ecef26fffbb7",
@@ -121,7 +121,7 @@
             "mvc": "1.0",
             "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
             "propertyId": "ddaf9dbc-3e0d-412f-960e-b9c97b9e12cb",
-            "value": "spr_mob_torche_droite"
+            "value": "spr_mob_base_droite"
         },
         {
             "id": "7b004de0-2df6-422e-a3d7-9d47409f3eb1",
@@ -129,7 +129,7 @@
             "mvc": "1.0",
             "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
             "propertyId": "c83fe0fd-5113-4402-b7de-e672572bc2a8",
-            "value": "spr_mob_torche_gauche"
+            "value": "spr_mob_base_gauche"
         }
     ],
     "parentObjectId": "8fffecc8-2b52-48f3-b741-f536827221af",
