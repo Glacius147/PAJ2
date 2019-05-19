@@ -41,7 +41,6 @@ if ouvert and !bloquee
 }
 else
 {
-	
 	mask_index = mask_base2;
 	if !place_meeting(x,y,objp_mobil) and !place_meeting(x,y,objp_poussable) and !place_meeting(x,y,objp_poussable_shadow)
 	{
@@ -54,6 +53,7 @@ else
 		{
 			image_speed = 0;
 		}
+		mask_index = mask_base;
 	}
 	else
 	{
@@ -67,7 +67,7 @@ else
 		}
 		mask_index = spr_empty;
 	}
-	mask_index = mask_base;
+	
 }
 	
 	
