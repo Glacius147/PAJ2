@@ -2,6 +2,8 @@
 
 roulade = duree_roulade;
 
+anim_stop = false;
+
 //Direction de la roulade
 
 var _d = sqrt((_x_d*_x_d+_y_d*_y_d));

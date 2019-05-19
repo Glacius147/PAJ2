@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "017e1a80-acc1-4f9f-8f12-29b9136f4d47",
+            "Value": {
+                "id": "32a8622c-5de2-4a9d-bb52-ea489b6adbd9",
+                "resourcePath": "tilesets\\tileset_buissons\\tileset_buissons.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "023a1626-b883-4d14-962b-abcd0c51d58b",
             "Value": {
                 "id": "01a99637-f11e-41ea-8375-ec71f8ee3a51",
@@ -1007,6 +1015,14 @@
             }
         },
         {
+            "Key": "744fdd8a-13fe-4a08-b399-d6c1218908b2",
+            "Value": {
+                "id": "fa2891e7-f73f-43d5-92b9-139262d6c1eb",
+                "resourcePath": "objects\\obj_buisson\\obj_buisson.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75e55c11-afe2-46ce-936e-66b4bc853627",
             "Value": {
                 "id": "f2dad5d5-1705-4aec-800d-372a1dfa5aa6",
@@ -1052,6 +1068,14 @@
                 "id": "def8de07-888e-4d75-8962-7e44997c41c0",
                 "resourcePath": "views\\78c1dc8b-db1a-4232-a4db-c1c09d067e73.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7a72d032-7194-44d3-b0a2-38c92ec1100d",
+            "Value": {
+                "id": "2ff3a00c-977b-404e-ac09-504ecc0253e2",
+                "resourcePath": "sprites\\spr_buissons\\spr_buissons.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1807,6 +1831,14 @@
             }
         },
         {
+            "Key": "cba197cf-6454-4bf7-84c4-242b1107d91b",
+            "Value": {
+                "id": "0912b35b-8f4b-4e97-bafa-8c165fb3dfbe",
+                "resourcePath": "sprites\\spr_buisson\\spr_buisson.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cba22ca6-91a9-4d2a-bf2e-2c88ad410e24",
             "Value": {
                 "id": "b5649887-fbdc-499c-a401-e53416d0694f",
@@ -1836,6 +1868,14 @@
                 "id": "e437815f-81ee-428c-a454-a6d44c475b95",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce34e181-2c4e-441d-98ce-487fff164f43",
+            "Value": {
+                "id": "01b7ab44-a746-4cbf-ab8f-161923082411",
+                "resourcePath": "sprites\\spr_herbe_fleur\\spr_herbe_fleur.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

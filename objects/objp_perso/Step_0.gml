@@ -107,9 +107,9 @@ if obj_transition.mode == TRANS_MODE.OFF
 	#region action
 	
 	//On vérifie les input et la dispo de l'action
-	if frames_action <= 0
+	if frames_action <= 0 and roulade <= 0
 	{
-		if keyboard_check(vk_space) or gamepad_button_check(0,gp_face1)
+		if keyboard_check(vk_space) or gamepad_button_check(0,gp_face1) 
 		{
 
 			//Durée avant la prochaine acrtion possible
@@ -134,7 +134,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	//On vérifie les input et la dispo de l'action
 	if frames_roulade <= 0
 	{
-		if keyboard_check_pressed(vk_alt) or gamepad_button_check_pressed(0,gp_face2)
+		if keyboard_check_pressed(vk_alt) or gamepad_button_check_pressed(0,gp_face2) or  gamepad_button_check_pressed(0,gp_face3)
 		{
 
 			//Durée avant la prochaine acrtion possible
