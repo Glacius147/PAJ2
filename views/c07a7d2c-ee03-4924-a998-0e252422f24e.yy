@@ -9,7 +9,8 @@
         "66a675a4-cc71-4483-9a83-cd891b467a28",
         "642aed8c-c9db-4cac-8c9b-5ca2177debe2",
         "e90709fe-9552-4fa0-bb9a-1a0442868c4a",
-        "4e9a46c2-8d2b-4d31-80dd-c43685f5a29f"
+        "4e9a46c2-8d2b-4d31-80dd-c43685f5a29f",
+        "1cccad9a-073e-4d96-bf8e-437ccc916133"
     ],
     "filterType": "GMObject",
     "folderName": "objets parents",
