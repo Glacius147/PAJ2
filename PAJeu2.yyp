@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "4a3ff002-f988-4ef5-8441-d4593fc6efed",
+            "Value": {
+                "id": "79e72d20-bd9b-4f2b-a4b9-767d22949a85",
+                "resourcePath": "objects\\obj_statue\\obj_statue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a7598e9-f497-43ae-8910-856d7e7fd7a4",
             "Value": {
                 "id": "944329bb-9626-4684-af5f-527d7377d04e",
@@ -1100,6 +1108,14 @@
                 "id": "dfa73bef-c355-4f92-8073-68810961b35e",
                 "resourcePath": "scripts\\point_in_polygon\\point_in_polygon.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8b9c9895-fc8f-4abc-8ab2-985e31549826",
+            "Value": {
+                "id": "968b39b5-a2ca-4f77-83c1-3e06ec691842",
+                "resourcePath": "sprites\\spr_statue\\spr_statue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
