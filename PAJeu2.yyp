@@ -263,11 +263,27 @@
             }
         },
         {
+            "Key": "1728df38-9569-455c-a10a-fc5645160180",
+            "Value": {
+                "id": "c0784f9a-5fb5-4090-9ab5-f57244e98805",
+                "resourcePath": "sprites\\spr_perso_feu_roulade_bas\\spr_perso_feu_roulade_bas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1737b1d1-251f-4b19-921d-d3244c730c6a",
             "Value": {
                 "id": "51f93c12-42c1-4946-8432-cca6640f9849",
                 "resourcePath": "views\\1737b1d1-251f-4b19-921d-d3244c730c6a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "17798503-9c45-4932-9c88-e13b314a0f53",
+            "Value": {
+                "id": "f5b06a7e-7932-40a7-a9cb-f75502b90b02",
+                "resourcePath": "sprites\\spr_perso_feu_roulade_dos\\spr_perso_feu_roulade_dos.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1700,6 +1716,14 @@
                 "id": "77d8d115-4d6a-43db-a5ee-976bd96172cf",
                 "resourcePath": "scripts\\light_acknowledge_shadow_caster\\light_acknowledge_shadow_caster.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be49ea3f-def8-464e-8d38-37dbd005590c",
+            "Value": {
+                "id": "f95d57e8-7628-4975-97a5-070d80d254d9",
+                "resourcePath": "sprites\\spr_perso_feu_roulade_droite\\spr_perso_feu_roulade_droite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
