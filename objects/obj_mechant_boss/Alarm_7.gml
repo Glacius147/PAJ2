@@ -20,7 +20,7 @@ switch global.perso
 	}
 	case (TRANSFORMATION.Feu):
 	{
-		scr_cutscene(spr_wizard,"QUOI ?","ENCORE !","IL FAUT TOUT FAIRE SOI MEME !","MEURT !",2)
+		scr_cutscene(spr_wizard,"QUOI ?","ENCORE !","IL FAUT TOUT FAIRE SOI MEME !","MEURS !",7)
 		break;
 	}
 }
