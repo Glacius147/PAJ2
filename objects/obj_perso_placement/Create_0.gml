@@ -23,3 +23,5 @@ switch global.perso
 		break;
 	}	
 }
+
+objp_perso.visible = true

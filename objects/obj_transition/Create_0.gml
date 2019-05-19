@@ -32,7 +32,7 @@ nb_item_menu = 5
 
 //Element selectionné ds le menu : num_menu
 
-mode = TRANS_MODE.INTRO;
+mode = -1;//TRANS_MODE.INTRO;
 
 //percent = 1;
 
