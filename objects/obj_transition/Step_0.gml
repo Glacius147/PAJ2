@@ -165,6 +165,35 @@ if mode != TRANS_MODE.OFF
 			case TRANS_MODE.INTRO:
 			{
 				mode = TRANS_MODE.OFF
+				if new_start 
+				{
+					new_start = false
+					#region cutscene de départ pour les différentes formes
+					switch global.perso
+					{
+						case TRANSFORMATION.Humain: 
+						{
+							scr_cutscene(spr_wizard,"Halte intrus ! Si tu rentres dans mon chateau tu le regretteras amèrement !",-1)
+							break;
+						}
+						case TRANSFORMATION.Rat: 
+						{
+							scr_cutscene(spr_wizard,"Voilà une forme qui te convient mieux, vermine ! Maintenant, disparait de ma vue !",-1)
+							break;
+						}
+						case TRANSFORMATION.Neige: 
+						{
+							scr_cutscene(spr_wizard,"Bien. Tu peux rester dans le jardin pour l'instant, tu fera peur aux oiseaux.",-1)
+							break;
+						}
+						case TRANSFORMATION.Feu: 
+						{
+							scr_cutscene(spr_wizard,"Bien, il devrait pleuvoir bientôt, et je serais débarrassé de toi définitivement.",-1)
+							break;
+						}
+					}
+					#endregion
+				}	
 				break;
 			}
 			case TRANS_MODE.NEXT:

@@ -41,3 +41,5 @@ target = room;
 cutscene_text = array_create(1,"")
 
 
+
+

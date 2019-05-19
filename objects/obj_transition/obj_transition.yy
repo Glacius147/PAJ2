@@ -135,6 +135,20 @@
             "value": "0",
             "varName": "_cutscene_nb_letters",
             "varType": 0
+        },
+        {
+            "id": "0cdbafe8-54ab-4213-9ff0-cf4e9b76a456",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "new_start",
+            "varType": 3
         }
     ],
     "solid": false,
