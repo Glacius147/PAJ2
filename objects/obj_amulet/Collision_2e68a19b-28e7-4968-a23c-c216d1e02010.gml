@@ -13,3 +13,5 @@ else
 {
 scr_cutscene(spr_empty,"L'amulette de pouvoir est complète ! Je peux à présent me transformer à volonté !",-1)
 }
+
+instance_destroy()

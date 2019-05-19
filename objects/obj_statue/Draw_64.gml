@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if active and distance_to_object(objp_perso)<30
+d=distance_to_object(objp_perso)
+
+if active and d<30
 {
 	if global.perso != type
 	{
