@@ -41,7 +41,7 @@ switch phase_boss
 	}
 	case PHASE.DEFENSE:	
 	{
-	panique = 0
+	panique = -200
 	fireball_speed +=1
 	alarm[4]= 1
 	break;
