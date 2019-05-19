@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "1487e9dc-1602-4ade-9d89-04bdad68ca38",
-            "Value": {
-                "id": "dc1ae513-c447-4b6b-bdd1-4bbbacba9450",
-                "resourcePath": "sprites\\spr_perso_roul_gauche\\spr_perso_roul_gauche.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "14baf84b-85e0-4326-a02a-bbb6c64bdea8",
             "Value": {
                 "id": "39741a9f-03a8-4743-b363-d1c055ce7ff3",

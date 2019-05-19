@@ -97,7 +97,7 @@
             "mvc": "1.0",
             "objectId": "5493a5ff-7988-4273-b0d3-12610df59d06",
             "propertyId": "67a4b2a8-474b-44b7-b58c-950b6cbebeef",
-            "value": "True"
+            "value": "False"
         },
         {
             "id": "31ae9c98-c513-4c37-82fb-e9dd1d0352a8",
@@ -210,6 +210,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "fd0ab255-6ecf-4e75-b6c3-2723118240d0",
+    "spriteId": "4a986cf4-d1ca-46f7-9cc8-09277e7fd8d1",
     "visible": true
 }

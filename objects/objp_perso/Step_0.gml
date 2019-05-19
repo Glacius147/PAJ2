@@ -74,8 +74,8 @@ if obj_transition.mode == TRANS_MODE.OFF
 	//Si roulade
 	if roulade > 0
 	{
-		_x = _dir_x * dist_roulade/duree_roulade;
-		_y = _dir_y * dist_roulade/duree_roulade;
+		_x = _dir_x * dist_roulade*power(0.8,duree_roulade-roulade+1)/4;
+		_y = _dir_y  * dist_roulade*power(0.8,duree_roulade-roulade+1)/4;
 
 		roulade --
 	}

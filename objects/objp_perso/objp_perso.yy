@@ -432,7 +432,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "120",
+            "value": "150",
             "varName": "dist_roulade",
             "varType": 0
         },
@@ -446,7 +446,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
+            "value": "20",
             "varName": "duree_roulade",
             "varType": 0
         },
@@ -516,7 +516,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "spr_perso_roul_gauche",
+            "value": "noone",
             "varName": "anim_r_g",
             "varType": 5
         },
