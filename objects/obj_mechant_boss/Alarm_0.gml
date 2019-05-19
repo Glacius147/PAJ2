@@ -1,7 +1,7 @@
 /// @description Choix direction
 
 
-if distance_to_object(objp_perso) > 100
+if distance_to_object(objp_perso) > 70
 {
 	//Déplacment aléatoire si le joueur est loin
 	
@@ -19,19 +19,25 @@ if distance_to_object(objp_perso) > 100
 		dep_x = 0;
 	}	
 }
-else
+else if panique < 50
 {
 	//Déplacment défensif si le joueur est proche
-	
 	var _teta = point_direction(x,y,objp_perso.x,objp_perso.y);
-	show_debug_message(string(_teta))
+	show_debug_message(panique)
 	
 	dep_x = -dcos(_teta);
 	dep_y = dsin(_teta);	
+} else
+{
+	var _teta = point_direction(x,y,objp_perso.x,objp_perso.y);
+	
+	dep_x = dcos(_teta);
+	dep_y = -dsin(_teta);	
+	
 }
 
 //Remise à la vitesse de base
 vitesse = vitesse_base;
 
 //Durée de déplacement dans cette direction
-alarm[1] = irandom_range(10,40);
+alarm[1] = irandom_range(30,50);

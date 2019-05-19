@@ -9,6 +9,13 @@ else{
 	//Si le déplacement est possible
 	if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.DEATH) and frames_invul <= 0
 	{
+		_d = distance_to_object(objp_perso)
+		if _d<125{
+		panique +=floor(1+_d/50)
+		} else
+		{
+		panique = max(panique-4,0)	
+		}
 		//On applique la vitesse de déplacement
 		_x += dep_x*vitesse;
 		_y += dep_y*vitesse;
@@ -59,6 +66,7 @@ else{
 			with obj_sound{
 				event_user(0)	
 			}
+			panique = 0
 			scr_cutscene(spr_wizard,"Ok ça c'était l'échaufement.","MAINTENANT JE SUIS VENER !!!!"," DIIIIIIIIIIIIIIIIEEEEEE ",3)
 		}
 		
@@ -68,6 +76,15 @@ else{
 			phase_boss=PHASE.VENERSPAM
 			alarm[2]=1
 			}
+		}
+		
+		if panique >100 and (phase_boss=PHASE.VENER or phase_boss=PHASE.NORMAL1) {
+			old_phase = phase_boss
+			phase_boss=PHASE.DEFENSE
+			audio_play_sound(snd_coup_epee,1,false)
+			vitesse_base = 0
+			alarm[2]=10
+			panique = 0
 		}
 		//Le monstre meurt (A étoffer)
 		if pv <= 0 event_user(10);

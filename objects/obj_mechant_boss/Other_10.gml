@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 
-timer = 100
+timer = 50
 alarm[7] = timer

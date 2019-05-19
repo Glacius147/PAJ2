@@ -14,12 +14,13 @@ event_user(0)
 fireball_speed=3
 to_launch = 2
 interval_fireball = 15
-
+panique = 0
 
 
 enum PHASE{
 	NORMAL1,
 	SPAM,
 	VENER,
-	VENERSPAM
+	VENERSPAM,
+	DEFENSE
 }
