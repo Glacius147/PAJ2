@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "1dd9e515-8fd3-44f9-b115-0ece22627d44",
+            "Value": {
+                "id": "61726fd8-9e71-46ce-b8b0-076ff1c21a8a",
+                "resourcePath": "sprites\\spr_perso_rat_r_droite\\spr_perso_rat_r_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20fd78df-9f2e-4153-b48e-e31b3a9d543a",
             "Value": {
                 "id": "5aff3364-468b-4264-afb2-c1ca924aa074",
@@ -1719,6 +1727,14 @@
             }
         },
         {
+            "Key": "c0ac970f-c430-4719-8088-228640fe2101",
+            "Value": {
+                "id": "56e15082-e053-46bb-bb63-c5e377ad3432",
+                "resourcePath": "sprites\\spr_perso_rat_r_bas\\spr_perso_rat_r_bas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0ec8ba3-3bd7-47cf-8119-7c2ae73ed75d",
             "Value": {
                 "id": "2a85b765-1b3c-460c-9adc-d93ab4b5fe78",
@@ -1979,6 +1995,14 @@
             "Value": {
                 "id": "2eafb7a6-57e6-435f-b874-4e188e5841bd",
                 "resourcePath": "sprites\\spr_perso_feu_droite\\spr_perso_feu_droite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e5e0b4e0-f679-4833-ab8b-9a4b2e96f62c",
+            "Value": {
+                "id": "7333428b-a6eb-4372-86af-7de1d0d9ee13",
+                "resourcePath": "sprites\\spr_perso_rat_r_dos\\spr_perso_rat_r_dos.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -5,7 +5,6 @@ if roulade > 0
 {
 	if roulade = duree_roulade
 	{
-		image_speed = 1;
 		image_index = 0;
 		
 		//Choix de la direction de l'anilation d'action en fonction de la direction précédente.
@@ -47,8 +46,6 @@ if roulade > 0
 			}	
 		}
 	}	
-	
-	
 }//Si une animation prioritaire n'est pas en cours
 else if !anim_stop
 {
@@ -56,6 +53,7 @@ else if !anim_stop
 	if _x_d = 0 and _y_d = 0
 	{
 		image_speed = 0;
+		image_index = 0;
 	}
 	else
 	{

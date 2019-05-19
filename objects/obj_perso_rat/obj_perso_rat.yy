@@ -84,6 +84,30 @@
             "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
             "propertyId": "c33425a0-91d9-4de1-aef6-f9f56d19527b",
             "value": "1"
+        },
+        {
+            "id": "f14e3ebf-9fd5-455e-bed6-7decafabb509",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "9eb62b1a-261e-42d0-b8e6-cd1fc8dafdac",
+            "value": "spr_perso_rat_r_bas"
+        },
+        {
+            "id": "06f51bab-3d9b-44fe-b687-1bc7d1b23176",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "ef0c9575-1145-4a8b-ae7e-17b9cf7b49ff",
+            "value": "spr_perso_rat_r_droite"
+        },
+        {
+            "id": "d2ac1671-1a44-401d-a024-3ae6c888f61b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "d83eb029-eb57-4929-a175-ff41045e46f5",
+            "value": "spr_perso_rat_r_dos"
         }
     ],
     "parentObjectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
