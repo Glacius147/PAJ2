@@ -166,6 +166,14 @@
             "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
             "propertyId": "d83eb029-eb57-4929-a175-ff41045e46f5",
             "value": "spr_perso_feu_roulade_dos"
+        },
+        {
+            "id": "e04b82a1-8e3b-4f37-9920-0d0c048f8bbd",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "c33425a0-91d9-4de1-aef6-f9f56d19527b",
+            "value": "5"
         }
     ],
     "parentObjectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
