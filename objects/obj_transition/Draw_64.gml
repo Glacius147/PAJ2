@@ -42,6 +42,12 @@ if mode == TRANS_MODE.PAUSE
 		message_y += 100
 		draw_text(w/2-200,message_y,"Quitter")	
 		draw_text(w/2-225,h/2+100*(-2.5+num_menu),"X")	
+		for(var i=0; i<4;i++){
+			if obj_transition.amulet[i]
+			{
+				draw_sprite_stretched(spr_amulet,i,w/2-200+100*i,message_y+30,64,64)
+			}
+		}
 	}	
 	#endregion
 }

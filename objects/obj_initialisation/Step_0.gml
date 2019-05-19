@@ -70,6 +70,10 @@ switch current_option
 			ini_write_real("save", "Forme1", false);
 			ini_write_real("save", "Forme2", false);
 			ini_write_real("save", "Forme3", false);
+			ini_write_real("save", "Amulet0", false);
+			ini_write_real("save", "Amulet1", false);
+			ini_write_real("save", "Amulet2", false);
+			ini_write_real("save", "Amulet3", false);
 			ini_close()
 			#endregion
 			menu_on = false
