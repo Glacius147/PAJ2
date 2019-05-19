@@ -16,3 +16,6 @@ else
 	_dir_x = dcos(dir_mouvement);
 	_dir_y = -dsin(dir_mouvement);	
 }
+
+_x_start_roulade = x;
+_y_start_roulade = y;

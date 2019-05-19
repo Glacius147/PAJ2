@@ -78,6 +78,10 @@ if obj_transition.mode == TRANS_MODE.OFF
 		_y = _dir_y  * dist_roulade*power(0.8,duree_roulade-roulade+1)/4;
 
 		roulade --
+		
+		image_speed = 0;
+		image_index = floor(image_number*point_distance(x,y,_x_start_roulade,_y_start_roulade)/dist_roulade);
+		
 	}
 
 
