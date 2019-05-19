@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "0cccdaff-5099-4b4b-b28f-59c009851f7f",
+            "Value": {
+                "id": "e46c79df-5322-4d59-82a9-5746e7800ef4",
+                "resourcePath": "sprites\\spr_perso_neige_r_dos\\spr_perso_neige_r_dos.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d0453a6-b328-48ec-a0ad-d8aed6d81676",
             "Value": {
                 "id": "0b0cf3c2-dd07-44b4-a86a-f5807f540ca3",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "246ef4d2-640c-422a-b45c-d03641f14a61",
+            "Value": {
+                "id": "14591c79-180b-4f46-a362-702f3f208b40",
+                "resourcePath": "sprites\\spr_perso_neige_r_bas\\spr_perso_neige_r_bas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26982e1b-7b5c-46b8-8582-35f024611e40",
             "Value": {
                 "id": "ec026299-7af8-433a-9fd4-07020c67d7dd",
@@ -388,6 +404,14 @@
                 "id": "921f8e7c-4516-4b70-96fd-b015cd1431fa",
                 "resourcePath": "scripts\\polygon_create\\polygon_create.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3165fb3e-730a-4e9c-b85a-1caf6568475e",
+            "Value": {
+                "id": "159f87e0-f47a-4a17-a67c-29f25495f10b",
+                "resourcePath": "sprites\\spr_perso_neige_r_droite\\spr_perso_neige_r_droite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

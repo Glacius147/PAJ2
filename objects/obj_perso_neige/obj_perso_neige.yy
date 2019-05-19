@@ -76,6 +76,30 @@
             "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
             "propertyId": "88679858-0d68-4caf-b155-a5640151e9eb",
             "value": "spr_perso_neige_droite"
+        },
+        {
+            "id": "5ee22ea8-dc74-4a87-90d0-a906543b8132",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "9eb62b1a-261e-42d0-b8e6-cd1fc8dafdac",
+            "value": "spr_perso_neige_r_bas"
+        },
+        {
+            "id": "77ebcf4a-2737-48c5-9868-f557073c9937",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "ef0c9575-1145-4a8b-ae7e-17b9cf7b49ff",
+            "value": "spr_perso_neige_r_droite"
+        },
+        {
+            "id": "22036bda-e761-420d-ae5a-f7079dc07b34",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "d83eb029-eb57-4929-a175-ff41045e46f5",
+            "value": "spr_perso_neige_r_dos"
         }
     ],
     "parentObjectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
