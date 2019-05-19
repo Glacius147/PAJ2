@@ -9,6 +9,10 @@ if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.D
 	_x += dep_x*vitesse;
 	_y += dep_y*vitesse;
 
+
+	_x_d = _x;
+	_y_d = _y;
+	
 	//On se déplace
 	while abs(_x) >= 1
 	{
@@ -25,7 +29,7 @@ if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.D
 
 }
 
-
+scr_animation()
 
 //Le monstre meurt (A étoffer)
 if pv <= 0 instance_destroy();

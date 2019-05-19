@@ -98,6 +98,38 @@
             "objectId": "5493a5ff-7988-4273-b0d3-12610df59d06",
             "propertyId": "67a4b2a8-474b-44b7-b58c-950b6cbebeef",
             "value": "True"
+        },
+        {
+            "id": "31ae9c98-c513-4c37-82fb-e9dd1d0352a8",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
+            "propertyId": "09705e0f-1542-4662-a44d-d42f5df198a4",
+            "value": "spr_mob_torche_bas"
+        },
+        {
+            "id": "18338eb3-7d40-4970-83a7-4c269009a0d7",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
+            "propertyId": "41cfac5b-304e-4de4-8ee9-f209cf161b8e",
+            "value": "spr_mob_torche_dos"
+        },
+        {
+            "id": "d3823b69-9d77-4c6b-85dc-9785e027e8f1",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
+            "propertyId": "ddaf9dbc-3e0d-412f-960e-b9c97b9e12cb",
+            "value": "spr_mob_torche_droite"
+        },
+        {
+            "id": "9ff02e3b-ce9a-402d-a606-4c6c0418b559",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "8fffecc8-2b52-48f3-b741-f536827221af",
+            "propertyId": "c83fe0fd-5113-4402-b7de-e672572bc2a8",
+            "value": "spr_mob_torche_gauche"
         }
     ],
     "parentObjectId": "8fffecc8-2b52-48f3-b741-f536827221af",
