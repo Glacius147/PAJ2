@@ -93,7 +93,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "d5574585-c922-42db-ab50-1f4003141850",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "fondu",
+            "varType": 3
+        }
     ],
     "solid": false,
     "spriteId": "731e74d1-e5ff-479f-93e3-afaa6df5aa0d",

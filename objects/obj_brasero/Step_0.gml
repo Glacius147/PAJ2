@@ -13,4 +13,4 @@ if !light_on
 }
 
 //Fait fondre les bonhommes de neige
-if distance_to_object(obj_perso_neige) < 50 with obj_perso_neige event_user(11);
+if (distance_to_object(obj_perso_neige)<50 and obj_perso_neige.sprite_index != spr_eau) with obj_perso_neige event_user(11);

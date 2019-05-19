@@ -142,6 +142,20 @@
             "value": "0",
             "varName": "timer",
             "varType": 0
+        },
+        {
+            "id": "9e102f00-cacb-41ed-bae5-6753a156e7de",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "active_fire_sound",
+            "varType": 0
         }
     ],
     "solid": false,

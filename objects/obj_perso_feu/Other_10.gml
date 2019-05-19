@@ -1,8 +1,14 @@
 /// @description Action
 
-//Lancement de boule de neige
+//Activation lance flamme
 
 anim_stop = true;
+
+if not active_fire_sound{
+active_fire_sound = true
+fire_sound = audio_play_sound(snd_torche,1,true)	
+	
+}
 
 alarm[0] = 5;
 if _x_d = 0 and _y_d = 0
