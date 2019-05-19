@@ -1,7 +1,7 @@
 /// @description Cadres noirs & fenetre menu.
 
 
-if (mode != TRANS_MODE.OFF) and mode != TRANS_MODE.PAUSE and mode != TRANS_MODE.DEATH
+if (mode !=-1) and (mode != TRANS_MODE.OFF) and mode != TRANS_MODE.PAUSE and mode != TRANS_MODE.DEATH
 {
 	draw_set_color(c_black);
 	draw_rectangle(0,0,w,percent*h/2,false);

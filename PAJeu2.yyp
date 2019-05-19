@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "3fcd8f7d-7e8a-42da-bb4e-e9cfe6be0616",
+            "Value": {
+                "id": "83b6c8df-7268-4310-9971-7229e395284f",
+                "resourcePath": "objects\\obj_statue_light\\obj_statue_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "408aa4c9-39ee-47c9-b921-b7ff3f2c517c",
             "Value": {
                 "id": "fc44cb6b-ac22-48b7-8bbf-fff859a88b97",
