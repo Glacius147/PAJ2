@@ -69,7 +69,6 @@ if obj_transition.mode == TRANS_MODE.OFF
 	}
 	
 	//Si roulade
-	/// @description Roulade
 	if roulade > 0
 	{
 		_x = _dir_x * dist_roulade/duree_roulade;
@@ -106,7 +105,7 @@ if obj_transition.mode == TRANS_MODE.OFF
 	//On vérifie les input et la dispo de l'action
 	if frames_action <= 0
 	{
-		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
+		if keyboard_check(vk_space) or gamepad_button_check(0,gp_face1)
 		{
 
 			//Durée avant la prochaine acrtion possible

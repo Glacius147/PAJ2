@@ -11,3 +11,6 @@ if !light_on
 		if id_source = other.id instance_destroy();
 	}
 }
+
+//Fait fondre les bonhommes de neige
+if distance_to_object(obj_perso_neige) < 50 with obj_perso_neige event_user(11);

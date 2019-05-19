@@ -10,7 +10,9 @@
         "f9ae1b7a-2d51-439c-aaf6-26d3a522a8ca",
         "e43e45cd-4e3e-4aa4-aaaf-7cfd2f1bd2e6",
         "b95966f9-ddd1-47e9-a863-5801f0b30626",
-        "5850c92c-da57-4411-bffd-a2ac1224ef63"
+        "5850c92c-da57-4411-bffd-a2ac1224ef63",
+        "cab2be17-8d5a-4071-9ea1-b82f49666e45",
+        "19d3b4cd-8a85-48c1-8150-86b9044563e8"
     ],
     "filterType": "GMRoom",
     "folderName": "noir",

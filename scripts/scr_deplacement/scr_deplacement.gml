@@ -5,7 +5,7 @@
 if !immobil
 {
 	//On teste si il y a un obstacle en dur
-	if !place_meeting(x + argument0, y + argument1,objp_obstacle) and !place_meeting(x + argument0, y + argument1,objp_obstacle_shadow)
+      	if !place_meeting(x + argument0, y + argument1,objp_obstacle) and !place_meeting(x + argument0, y + argument1,objp_obstacle_shadow)
 	{
 		//On empeche les monstres de bouger le perso et vis versa
 		if  object_is_ancestor(object_index, objp_mobil) or !place_meeting(x + argument0, y + argument1,objp_mobil)
