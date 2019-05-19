@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "054f594f-0ffe-4cff-ad50-0c12795dc45a",
+            "Value": {
+                "id": "063d4537-bb70-4d88-94ad-80af90924243",
+                "resourcePath": "objects\\obj_perso_feu_light\\obj_perso_feu_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05e33756-001c-4511-a25c-bd7922c09983",
             "Value": {
                 "id": "55605119-62fb-490a-9f45-134826adaa48",
@@ -260,6 +268,14 @@
                 "id": "bd3877f0-46d2-45ab-bdf0-904873a883c3",
                 "resourcePath": "rooms\\room_noir_9\\room_noir_9.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1cccad9a-073e-4d96-bf8e-437ccc916133",
+            "Value": {
+                "id": "c9cfbdc1-2a4f-48c3-a9f0-4939d30d6526",
+                "resourcePath": "objects\\obj_obstacle_visu\\obj_obstacle_visu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -700,6 +716,14 @@
                 "id": "f390b32a-b573-441d-8889-469ef49ce22c",
                 "resourcePath": "scripts\\scr_part_flammes\\scr_part_flammes.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "62fb27ab-6ce4-477e-9aa7-9baab61a65be",
+            "Value": {
+                "id": "613ae244-ce95-4c35-ae25-8352a798f41e",
+                "resourcePath": "objects\\obj_perso_feu\\obj_perso_feu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1412,14 +1436,6 @@
                 "id": "ae6391e2-a002-4da6-9227-e1f824f6d9c6",
                 "resourcePath": "views\\b3315779-6f78-442f-95d3-a51e5d58c290.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b49268dd-0dc7-45d9-9f00-9d91c4e9fcf7",
-            "Value": {
-                "id": "460a640d-d012-4a3d-8801-eb401d99c9e5",
-                "resourcePath": "objects\\obj_perso_feu\\obj_perso_feu.yy",
-                "resourceType": "GMObject"
             }
         },
         {

@@ -10,4 +10,17 @@ if !light_on
 	{	
 		if id_source = other.id instance_destroy();
 	}
+	id_cible = noone
+}
+else
+{
+	if id_cible = noone
+	{
+		with instance_create_layer(x,y,"Instances",obj_torche_light)
+		{
+			id_source = other.id;
+			other.id_cible = id;
+		}
+		image_speed = 1;
+	}
 }
