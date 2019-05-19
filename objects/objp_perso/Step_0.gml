@@ -18,10 +18,6 @@ if obj_transition.mode == TRANS_MODE.OFF
 		if keyboard_check(vk_right) input_x = 1;
 		//REMOVE
 		if keyboard_check(vk_backspace) pv = 0;
-		if keyboard_check_released(vk_numpad1) scr_transition(TRANS_MODE.GOTO,room_entree_1);
-		if keyboard_check_released(vk_numpad2) scr_transition(TRANS_MODE.GOTO,room_entree_2);
-		if keyboard_check_released(vk_numpad3) scr_transition(TRANS_MODE.GOTO,room_entree_3);
-		if keyboard_check_released(vk_numpad4) scr_transition(TRANS_MODE.GOTO,room_entree_4);
 		if keyboard_check_released(vk_numpad5) scr_transition(TRANS_MODE.GOTO,room_entree_5);
 		//END REMOVE
 		if obj_transition.percent_menu ==0{

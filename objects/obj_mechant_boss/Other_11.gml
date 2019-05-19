@@ -10,5 +10,6 @@ ini_write_real("save", "Forme"+string(global.perso), true);
 ini_close()
 #endregion
 
+global.spot = -1
 with obj_transition new_start = true;
 scr_transition(TRANS_MODE.GOTO,room_entree_1)
