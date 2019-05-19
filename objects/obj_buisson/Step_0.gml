@@ -8,6 +8,7 @@ if distance_to_object(obj_perso_feu) < 30
 
 	if image_index = 0
 	{
+		image_speed = 1;
 		alarm[0] = 60;		
 		image_index = 1;
 	}

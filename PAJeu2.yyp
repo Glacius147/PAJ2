@@ -1487,6 +1487,14 @@
             }
         },
         {
+            "Key": "a37d4fcc-3fb9-4f43-9391-cd3c6785bffe",
+            "Value": {
+                "id": "2d6f4a21-fac6-4eda-a3c3-d7a658ce1859",
+                "resourcePath": "objects\\obj_mechant_V2\\obj_mechant_V2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5cc2451-753c-4a5d-b9e9-6183c6bbb230",
             "Value": {
                 "id": "ca15c722-4c45-436d-970d-a41ab716727d",
