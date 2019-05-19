@@ -8,4 +8,4 @@ global.spot = -1;
 
 
 
-global.perso = TRANSFORMATION.Humain
+global.perso = TRANSFORMATION.Feu

@@ -1,23 +1,14 @@
 {
-    "id": "3b365174-67c0-44a6-a69a-dd4eb0758059",
+    "id": "776c791b-f33b-46d9-bd4f-eb931648347c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_mur",
+    "name": "obj_gestion_neon",
     "eventList": [
-        {
-            "id": "70b89598-e845-44e5-a2ae-d002915e7d6f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3b365174-67c0-44a6-a69a-dd4eb0758059"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "e90709fe-9552-4fa0-bb9a-1a0442868c4a",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b6da863b-a308-4df8-92d5-4f145a70807b",
-    "visible": false
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": true
 }

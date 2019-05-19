@@ -19,7 +19,13 @@ else
 {
 	_dir = point_direction(0,0,_x_d,_y_d);	
 }
+
 with instance_create_layer(x+15*dcos(_dir),y-25*dsin(_dir)+5,"Instances_mobil",obj_spray_feu)
 {
 	image_angle = other._dir;
+}
+
+with instance_create_layer(x+15*dcos(_dir),y-25*dsin(_dir)+5,"Instances_ombre",obj_spray_lum)
+{
+	light[|eLight.Direction] = other._dir;
 }

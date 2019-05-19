@@ -1,10 +1,18 @@
-/// @description ?
-/// @description On suit le mouvement de la source
+/// @description Suit la source ou est detruit
+
+
+if instance_exists(id_source)
+{
 
 x = id_source.x;
 y = id_source.y;
 
-/// @description ?
 
 polygon = polygon_from_instance(id);
+}
+else
+{
+	instance_destroy();	
+}
+
 
