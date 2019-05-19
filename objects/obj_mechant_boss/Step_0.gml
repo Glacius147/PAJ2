@@ -64,7 +64,7 @@ else{
 			scr_degats(1)
 			phase_boss=PHASE.VENERSPAM
 			with obj_sound{
-				event_user(0)	
+				event_user(1)	
 			}
 			panique = 0
 			scr_cutscene(spr_wizard,"Ok ça c'était l'échaufement.","MAINTENANT JE SUIS VENER !!!!"," DIIIIIIIIIIIIIIIIEEEEEE ",3)
