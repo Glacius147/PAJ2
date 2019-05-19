@@ -75,7 +75,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "250",
             "varName": "lum_max",
             "varType": 0
         },
@@ -89,7 +89,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "150",
+            "value": "200",
             "varName": "lum_min",
             "varType": 0
         }

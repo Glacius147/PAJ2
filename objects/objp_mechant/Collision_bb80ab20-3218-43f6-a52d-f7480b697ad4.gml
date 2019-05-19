@@ -2,7 +2,7 @@
 
 with other 
 {
-	if roulade < 5 scr_degats(other.degats);
+	if roulade = 0 scr_degats(other.degats);
 }
 
 event_user(2);
