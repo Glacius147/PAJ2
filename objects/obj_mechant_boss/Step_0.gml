@@ -82,7 +82,8 @@ else{
 			old_phase = phase_boss
 			phase_boss=PHASE.DEFENSE
 			audio_play_sound(snd_coup_epee,1,false)
-			vitesse_base = 0
+			vitesse = 0
+			alarm[0]=30
 			alarm[2]=10
 			panique = 0
 		}

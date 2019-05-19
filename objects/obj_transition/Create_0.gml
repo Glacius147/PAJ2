@@ -42,4 +42,12 @@ cutscene_text = array_create(1,"")
 
 
 
+amulet[3]=false
+amulet[2]=false
+amulet[1]=false
+amulet[0]=false
+
+amulet_count = 0
+
+
 
