@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "8bb6a8f5-6403-4475-a4f5-5b161301e051",
+            "Value": {
+                "id": "055e015e-d5f5-462f-bf07-a3734220793e",
+                "resourcePath": "sprites\\spr_boss\\spr_boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c09dbbb-3fa3-43f5-9c8c-07dc7d6331d0",
             "Value": {
                 "id": "57e846e6-4767-4b09-ac08-170c8b963f40",
@@ -2028,6 +2036,14 @@
                 "id": "5a826815-7163-4b38-beb0-28e13cfa10a8",
                 "resourcePath": "sounds\\snd_porte_ouverture\\snd_porte_ouverture.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f84bcdf7-1d9b-4390-8851-4bbb3d13036c",
+            "Value": {
+                "id": "177ed0b5-3d0b-431a-ba89-f64ed3ed9923",
+                "resourcePath": "sprites\\spr_controls\\spr_controls.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -40,11 +40,6 @@ target = room;
 
 cutscene_text = array_create(1,"")
 
-ini_open("savedata.ini");
-forme_rat = ini_read_real("save", "Rat", false);
-forme_feu = ini_read_real("save", "Feu", false);
-forme_neige = ini_read_real("save", "Neige", false);
-forme_humain = forme_rat or forme_feu or forme_neige
-ini_close();
+
 
 
