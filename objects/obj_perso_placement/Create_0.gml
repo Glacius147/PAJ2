@@ -17,4 +17,9 @@ switch global.perso
 		instance_create_layer(x,y,"Instances_mobil",obj_perso_neige);
 		break;
 	}
+	case TRANSFORMATION.Feu:
+	{
+		instance_create_layer(x,y,"Instances_mobil",obj_perso_feu);
+		break;
+	}	
 }
