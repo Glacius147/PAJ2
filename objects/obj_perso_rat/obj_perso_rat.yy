@@ -51,7 +51,7 @@
             "mvc": "1.0",
             "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
             "propertyId": "36942dcb-72a8-443e-80e5-c950bcf4ab16",
-            "value": "spr_pers_rat_dos"
+            "value": "spr_perso_rat_dos"
         },
         {
             "id": "1705fefd-4367-4593-8a70-b1ec24f5fc5a",
