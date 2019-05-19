@@ -2031,6 +2031,14 @@
             }
         },
         {
+            "Key": "f84bcdf7-1d9b-4390-8851-4bbb3d13036c",
+            "Value": {
+                "id": "177ed0b5-3d0b-431a-ba89-f64ed3ed9923",
+                "resourcePath": "sprites\\spr_controls\\spr_controls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f862c980-fc18-4b5c-9128-60296f739b1e",
             "Value": {
                 "id": "ba887fa9-a6ba-4609-98a9-3572289bb3f5",
