@@ -73,6 +73,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "62fb27ab-6ce4-477e-9aa7-9baab61a65be"
+        },
+        {
+            "id": "6d203bad-6b65-46b0-800a-1b0954177c4a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 19,
+            "eventtype": 7,
+            "m_owner": "62fb27ab-6ce4-477e-9aa7-9baab61a65be"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -132,6 +142,30 @@
             "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
             "propertyId": "e64da311-3657-485e-908c-dabc5e4f096d",
             "value": "True"
+        },
+        {
+            "id": "e471b807-97b2-4ebc-83eb-cbec841f957c",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "9eb62b1a-261e-42d0-b8e6-cd1fc8dafdac",
+            "value": "spr_perso_feu_roulade_bas"
+        },
+        {
+            "id": "748fa994-aafc-43be-bef4-7093fa3bdd5e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "ef0c9575-1145-4a8b-ae7e-17b9cf7b49ff",
+            "value": "spr_perso_feu_roulade_droite"
+        },
+        {
+            "id": "2edc7370-3d38-4329-88b3-86052f85c05f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
+            "propertyId": "d83eb029-eb57-4929-a175-ff41045e46f5",
+            "value": "spr_perso_feu_roulade_dos"
         }
     ],
     "parentObjectId": "50e4e3d1-931b-4a94-b47b-8449d5ff108f",
