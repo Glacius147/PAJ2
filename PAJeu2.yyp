@@ -2295,6 +2295,14 @@
             }
         },
         {
+            "Key": "f67d3a26-c488-4aea-92e6-5bbb17a3f2b6",
+            "Value": {
+                "id": "1c889181-4342-4769-869d-e5de6b98cdaf",
+                "resourcePath": "sprites\\spr_porte_petite\\spr_porte_petite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f71d0eeb-a5e9-4751-948f-5ad50bd4935c",
             "Value": {
                 "id": "68f46368-f3b1-411f-8a29-9cd6187e09da",
