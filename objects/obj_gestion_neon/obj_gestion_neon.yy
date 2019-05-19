@@ -137,6 +137,20 @@
             "value": "0.8",
             "varName": "lum_cible",
             "varType": 0
+        },
+        {
+            "id": "cd72f860-66df-45be-8307-c33a55b57f56",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "num_objet",
+            "varType": 0
         }
     ],
     "solid": false,
