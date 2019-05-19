@@ -32,4 +32,4 @@ if (obj_transition.mode == TRANS_MODE.OFF or obj_transition.mode == TRANS_MODE.D
 scr_animation()
 
 //Le monstre meurt (A étoffer)
-if pv <= 0 instance_destroy();
+if pv <= 0 event_user(10);
