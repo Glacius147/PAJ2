@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "3e2b4067-8084-4e56-a9b3-e84ad2962768",
+            "Value": {
+                "id": "b5b06e08-9e79-4dff-99c6-1beca07b05db",
+                "resourcePath": "sounds\\snd_rat\\snd_rat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3efd9d36-f4e9-4931-8cf7-113d75c93e9c",
             "Value": {
                 "id": "816925f9-ff2c-43b9-8839-954378e25ff2",
