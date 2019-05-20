@@ -18,8 +18,8 @@ if obj_transition.mode == TRANS_MODE.OFF
 		if keyboard_check(vk_left) input_x = -1;
 		if keyboard_check(vk_right) input_x = 1;
 		//REMOVE
-		if keyboard_check(vk_backspace) pv = 0;
-		if keyboard_check_released(vk_numpad5) scr_transition(TRANS_MODE.GOTO,room_entree_5);
+		//if keyboard_check(vk_backspace) pv = 0;
+		//if keyboard_check_released(vk_numpad5) scr_transition(TRANS_MODE.GOTO,room_entree_5);
 		//END REMOVE
 		
 		if (gamepad_button_check_pressed(0,gp_face4) or keyboard_check_pressed(vk_control)) and frames_action <= 0 and roulade <= 0

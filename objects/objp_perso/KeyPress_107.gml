@@ -1,5 +1,5 @@
 /// @description ?
 
-global.spot = 0;
+//global.spot = 0;
 
-room_goto_next();
+//room_goto_next();
