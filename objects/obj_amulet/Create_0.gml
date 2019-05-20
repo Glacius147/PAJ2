@@ -10,7 +10,5 @@ ini_close();
 
 if done 
 {
-	obj_transition.amulet[type]=true
-	obj_transition.amulet_count++
 	instance_destroy();
 }

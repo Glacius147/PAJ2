@@ -49,5 +49,17 @@ amulet[0]=false
 
 amulet_count = 0
 
+for (var i=0;i<4;i++)
+{
+ini_open("savedata.ini");
+done = ini_read_real("save", "Amulet"+string(i), false);
+ini_close();
+
+if done 
+{
+	obj_transition.amulet[i]=true
+	obj_transition.amulet_count++
+}
+}
 
 
