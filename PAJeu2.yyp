@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "098ab650-e110-4e5f-b2f1-6ef736fd8d5e",
+            "Value": {
+                "id": "8644a8a0-8f17-4f01-80ec-b080376b2ba4",
+                "resourcePath": "objects\\obj_coffre\\obj_coffre.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09fa92d7-8fb2-4de4-aa9b-b92b0820e390",
             "Value": {
                 "id": "af5985a9-93a5-43f8-b9e6-cf6176b4156e",
@@ -599,6 +607,14 @@
             }
         },
         {
+            "Key": "3f3c70ea-e092-4262-9d8a-c7c91cdae63b",
+            "Value": {
+                "id": "c3fe453e-7fdd-4559-9d6c-4dfa061ac2df",
+                "resourcePath": "sprites\\spr_piece\\spr_piece.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3fc000b2-af61-41a6-adc2-2ef3489f4bbe",
             "Value": {
                 "id": "7f568a27-5a4f-4ec1-b486-c171b8f99c90",
@@ -843,6 +859,14 @@
             "Value": {
                 "id": "f390b32a-b573-441d-8889-469ef49ce22c",
                 "resourcePath": "scripts\\scr_part_flammes\\scr_part_flammes.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "608412d2-c6ef-4d4a-a2a7-eb82a5b3a019",
+            "Value": {
+                "id": "6137c007-d28a-4b62-aab9-60095fd84411",
+                "resourcePath": "scripts\\scr_part_piece\\scr_part_piece.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1148,6 +1172,14 @@
                 "id": "9067b9f5-0f30-4065-a990-2c39d62a0c90",
                 "resourcePath": "scripts\\shadow_map_ensure_exists\\shadow_map_ensure_exists.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7f310980-c62b-45c8-9bcd-bec4734d10c2",
+            "Value": {
+                "id": "9db42a21-50f2-4e3a-867d-fba0b2b6afa5",
+                "resourcePath": "sprites\\spr_coffre\\spr_coffre.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2568,7 +2600,8 @@
         "ab54a712-5b9d-4388-8375-b3501845852b",
         "67f04608-7f1b-4d76-8f81-a7c369858ad5",
         "5fa25710-1b91-424e-acaf-c98012f631a0",
-        "014f26af-894b-4319-98c4-5fc370cef806"
+        "014f26af-894b-4319-98c4-5fc370cef806",
+        "608412d2-c6ef-4d4a-a2a7-eb82a5b3a019"
     ],
     "tutorial": ""
 }
