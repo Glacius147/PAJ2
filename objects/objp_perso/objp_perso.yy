@@ -212,7 +212,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "5",
             "varName": "pv",
             "varType": 0
         },
@@ -607,6 +607,34 @@
             "value": "spr_perso_roul_dos",
             "varName": "anim_r_h",
             "varType": 5
+        },
+        {
+            "id": "623e4c24-12ff-43aa-9120-be8dad68901c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "_x_d",
+            "varType": 0
+        },
+        {
+            "id": "7f2dd998-e6f1-432a-96b2-be66efc29589",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "_y_d",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -21,7 +21,7 @@ if room = room_entree_1
 	}
 	draw_sprite(spr_controls,2+dsprite,w-150,h-75)
 	draw_text(w-93,h-50," : Roulade")
-	draw_sprite(spr_controls,3+dsprite,0,0)
-	draw_text(57,25," : Options/Restart")
+	draw_sprite(spr_controls,3+dsprite,0,60)
+	draw_text(57,85," : Options/Restart")
 	
 }

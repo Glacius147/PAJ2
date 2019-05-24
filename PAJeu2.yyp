@@ -1247,6 +1247,14 @@
             }
         },
         {
+            "Key": "87756361-259b-4201-b80d-58d724f3abb0",
+            "Value": {
+                "id": "d615fedd-06fb-474d-bc86-097f671403e5",
+                "resourcePath": "sprites\\spr_statue_dragon\\spr_statue_dragon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88af121e-8b67-4d99-89a3-2ed785a5f877",
             "Value": {
                 "id": "f4cbffd0-6d7d-4b6a-b8b5-04f0c918921d",
@@ -1679,6 +1687,14 @@
             }
         },
         {
+            "Key": "b37256f6-63a0-4260-8dcb-0e2a25969f3a",
+            "Value": {
+                "id": "061ce994-5011-46a7-b8ca-2dc16a26c654",
+                "resourcePath": "objects\\obj_statue_dragon\\obj_statue_dragon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b51765d6-81ee-4a33-b3cc-cd53e8d82a83",
             "Value": {
                 "id": "c3f01ebd-af03-4996-8266-4ab110182432",
@@ -2087,6 +2103,14 @@
             }
         },
         {
+            "Key": "e1996912-cc77-4dd1-bb1b-b8086bfa04ce",
+            "Value": {
+                "id": "039d477b-2b21-48e3-8cf5-73b46f7b067a",
+                "resourcePath": "sprites\\spr_eau_V2\\spr_eau_V2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e24c98bf-7a61-4786-8df7-8c1b7043500b",
             "Value": {
                 "id": "cb1a4c9e-50f4-40b9-8132-eeb58e2b073d",
@@ -2252,6 +2276,14 @@
                 "id": "2a89a527-3697-4fc0-b7f3-c4ebe4d0ffd4",
                 "resourcePath": "tilesets\\tileset_trou\\tileset_trou.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "f3276f4e-03e2-452e-bf63-c2f05773b195",
+            "Value": {
+                "id": "dce5f519-9dcf-4867-a1ed-f287d67cd5a9",
+                "resourcePath": "sprites\\spr_coeur\\spr_coeur.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

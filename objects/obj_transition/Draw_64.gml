@@ -1,5 +1,26 @@
 /// @description Cadres noirs & fenetre menu.
 
+#region Coeurs
+if instance_exists(objp_perso)
+{
+	for (i=1; i<= objp_perso.pv_max; i++)
+	{
+		if objp_perso.pv >= i
+		{
+			draw_sprite(spr_coeur,1,40*i,40);
+		}
+		else
+		{
+			draw_sprite(spr_coeur,0,40*i,40);
+		}
+		
+	}
+	
+}
+
+
+#endregion
+
 
 if (mode !=-1) and (mode != TRANS_MODE.OFF) and mode != TRANS_MODE.PAUSE and mode != TRANS_MODE.DEATH
 {

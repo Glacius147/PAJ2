@@ -10,6 +10,7 @@ if active and d<30
 		if keyboard_check_released(vk_space) or gamepad_button_check_released(0,gp_face1){
 			global.perso = type;
 			mask_index = spr_empty;
+			image_index = 4;
 			with objp_perso {
 			event_user(4)
 			}
