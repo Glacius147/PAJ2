@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "053579b5-252d-4ad4-b030-9804bdef8546",
+            "Value": {
+                "id": "c2bcfdae-f33f-4844-89c8-372047c3b239",
+                "resourcePath": "objects\\obj_piece\\obj_piece.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "054f594f-0ffe-4cff-ad50-0c12795dc45a",
             "Value": {
                 "id": "063d4537-bb70-4d88-94ad-80af90924243",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "39741a9f-03a8-4743-b363-d1c055ce7ff3",
                 "resourcePath": "objects\\obj_lumi_set\\obj_lumi_set.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "14dc2441-2af9-4475-a027-54c72a118832",
+            "Value": {
+                "id": "fac387ef-ec8e-4bac-b1b6-caf45a275cf7",
+                "resourcePath": "objects\\obj_gestion_the_end\\obj_gestion_the_end.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1167,6 +1183,14 @@
             }
         },
         {
+            "Key": "7eb005e2-9080-4878-b077-0e29398bf8ac",
+            "Value": {
+                "id": "792e2902-ca5e-4074-8965-7a25f9ea467a",
+                "resourcePath": "objects\\obj_amulet_boss\\obj_amulet_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ec6e1a4-36c9-419e-87f2-6f5eda7e45d6",
             "Value": {
                 "id": "9067b9f5-0f30-4065-a990-2c39d62a0c90",
@@ -1399,6 +1423,14 @@
             }
         },
         {
+            "Key": "935500ce-4cb6-4f5d-9142-00cec349097a",
+            "Value": {
+                "id": "bd07722b-371e-4a54-a145-5bb4664d4d23",
+                "resourcePath": "objects\\obj_porte_boss\\obj_porte_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9366b94a-d857-496e-b535-adc8fa20b1e6",
             "Value": {
                 "id": "eb223056-5ec2-4f17-9485-b806da2a01a0",
@@ -1476,6 +1508,14 @@
                 "id": "50e54119-4b2f-4a98-b3ec-8e6941d0941f",
                 "resourcePath": "views\\988fbb55-8eb7-43f4-8048-a9b0a8439e38.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b77586b-aab8-4c02-bb26-d5d88a1bf2ea",
+            "Value": {
+                "id": "7bcb1c0b-8369-4b3d-8442-f7d77652f842",
+                "resourcePath": "rooms\\room_the_end\\room_the_end.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

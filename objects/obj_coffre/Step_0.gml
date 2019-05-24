@@ -11,3 +11,16 @@ if image_index = 0 and _d < 40
 			piece = 0;
 	}
 }
+
+if image_index = 1
+{
+	if piece < 150 
+	{
+		var _x = irandom_range(x-32,x+32);
+		var _y = irandom_range(y-16,y+16);
+
+		instance_create_layer(_x,_y,"Instances",obj_piece);
+		
+		piece ++;
+	}
+}

@@ -226,6 +226,20 @@
             "value": "1",
             "varName": "vitesse",
             "varType": 0
+        },
+        {
+            "id": "5e235596-945b-4dcf-a426-b8c0851d5f32",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "boss_end",
+            "varType": 3
         }
     ],
     "solid": false,

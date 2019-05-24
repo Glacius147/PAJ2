@@ -9,7 +9,20 @@ image_speed = 0.75
 
 timer = 0
 
-event_user(0)
+if instance_exists(obj_gestion_the_end)
+{
+	alarm[2]=10
+
+	with obj_sound{
+		event_user(0)	
+	}
+	phase_boss = PHASE.NORMAL1
+	boss_end = true;
+}
+else
+{
+	event_user(0);
+}
 
 fireball_speed=3
 to_launch = 2
