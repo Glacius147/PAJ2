@@ -17,9 +17,9 @@ if image_index = num
 	if piece < 150 
 	{
 		var _x = irandom_range(x-32,x+32);
-		var _y = irandom_range(y-16,y+16);
+		var _y = irandom_range(y-16,y);
 
-		instance_create_layer(_x,_y,"Instances",obj_piece);
+		instance_create_layer(_x,_y,"Instances_mobil",obj_piece);
 		
 		piece ++;
 	}

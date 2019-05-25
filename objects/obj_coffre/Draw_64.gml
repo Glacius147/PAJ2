@@ -14,5 +14,5 @@ if image_index = 0 and _d < 40
 	
 		draw_set_color(c_white);
 			draw_sprite(spr_controls,1+dsprite,_w/2-30,_h-400)
-			draw_text(w/2+30,h-375," : Ouvrir !")
+			draw_text(_w/2+30,_h-375," : Ouvrir !")
 }
