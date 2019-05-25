@@ -18,6 +18,9 @@ if instance_exists(obj_gestion_the_end)
 	}
 	phase_boss = PHASE.NORMAL1
 	boss_end = true;
+	x_start = x;
+	y_start = y;
+	sprite_attaque = spr_boule_magie;
 }
 else
 {
@@ -35,5 +38,6 @@ enum PHASE{
 	SPAM,
 	VENER,
 	VENERSPAM,
-	DEFENSE
+	DEFENSE,
+	FUITE
 }

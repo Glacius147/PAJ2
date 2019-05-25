@@ -3,7 +3,7 @@ event_inherited();
 
 
 // Hors transition on autorise les mouvements
-if obj_transition.mode == TRANS_MODE.OFF
+if obj_transition.mode == TRANS_MODE.OFF and !boss_end
 {
 	#region deplacements
 	//On gere les inputs si glisse pas

@@ -14,8 +14,8 @@ switch phase_boss
 	}
 	case PHASE.SPAM:	
 	{
-	to_launch = 20
-	fireball_speed =5
+	to_launch = 10
+	fireball_speed = 5
 	interval_fireball = 15
 	alarm[3]= 1
 	phase_boss = PHASE.NORMAL1
@@ -33,7 +33,7 @@ switch phase_boss
 	case PHASE.VENERSPAM:	
 	{
 	to_launch = 30
-	fireball_speed =max(fireball_speed,8)
+	fireball_speed = max(fireball_speed,8)
 	interval_fireball = 5
 	alarm[3]= 1
 	phase_boss = PHASE.VENER
@@ -42,7 +42,7 @@ switch phase_boss
 	case PHASE.DEFENSE:	
 	{
 	panique = -200
-	fireball_speed +=1
+	fireball_speed += 1
 	alarm[4]= 1
 	break;
 	}

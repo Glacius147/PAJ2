@@ -13,6 +13,7 @@ switch phase
 			phase = PHASE_end.ARRIVEE_BOSS;		
 			sprite_index = spr_boss;
 			global.ambientShadowIntensity = 0.3;
+			objp_perso.anim_stop = false;
 			scr_cutscene(spr_wizard,"Qui ose entrer ici ?",0)
 			boss_actif = false;
 		}
@@ -33,13 +34,14 @@ switch phase
 		
 		if boss_actif
 		{
-			if y < obj_porte_boss.y + 30
+			if y < obj_porte_boss.y + 40
 			{
 				y ++;			
 			}
 			else
 			{
 				phase = PHASE_end.VOL_AMUL;
+				objp_perso.anim_stop = false;
 				scr_cutscene(spr_wizard,"Encore toi ?","Et je vois que tu m'as pris mon amulette",1);
 			}
 		}

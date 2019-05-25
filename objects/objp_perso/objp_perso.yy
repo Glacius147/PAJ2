@@ -183,6 +183,46 @@
             "enumb": 24,
             "eventtype": 7,
             "m_owner": "50e4e3d1-931b-4a94-b47b-8449d5ff108f"
+        },
+        {
+            "id": "9704f37f-a5d0-41f2-9bd1-5d0b3aa25719",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 9,
+            "eventtype": 2,
+            "m_owner": "50e4e3d1-931b-4a94-b47b-8449d5ff108f"
+        },
+        {
+            "id": "80544ef7-6769-488d-b18c-4502360ec962",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 25,
+            "eventtype": 7,
+            "m_owner": "50e4e3d1-931b-4a94-b47b-8449d5ff108f"
+        },
+        {
+            "id": "eacacffa-96ad-4fea-ba44-063950e64665",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 8,
+            "eventtype": 2,
+            "m_owner": "50e4e3d1-931b-4a94-b47b-8449d5ff108f"
+        },
+        {
+            "id": "118a9dd3-8f7f-4d8f-ae7c-37adfb526c59",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 2,
+            "m_owner": "50e4e3d1-931b-4a94-b47b-8449d5ff108f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -635,6 +675,34 @@
             "value": "0",
             "varName": "_y_d",
             "varType": 0
+        },
+        {
+            "id": "21bb6eea-7e74-47cf-b387-405fdb6f8453",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "transformation",
+            "varType": 3
+        },
+        {
+            "id": "7eee7cbe-a734-402d-958d-6633dd34a41f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "boss_end",
+            "varType": 3
         }
     ],
     "solid": false,

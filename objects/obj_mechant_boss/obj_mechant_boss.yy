@@ -240,6 +240,20 @@
             "value": "0",
             "varName": "boss_end",
             "varType": 3
+        },
+        {
+            "id": "9c4e903a-dfa9-4d6f-ad6c-faaf3f6b8445",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_boule_neige",
+            "varName": "sprite_attaque",
+            "varType": 5
         }
     ],
     "solid": false,

@@ -8,7 +8,9 @@ direction = point_direction(x,y,objp_perso.x,objp_perso.y)
 else {
 	instance_destroy()
 }
-image_speed=0
+image_speed = 0
 
-speed=3
+speed = 3
 old_speed = speed
+
+sprite_index = obj_mechant_boss.sprite_attaque;

@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "33422914-f2ea-484a-b75e-c594d6cc525c",
+            "Value": {
+                "id": "c0d4657c-a7c6-4051-91b8-e770bc307014",
+                "resourcePath": "sprites\\spr_boule_magie\\spr_boule_magie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "334e6cd6-39b4-42f4-bb7f-c9ca437bdd2e",
             "Value": {
                 "id": "ea4ab61f-be91-48aa-9380-66cf4f077ee7",
@@ -975,11 +983,27 @@
             }
         },
         {
+            "Key": "69cea21a-2716-4d55-98b9-c96e57736ffe",
+            "Value": {
+                "id": "5438ad8f-0d8d-477e-b4ef-c1d8f36e36d5",
+                "resourcePath": "sprites\\spr_boss_neige\\spr_boss_neige.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6abec258-d3fb-46bc-9c91-3ca719795acc",
             "Value": {
                 "id": "545680aa-fb04-4af4-be8c-d18457033eb7",
                 "resourcePath": "notes\\LICENSE.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "6af8fa38-1a95-43d2-a8d4-704a359c5756",
+            "Value": {
+                "id": "e7fa9d86-dd57-4477-a304-3a033c56d5b7",
+                "resourcePath": "sprites\\spr_perso_vert\\spr_perso_vert.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1255,6 +1279,14 @@
             }
         },
         {
+            "Key": "8301bd58-55d5-42e9-b9f8-d3eac7acad60",
+            "Value": {
+                "id": "8cc2cbce-3c36-4f96-85b9-0c8400683272",
+                "resourcePath": "sprites\\spr_boss_mort\\spr_boss_mort.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83b20320-8690-4dfe-8ae2-fb5b1f48b44d",
             "Value": {
                 "id": "1a9eae48-685e-4f96-a2e1-0d0a1fb6681e",
@@ -1308,6 +1340,14 @@
                 "id": "d615fedd-06fb-474d-bc86-097f671403e5",
                 "resourcePath": "sprites\\spr_statue_dragon\\spr_statue_dragon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "883cfcfb-59bc-43ff-823f-e03af7c96b68",
+            "Value": {
+                "id": "fc266a44-44c0-44d6-b363-9023b0b1dc92",
+                "resourcePath": "objects\\obj_cadavre_bis\\obj_cadavre_bis.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1639,6 +1679,14 @@
             }
         },
         {
+            "Key": "a77c4fb2-88f4-41f3-97b0-b067d2a902f3",
+            "Value": {
+                "id": "b1295455-f572-423c-ac7e-47a7b0fa518d",
+                "resourcePath": "sprites\\spr_boss_feu\\spr_boss_feu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a78f095e-8fa1-4617-b6bf-c2a7afc41ccc",
             "Value": {
                 "id": "903afc22-645b-45df-aa52-9b2459b86ec4",
@@ -1807,6 +1855,14 @@
             }
         },
         {
+            "Key": "b7c25023-b071-4281-ac15-aa5b27c7db4f",
+            "Value": {
+                "id": "1ca1d6c8-3a99-4c2d-96e6-359cd614e2c5",
+                "resourcePath": "sprites\\spr_boule_feu\\spr_boule_feu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8735f45-f73a-48e1-b9f1-340cf1094304",
             "Value": {
                 "id": "c3e4995d-cb9c-4b3f-9b61-3e76f01732f5",
@@ -1836,6 +1892,14 @@
                 "id": "415a7ef2-c803-4abe-900d-5481735ba45f",
                 "resourcePath": "rooms\\room_noir_6\\room_noir_6.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b96a37a7-76d9-420d-9e95-da0c8c92b3b6",
+            "Value": {
+                "id": "a55061d2-48d2-4941-b42b-fcc929cb8b97",
+                "resourcePath": "objects\\obj_cadavre\\obj_cadavre.yy",
+                "resourceType": "GMObject"
             }
         },
         {
