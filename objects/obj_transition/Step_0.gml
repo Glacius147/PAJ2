@@ -6,7 +6,7 @@ if mode != TRANS_MODE.OFF
 	{
 		#region gestion défilement texte
 		var nb_lettres = string_length(cutscene_text[cutscene_counter])
-		if keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_face1)
+		if keyboard_check_pressed(ord("B")) or gamepad_button_check_pressed(0,gp_face1)
 		{
 			if _cutscene_nb_letters >= nb_lettres+1
 			{
@@ -38,7 +38,7 @@ if mode != TRANS_MODE.OFF
 		#region input pour reset
 		//%age d'affichage de la fenetre de mort.
 		percent_menu = min(percent_menu+0.2,1)
-		if keyboard_check_pressed(vk_space) 
+		if keyboard_check_pressed(ord("B")) 
 		{
 			room_restart()
 			obj_transition.mode =TRANS_MODE.OFF;

@@ -23,5 +23,16 @@ if room = room_entree_1
 	draw_text(w-93,h-50," : Roulade")
 	draw_sprite(spr_controls,3+dsprite,0,60)
 	draw_text(57,85," : Options/Restart")
+
+	if obj_transition.amulet_count = 4
+	{
+		dsprite = 8
+	
+		if game_pad_actif{
+			dsprite = 9	
+		}
+		draw_sprite(spr_controls,dsprite,0,110)
+		draw_text(57,135," : Changer de forme")	
+	}
 	
 }

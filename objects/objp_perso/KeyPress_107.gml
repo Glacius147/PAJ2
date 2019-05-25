@@ -2,4 +2,4 @@
 
 //global.spot = 0;
 
-room_goto_next();
+if keyboard_check(vk_control) room_goto_next();

@@ -1,2 +1,2 @@
 /// @description ?
-room_goto_previous();
+if keyboard_check(vk_control) room_goto_previous();

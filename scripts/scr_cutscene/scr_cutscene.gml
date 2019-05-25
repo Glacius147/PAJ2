@@ -25,3 +25,12 @@ obj_transition.mode = TRANS_MODE.CUTSCENE;
 obj_transition.origin_cutscene = object_index
 
 obj_transition.event_post_cutscene = argument[argument_count-1]
+
+if instance_exists(objp_perso)
+{
+	with objp_perso
+	{
+		anim_stop = false;
+		scr_animation();
+	}
+}

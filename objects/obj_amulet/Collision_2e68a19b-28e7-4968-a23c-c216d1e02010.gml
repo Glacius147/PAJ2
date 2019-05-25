@@ -15,7 +15,7 @@ scr_cutscene(spr_empty,"Un morceau d'amulette de pouvoir ! Plus que "+string(4-o
 }
 else
 {
-scr_cutscene(spr_empty,"L'amulette de pouvoir est complète ! Je peux à présent me transformer à volonté !",-1)
+scr_cutscene(spr_empty,"L'amulette de pouvoir est complète ! Je peux à présent me transformer à volonté !","Utiliser la touche ctrl ou le bouton Y", -1)
 }
 
 instance_destroy()

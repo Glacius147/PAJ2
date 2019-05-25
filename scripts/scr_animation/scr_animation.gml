@@ -110,21 +110,25 @@ else
 		switch sprite_index
 		{
 			case anim_b:
+			case anim_r_b:
 			{
 				sprite_index = anim_a_b;
 				break;
 			}
 			case anim_h:
+			case anim_r_h:
 			{
 				sprite_index = anim_a_h;
 				break;
 			}				
 			case anim_d:
+			case anim_r_d:
 			{
 				sprite_index = anim_a_d;
 				break;
 			}				
 			case anim_g:
+			case anim_r_g:
 			{
 				//Vérification du cas ou le sprite gauche et le miroir du sprite droit.				
 				if anim_a_g != noone
