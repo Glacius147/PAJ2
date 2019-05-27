@@ -13,4 +13,12 @@ event_inherited();
 
 
 //remet des obstacles sur les trous
-with obj_mur_trou instance_create_depth(x,y,0,obj_mur_trou_rat_obst);
+with obj_mur_trou 
+{
+	with instance_create_layer(x,y,"Instances_ombre",obj_mur_trou_rat_obst)
+	{
+		image_xscale = other.image_xscale;
+		image_yscale = other.image_yscale;	
+		image_angle = other.image_angle;
+	}
+}
